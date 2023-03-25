@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-wrap">
-        <a href="https://ischool.vn" class="footer-logo">
+        <a href="#" class="footer-logo">
           <img width="2029" height="729"
             src="/images/logo-v2-removebg.png"
             alt=""
@@ -93,15 +93,15 @@
               Liên hệ </h3>
 
             <div class="footer-text mb-8s"><span class="fw-6"></span><a href="tel:84789166588"
-                class="footer-text footer-link">+84 789 166 588 </a></div>
+                class="footer-text footer-link">+84 88 623 08 88 </a></div>
             <div class="footer-text mb-8s"><span class="fw-6"></span><a href="mailto:info@ischool.edu.vn"
-                class="footer-text footer-link">info@ischool.edu.vn </a></div>
+                class="footer-text footer-link">urivietnam.edu@gmail.com</a></div>
 
 
 
             <div class="footer-main mb-32s">
               <h3 class="footer-title">
-                Kết nối với iSchool </h3>
+                Kết nối với URI </h3>
               <div class="mxh">
                 <div class="mxh-list">
 
@@ -147,22 +147,15 @@
           </div>
           <div class="dnor-item footer-item footer-item-third footer-item-double">
 
-            <div class="fb-page" data-href="https://www.facebook.com/ischoolvn/" data-tabs="timeline" data-width="400"
+            <div class="fb-page" data-href="https://www.facebook.com/trungtamtoanuri" data-tabs="timeline" data-width="400"
               data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
               data-show-facepile="true">
-              <blockquote cite="https://www.facebook.com/ischoolvn/" class="fb-xfbml-parse-ignore"><a
-                  href="https://www.facebook.com/ischoolvn/">iSchool Vietnam</a></blockquote>
+              <blockquote cite="https://www.facebook.com/trungtamtoanuri" class="fb-xfbml-parse-ignore"><a
+                  href="https://www.facebook.com/trungtamtoanuri">URI VIỆT NAM</a></blockquote>
             </div>
 
           </div>
         </div>
-      </div>
-    </div>
-    <div class="footer-author">
-      <div class="container">
-        <p class="footer-author-name">
-          Designed and developed by Mona Media
-        </p>
       </div>
     </div>
   </footer>

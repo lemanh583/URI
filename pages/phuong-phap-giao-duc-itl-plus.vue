@@ -88,7 +88,7 @@
                       href="/co-ban/">Cơ bản</a></li>
                   <li id="menu-item-214"
                     class="menu-item menu-item-type-post_type menu-item-object-page  page_item page-item-208 menu-item-214">
-                    <a href="/tu-duy-chuyen-sau/" aria-current="page">Tư duy chuyên sâu</a>
+                    <a href="/chuyen-sau/" aria-current="page">Tư duy chuyên sâu</a>
                   </li>
                   <li id="menu-item-370"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-370 ">

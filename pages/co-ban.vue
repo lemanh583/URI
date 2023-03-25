@@ -12,8 +12,7 @@
                 <div class="swiper-slide">
                   <div class="banner-wrap left">
                     <div class="banner-img">
-                      <img width="894" height="500"
-                        src="https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524.png"
+                      <img width="894" height="500" src="https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524.png"
                         class="attachment-full size-full" alt=""
                         data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524.png 894w, https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524-300x168.png 300w, https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524-768x430.png 768w, https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524-50x28.png 50w, https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524-280x157.png 280w"
                         data-lazy-sizes="(max-width: 894px) 100vw, 894px"
@@ -88,7 +87,7 @@
                       href="/co-ban/">Cơ bản</a></li>
                   <li id="menu-item-214"
                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-208  menu-item-214">
-                    <a href="/tu-duy-chuyen-sau/" aria-current="page">Tư duy chuyên sâu</a>
+                    <a href="/chuyen-sau/" aria-current="page">Tư duy chuyên sâu</a>
                   </li>
                   <li id="menu-item-370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-370"><a
                       href="/luyen-thi-quoc-te/">Luyện thi quốc tế</a></li>
@@ -107,9 +106,8 @@
                     <div class="prog-col">
                       <div class="prog-img">
                         <div class="prog-img-pd">
-                          <img width="840" height="560"
-                            src="/images/co-ban-3.jpg"
-                            class="attachment-960x560 size-960x560" alt=""
+                          <img width="840" height="560" src="/images/co-ban-3.jpg" class="attachment-960x560 size-960x560"
+                            alt=""
                             data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/HI_08190-840x560.jpg 840w, https://ischool.vn/wp-content/uploads/2022/10/HI_08190-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/10/HI_08190-1024x683.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/10/HI_08190-768x512.jpg 768w, https://ischool.vn/wp-content/uploads/2022/10/HI_08190-1536x1024.jpg 1536w, https://ischool.vn/wp-content/uploads/2022/10/HI_08190-2048x1365.jpg 2048w, https://ischool.vn/wp-content/uploads/2022/10/HI_08190-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/10/HI_08190-270x180.jpg 270w, https://ischool.vn/wp-content/uploads/2022/10/HI_08190-scaled.jpg 1920w"
                             data-lazy-sizes="(max-width: 840px) 100vw, 840px"
                             data-lazy-src="https://ischool.vn/wp-content/uploads/2022/10/HI_08190-840x560.jpg" /><noscript><img
@@ -146,9 +144,8 @@
                     <div class="prog-col">
                       <div class="prog-img">
                         <div class="prog-img-pd">
-                          <img width="840" height="560"
-                            src="/images/co-ban-1.jpg"
-                            class="attachment-960x560 size-960x560" alt=""
+                          <img width="840" height="560" src="/images/co-ban-1.jpg" class="attachment-960x560 size-960x560"
+                            alt=""
                             data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-840x560.jpg 840w, https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-1024x683.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-768x512.jpg 768w, https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-1536x1024.jpg 1536w, https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-2048x1365.jpg 2048w, https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-270x180.jpg 270w, https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-scaled.jpg 1920w"
                             data-lazy-sizes="(max-width: 840px) 100vw, 840px"
                             data-lazy-src="https://ischool.vn/wp-content/uploads/2022/10/TDH_3478-840x560.jpg" /><noscript><img
@@ -190,9 +187,8 @@
                     <div class="prog-col">
                       <div class="prog-img">
                         <div class="prog-img-pd">
-                          <img width="839" height="560"
-                            src="/images/co-ban-2.jpg"
-                            class="attachment-960x560 size-960x560" alt=""
+                          <img width="839" height="560" src="/images/co-ban-2.jpg" class="attachment-960x560 size-960x560"
+                            alt=""
                             data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/96372450_938517509916778_8547025420581601280_n-839x560.jpg 839w, https://ischool.vn/wp-content/uploads/2022/08/96372450_938517509916778_8547025420581601280_n-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/08/96372450_938517509916778_8547025420581601280_n-1024x684.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/08/96372450_938517509916778_8547025420581601280_n-768x513.jpg 768w, https://ischool.vn/wp-content/uploads/2022/08/96372450_938517509916778_8547025420581601280_n-1536x1026.jpg 1536w, https://ischool.vn/wp-content/uploads/2022/08/96372450_938517509916778_8547025420581601280_n-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/08/96372450_938517509916778_8547025420581601280_n-270x180.jpg 270w, https://ischool.vn/wp-content/uploads/2022/08/96372450_938517509916778_8547025420581601280_n.jpg 1920w"
                             data-lazy-sizes="(max-width: 839px) 100vw, 839px"
                             data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/96372450_938517509916778_8547025420581601280_n-839x560.jpg" /><noscript><img
@@ -210,7 +206,7 @@
                           MÔI TRƯỜNG HỌC TẬP </h3>
                         <div class="text mb-32" data-aos="fade-up-cus" data-aos-delay="300">
                           Với niềm tin “Con người làm nên tất cả, giáo dục tạo nên con người”, đội
-                          ngũ giáo viên hệ thống trường Hội nhập Quốc tế iSchool thực hiện linh
+                          ngũ giáo viên thực hiện linh
                           hoạt phương pháp, hình thức tổ chức dạy học theo hướng phát triển phẩm
                           chất, năng lực của học sinh; vận dụng phù hợp những thành tố tích cực
                           của các mô hình, phương thức giáo dục tiên tiến nhằm nâng cao chất
@@ -219,18 +215,7 @@
                           thức vào thực tế cuộc sống, giúp học sinh tự khám phá làm chủ tri thức
                           bằng tư duy độc lập, sáng tạo. <br />
                           <br />
-                          Đặc biệt, với mô hình “Lớp học không vách ngăn”, học sinh được trải
-                          nghiệm môi trường bên ngoài lớp học qua các chuyến tham quan dã ngoại,
-                          trải nghiệm sáng tạo; tham gia các câu lạc bộ, các hoạt động khoa học và
-                          các hoạt động xã hội.
                         </div>
-
-
-
-
-
-
-
                       </div>
                     </div>
                   </div>
@@ -398,7 +383,7 @@
                                 aria-invalid="false" name="your-system">
                                 <option disabled selected="selected">Quan tâm đến cơ sở nào
                                 </option>
-                                <option value="2009" data-system_id="2009">Hệ thống trường
+                                <!-- <option value="2009" data-system_id="2009">Hệ thống trường
                                   Hội nhập Quốc tế iSchool</option>
                                 <option value="235" data-system_id="235">iSchool Cẩm Phả
                                 </option>
@@ -427,7 +412,7 @@
                                 <option value="2862" data-system_id="2862">iSchool Long
                                   Xuyên</option>
                                 <option value="2852" data-system_id="2852">THPT Việt Nhật
-                                </option>
+                                </option> -->
                               </select></span>
                           </div>
                         </div>
@@ -443,7 +428,7 @@
                             </iframe>
                             <textarea name="g-recaptcha-response" rows="3" cols="40"
                               placeholder="reCaptcha Response Here">
-                  		</textarea>
+                    		</textarea>
                           </div>
                         </noscript>
                       </span>
@@ -473,8 +458,7 @@
 
                 <div class="lib-item  lib-width-single">
                   <div class="lib-img gItem" data-src=" https://ischool.vn/wp-content/uploads/2022/08/gallery_3.png">
-                    <img width="384" height="384"
-                      src="https://ischool.vn/wp-content/uploads/2022/08/gallery_3.png"
+                    <img width="384" height="384" src="https://ischool.vn/wp-content/uploads/2022/08/gallery_3.png"
                       class="attachment-full size-full" alt=""
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/gallery_3.png 384w, https://ischool.vn/wp-content/uploads/2022/08/gallery_3-300x300.png 300w, https://ischool.vn/wp-content/uploads/2022/08/gallery_3-150x150.png 150w"
                       data-lazy-sizes="(max-width: 384px) 100vw, 384px"
@@ -519,8 +503,7 @@
                 </div>
                 <div class="lib-item  lib-width-single">
                   <div class="lib-img gItem" data-src=" https://ischool.vn/wp-content/uploads/2022/08/gallery_6.png">
-                    <img width="384" height="384"
-                      src="https://ischool.vn/wp-content/uploads/2022/08/gallery_6.png"
+                    <img width="384" height="384" src="https://ischool.vn/wp-content/uploads/2022/08/gallery_6.png"
                       class="attachment-full size-full" alt=""
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/gallery_6.png 384w, https://ischool.vn/wp-content/uploads/2022/08/gallery_6-300x300.png 300w, https://ischool.vn/wp-content/uploads/2022/08/gallery_6-150x150.png 150w"
                       data-lazy-sizes="(max-width: 384px) 100vw, 384px"
@@ -647,7 +630,7 @@
                           frameborder="0" scrolling="no" width="310" height="430">
                         </iframe>
                         <textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here">
-                  		</textarea>
+                    		</textarea>
                       </div>
                     </noscript>
                   </span>

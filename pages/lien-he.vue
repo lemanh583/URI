@@ -105,7 +105,7 @@
                           </noscript>
                         </span>
                         <div class="f-gr grp-btn-mona">
-                          <button type="submit" class="btn btn-line">
+                          <button type="submit" class="btn">
                             Gửi thông tin
                           </button>
                           <input class="wpcf7-form-control has-spinner wpcf7-submit btn-hidden-submit" type="submit"

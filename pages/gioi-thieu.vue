@@ -221,17 +221,17 @@
                               <div class="text fsi message-content mona-content" data-aos="fade-up-cus"
                                 data-aos-delay="300">
                                 <p style="text-align: justify;">Chào mừng quý vị đến với
-                                  URI, Hệ thống trường học với sứ mệnh đào tạo nên những
+                                  URI, trung tâm với sứ mệnh đào tạo nên những
                                   công dân toàn cầu.</p>
-                                <p style="text-align: justify;">Có thể nói rằng, với chặng hành
+                                <!-- <p style="text-align: justify;">Có thể nói rằng, với chặng hành
                                   trình hơn 14 năm tại hơn 14 tỉnh thành, niềm tự hào lớn nhất
                                   mà URI có được chính là có được sự đồng hành của hàng
                                   chục nghìn Phụ huynh ở các tỉnh thành, khi đã đặt hết niềm
                                   tin và gửi trao trọng trách lớn lao là giáo dục các em học
                                   sinh trong một môi trường học tập nhân văn và truyền cảm
-                                  hứng.</p>
+                                  hứng.</p> -->
                                 <p style="text-align: justify;">Chúng tôi nồng nhiệt chào đón
-                                  quý bậc phụ huynh, bạn bè và gia đình đến iSchool để trải
+                                  quý bậc phụ huynh, bạn bè và gia đình đến URI để trải
                                   nghiệm một môi trường giáo dục nhân bản, truyền cảm hứng và
                                   hy vọng rằng, từ nơi đây, các em học sinh được học tập và
                                   trưởng thành trong ngôi trường hiện đại và ngập tràn tình
@@ -239,8 +239,8 @@
                               </div>
 
                               <div class="add-user-info">
-                                <p class="add-user-name">
-                                  Thạc sĩ Phan Thị Bích Hồng </p>
+                                <!-- <p class="add-user-name">
+                                  Thạc sĩ Phan Thị Bích Hồng </p> -->
                                 <p class="add-user-des">
                                   <!-- Giám đốc điều hành Hệ thống trường Hội nhập Quốc tế iSchool -->
                                 </p>

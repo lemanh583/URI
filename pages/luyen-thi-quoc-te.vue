@@ -13,7 +13,7 @@
                                     <div class="banner-wrap left">
                                         <div class="banner-img">
                                             <img width="894" height="500"
-                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20894%20500'%3E%3C/svg%3E"
+                                                src="https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524.png"
                                                 class="attachment-full size-full" alt=""
                                                 data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524.png 894w, https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524-300x168.png 300w, https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524-768x430.png 768w, https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524-50x28.png 50w, https://ischool.vn/wp-content/uploads/2022/09/Rectangle-524-280x157.png 280w"
                                                 data-lazy-sizes="(max-width: 894px) 100vw, 894px"
@@ -91,7 +91,7 @@
                                             href="/co-ban/">Cơ bản</a></li>
                                     <li id="menu-item-214"
                                         class="menu-item menu-item-type-post_type menu-item-object-page  page_item page-item-208 menu-item-214">
-                                        <a href="/tu-duy-chuyen-sau/" aria-current="page">Tư duy chuyên sâu</a>
+                                        <a href="/chuyen-sau/" aria-current="page">Tư duy chuyên sâu</a>
                                     </li>
                                     <li id="menu-item-370"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-370 current_page_item current-menu-item">

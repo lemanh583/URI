@@ -61,10 +61,10 @@
 
               <ul id="menu-theme-about-menu" class="menu-list">
                 <li id="menu-item-2427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2427"><a
-                    href="https://ischool.vn/ve-ischool/">Giới thiệu</a></li>
+                    href="/gioi-thieu">Giới thiệu</a></li>
                 <li id="menu-item-2428"
                   class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-915 current_page_item menu-item-2428">
-                  <a href="https://ischool.vn/doi-ngu-giao-vien/" aria-current="page">Đội ngũ giáo
+                  <a href="/doi-ngu-giao-vien" aria-current="page">Đội ngũ giáo
                     viên</a>
                 </li>
                 <!-- <li id="menu-item-2429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2429"><a
@@ -100,7 +100,7 @@
                                 sizes="(max-width: 274px) 100vw, 274px" /></noscript> </a>
                           <div class="pro-content t-center">
                             <h3 class="pro-name second">
-                              <a href="https://ischool.vn/chi-tiet-giao-vien/co-nguyen-thi-hang-nga-ischool-cam-pha/">
+                              <a href="#">
                                 {{ teacher.name }} </a>
                             </h3>
                             <div class="pro-level">
@@ -310,7 +310,7 @@
 
                     <div class="swiper-slide">
                       <div class="pro-wrap">
-                        <a href="https://ischool.vn/co-kim-thi-mai-linh-toi-da-tim-den-va-may-man-tro-thanh-1-thanh-vien-cua-ischool-tra-vinh/"
+                        <a href=""
                           class="pro-img">
                           <img width="225" height="180" src="/images/gv1.jpg" class="img wp-post-image" alt=""
                             data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/GV-MAI-LINH-2-225x180.jpg 225w, https://ischool.vn/wp-content/uploads/2022/11/GV-MAI-LINH-2-300x240.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/GV-MAI-LINH-2-50x40.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/GV-MAI-LINH-2.jpg 650w"
@@ -324,7 +324,7 @@
                         <div class="pro-content">
                           <h3 class="pro-name">
                             <a
-                              href="https://ischool.vn/co-kim-thi-mai-linh-toi-da-tim-den-va-may-man-tro-thanh-1-thanh-vien-cua-ischool-tra-vinh/">
+                              href="">
                               Cô Hồ Thị Như Quỳnh &#8211; Tôi đã tìm đến và may mắn trở thành
                               1 thành viên của URI</a>
                           </h3>
@@ -339,7 +339,7 @@
                     </div>
                     <div class="swiper-slide">
                       <div class="pro-wrap">
-                        <a href="https://ischool.vn/co-bui-quan-dang-thuy-tien-giao-vien-bo-mon-ngu-van-cong-hien-nhieu-phuong-phap-giang-day-moi-hieu-qua/"
+                        <a href="#"
                           class="pro-img">
                           <img width="251" height="180" src="/images/gv2.jpg" class="img wp-post-image" alt=""
                             data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/co-tien-LX-251x180.jpg 251w, https://ischool.vn/wp-content/uploads/2022/11/co-tien-LX-300x216.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/co-tien-LX-50x36.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/co-tien-LX.jpg 650w"
@@ -354,7 +354,7 @@
 
                           <h3 class="pro-name">
                             <a
-                              href="https://ischool.vn/co-bui-quan-dang-thuy-tien-giao-vien-bo-mon-ngu-van-cong-hien-nhieu-phuong-phap-giang-day-moi-hieu-qua/">
+                              href="#">
                               Cô Lê Thị Lý - giáo viên bộ môn Toán,
                               cống hiến nhiều phương pháp giảng dạy mới hiệu quả </a>
                           </h3>
@@ -369,7 +369,7 @@
                     </div>
                     <div class="swiper-slide">
                       <div class="pro-wrap">
-                        <a href="https://ischool.vn/co-nguyen-tu-ngoan-toi-cam-thay-may-man-khi-duoc-day-trong-moi-truong-nang-dong-voi-nhung-dong-nghiep-chan-hoa-de-men/"
+                        <a href="#"
                           class="pro-img">
                           <img width="270" height="180" src="/images/gv3.jpg" class="img wp-post-image" alt=""
                             data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/ZXZC-270x180.jpg 270w, https://ischool.vn/wp-content/uploads/2022/11/ZXZC-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/ZXZC-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/ZXZC.jpg 452w"
@@ -384,7 +384,7 @@
 
                           <h3 class="pro-name">
                             <a
-                              href="https://ischool.vn/co-nguyen-tu-ngoan-toi-cam-thay-may-man-khi-duoc-day-trong-moi-truong-nang-dong-voi-nhung-dong-nghiep-chan-hoa-de-men/">
+                              href="#">
                               Cô Nguyễn Kim Cúc - Tôi cảm thấy may mắn khi được dạy
                               trong môi trường năng động với những đồng nghiệp chan hoà, dễ
                               mến </a>
@@ -400,7 +400,7 @@
                     </div>
                     <div class="swiper-slide">
                       <div class="pro-wrap">
-                        <a href="https://ischool.vn/co-nguyen-phung-mong-kha-giao-vien-tre-day-nhiet-huyet/"
+                        <a href="#"
                           class="pro-img">
                           <img width="270" height="180" src="/images/gv4.jpg" class="img wp-post-image" alt=""
                             data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/xvdb-270x180.jpg 270w, https://ischool.vn/wp-content/uploads/2022/11/xvdb-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/xvdb-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/xvdb.jpg 650w"
@@ -414,7 +414,7 @@
                         <div class="pro-content">
 
                           <h3 class="pro-name">
-                            <a href="https://ischool.vn/co-nguyen-phung-mong-kha-giao-vien-tre-day-nhiet-huyet/">
+                            <a href="#">
                               Cô Bùi Thu Thuỷ – Giáo viên trẻ đầy nhiệt huyết </a>
                           </h3>
                           <div class="pro-des">
@@ -427,7 +427,7 @@
                     </div>
                     <div class="swiper-slide">
                       <div class="pro-wrap">
-                        <a href="https://ischool.vn/co-le-thi-minh-chau-giao-vien-kinh-nghiem-lau-nam-tam-huyet-voi-nghe/"
+                        <a href="#"
                           class="pro-img">
                           <img width="256" height="180" src="/images/gv5.jpg" class="img wp-post-image"
                             alt="cô Lê Thị Minh Châu"
@@ -454,7 +454,7 @@
         </div> -->
                           <h3 class="pro-name">
                             <a
-                              href="https://ischool.vn/co-le-thi-minh-chau-giao-vien-kinh-nghiem-lau-nam-tam-huyet-voi-nghe/">
+                              href="#">
                               Cô Đặng Quỳnh Trang – Giáo viên kinh nghiệm lâu năm, tâm huyết
                               với nghề </a>
                           </h3>

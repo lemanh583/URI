@@ -12,12 +12,12 @@
 
                 <ul id="menu-theme-admissions-menu" class="menu-list">
                   <li id="menu-item-494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-494"><a
-                      href="https://ischool.vn/dang-ky-nhap-hoc/">Đăng ký<br>tuyển sinh</a></li>
+                      href="/dang-ky-nhap-hoc/">Đăng ký<br>tuyển sinh</a></li>
                   <!-- <li id="menu-item-726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a
                       href="https://ischool.vn/uu-dai-va-hoc-bong/">Ưu đãi<br>và học bổng</a></li> -->
                   <li id="menu-item-729"
                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-722 current_page_item menu-item-729">
-                    <a href="https://ischool.vn/cau-hoi-thuong-gap/" aria-current="page">Câu hỏi<br>thường gặp</a>
+                    <a href="/cau-hoi-thuong-gap/" aria-current="page">Câu hỏi<br>thường gặp</a>
                   </li>
                 </ul>
               </div>

@@ -16,7 +16,7 @@
                     <div class="banner-wrap left">
                       <div class="banner-img">
                         <img width="1920" height="1280"
-                          src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E"
+                          src="https://ischool.vn/wp-content/uploads/2022/10/HI_09959-scaled.jpg"
                           class="attachment-full size-full" alt=""
                           data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/HI_09959-scaled.jpg 1920w, https://ischool.vn/wp-content/uploads/2022/10/HI_09959-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/10/HI_09959-1024x683.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/10/HI_09959-768x512.jpg 768w, https://ischool.vn/wp-content/uploads/2022/10/HI_09959-1536x1024.jpg 1536w, https://ischool.vn/wp-content/uploads/2022/10/HI_09959-2048x1365.jpg 2048w, https://ischool.vn/wp-content/uploads/2022/10/HI_09959-840x560.jpg 840w, https://ischool.vn/wp-content/uploads/2022/10/HI_09959-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/10/HI_09959-270x180.jpg 270w"
                           data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
@@ -87,13 +87,13 @@
                 <ul id="menu-theme-admissions-menu" class="menu-list">
                   <li id="menu-item-494"
                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-429 current_page_item menu-item-494">
-                    <a href="https://ischool.vn/dang-ky-nhap-hoc/" aria-current="page">Đăng ký<br>tuyển
+                    <a href="/dang-ky-nhap-hoc/" aria-current="page">Đăng ký<br>tuyển
                       sinh</a>
                   </li>
                   <!-- <li id="menu-item-726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a
                       href="https://ischool.vn/uu-dai-va-hoc-bong/">Ưu đãi<br>và học bổng</a></li> -->
                   <li id="menu-item-729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-729"><a
-                      href="https://ischool.vn/cau-hoi-thuong-gap/">Câu hỏi<br>thường gặp</a></li>
+                      href="/cau-hoi-thuong-gap/">Câu hỏi<br>thường gặp</a></li>
                 </ul>
               </div>
             </div>

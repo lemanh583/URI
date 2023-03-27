@@ -181,7 +181,7 @@
             if (!t.getAll(this.field).every((t => /^[0-9]{4,}-[0-9]{2}-[0-9]{2}$/.test(t.trim())))) throw new s(this)
         },
         d = function(t) {
-            if (!t.getAll(this.field).every((t => t instanceof File && this.accept ? .some((e => /^\.[a-z0-9]+$/i.test(e) ? t.name.toLowerCase().endsWith(e.toLowerCase()) : (t => {
+            if (!t.getAll(this.field).every((t => t instanceof File && this.accept ?.some((e => /^\.[a-z0-9]+$/i.test(e) ? t.name.toLowerCase().endsWith(e.toLowerCase()) : (t => {
                     const e = [],
                         n = t.match(/^(?<toplevel>[a-z]+)\/(?<sub>[*]|[a-z0-9.+-]+)$/i);
                     if (n) {
@@ -196,7 +196,7 @@
                 })(e).some((e => (e = "." + e.trim(), t.name.toLowerCase().endsWith(e.toLowerCase()))))))))) throw new s(this)
         },
         m = function(t) {
-            if (!t.getAll(this.field).every((t => this.accept ? .some((e => t === String(e)))))) throw new s(this)
+            if (!t.getAll(this.field).every((t => this.accept ?.some((e => t === String(e)))))) throw new s(this)
         },
         u = function(t) {
             if (t.getAll(this.field).length < parseInt(this.threshold)) throw new s(this)
@@ -249,7 +249,7 @@
     window.swv = {
         validators: e,
         validate: (t, n, o = {}) => {
-            const a = (t.rules ? ? []).filter((({
+            const a = (t.rules ?? []).filter((({
                 rule: t,
                 ...n
             }) => "function" == typeof e[t] && ("function" != typeof e[t].matches || e[t].matches(n, o))));
@@ -260,7 +260,7 @@
                         rule: i,
                         ...o
                     } = n;
-                    if (t.get(o.field) ? .error) return t;
+                    if (t.get(o.field) ?.error) return t;
                     try {
                         e[i].call({
                             rule: i,

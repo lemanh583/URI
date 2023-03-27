@@ -87,7 +87,7 @@
                         <div class="f-gr">
                           <span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10"
                               class="wpcf7-form-control wpcf7-textarea re-input area" aria-invalid="false"
-                              placeholder="iSchool có thể hỗ trợ gì cho gia đình?" name="your-message"></textarea></span>
+                              placeholder="URI có thể hỗ trợ gì cho gia đình?" name="your-message"></textarea></span>
                         </div>
                         <span class="wpcf7-form-control-wrap recaptcha" data-name="recaptcha"><span
                             data-sitekey="6LfBfngkAAAAAOtn9TaUClF4gN11Pvu9nWC0MnDV"
@@ -1378,7 +1378,7 @@
                   <div class="f-gr">
                     <span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10"
                         class="wpcf7-form-control wpcf7-textarea re-input area" aria-invalid="false"
-                        placeholder="iSchool CÓ THỂ HỖ TRỢ GÌ CHO GIA ĐÌNH?" name="your-message"></textarea></span>
+                        placeholder="URI CÓ THỂ HỖ TRỢ GÌ CHO GIA ĐÌNH?" name="your-message"></textarea></span>
                   </div>
                   <span class="wpcf7-form-control-wrap recaptcha" data-name="recaptcha"><span
                       data-sitekey="6LfBfngkAAAAAOtn9TaUClF4gN11Pvu9nWC0MnDV"

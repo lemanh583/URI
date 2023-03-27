@@ -4,6 +4,7 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _68089dfc = () => interopDefault(import('..\\pages\\app.vue' /* webpackChunkName: "pages/app" */))
 const _357e7934 = () => interopDefault(import('..\\pages\\cau-hoi-thuong-gap.vue' /* webpackChunkName: "pages/cau-hoi-thuong-gap" */))
 const _448ca57e = () => interopDefault(import('..\\pages\\chuyen-sau.vue' /* webpackChunkName: "pages/chuyen-sau" */))
 const _419cee23 = () => interopDefault(import('..\\pages\\co-ban.vue' /* webpackChunkName: "pages/co-ban" */))
@@ -11,11 +12,14 @@ const _6064a296 = () => interopDefault(import('..\\pages\\dang-ky-nhap-hoc.vue' 
 const _ee3123c4 = () => interopDefault(import('..\\pages\\danh-gia.vue' /* webpackChunkName: "pages/danh-gia" */))
 const _4b4c2158 = () => interopDefault(import('..\\pages\\doi-ngu-giao-vien.vue' /* webpackChunkName: "pages/doi-ngu-giao-vien" */))
 const _70f9daee = () => interopDefault(import('..\\pages\\gioi-thieu.vue' /* webpackChunkName: "pages/gioi-thieu" */))
+const _6cc8dcbc = () => interopDefault(import('..\\pages\\he-thong-nhuong-quyen.vue' /* webpackChunkName: "pages/he-thong-nhuong-quyen" */))
+const _1a5915be = () => interopDefault(import('..\\pages\\hinh-anh.vue' /* webpackChunkName: "pages/hinh-anh" */))
 const _12a485da = () => interopDefault(import('..\\pages\\khoa-hoc.vue' /* webpackChunkName: "pages/khoa-hoc" */))
 const _0883d3c2 = () => interopDefault(import('..\\pages\\lien-he.vue' /* webpackChunkName: "pages/lien-he" */))
 const _6f2b5f15 = () => interopDefault(import('..\\pages\\luyen-thi-quoc-te.vue' /* webpackChunkName: "pages/luyen-thi-quoc-te" */))
 const _0c55e495 = () => interopDefault(import('..\\pages\\phuong-phap-giao-duc-itl-plus.vue' /* webpackChunkName: "pages/phuong-phap-giao-duc-itl-plus" */))
 const _3c2aa4ed = () => interopDefault(import('..\\pages\\su-kien.vue' /* webpackChunkName: "pages/su-kien" */))
+const _3b0c6ea9 = () => interopDefault(import('..\\pages\\tin-tuc.vue' /* webpackChunkName: "pages/tin-tuc" */))
 const _3377bcc0 = () => interopDefault(import('..\\pages\\uu-dai-va-hoc-bong.vue' /* webpackChunkName: "pages/uu-dai-va-hoc-bong" */))
 const _3dc6276d = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -31,6 +35,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/app",
+    component: _68089dfc,
+    name: "app"
+  }, {
     path: "/cau-hoi-thuong-gap",
     component: _357e7934,
     name: "cau-hoi-thuong-gap"
@@ -59,6 +67,14 @@ export const routerOptions = {
     component: _70f9daee,
     name: "gioi-thieu"
   }, {
+    path: "/he-thong-nhuong-quyen",
+    component: _6cc8dcbc,
+    name: "he-thong-nhuong-quyen"
+  }, {
+    path: "/hinh-anh",
+    component: _1a5915be,
+    name: "hinh-anh"
+  }, {
     path: "/khoa-hoc",
     component: _12a485da,
     name: "khoa-hoc"
@@ -78,6 +94,10 @@ export const routerOptions = {
     path: "/su-kien",
     component: _3c2aa4ed,
     name: "su-kien"
+  }, {
+    path: "/tin-tuc",
+    component: _3b0c6ea9,
+    name: "tin-tuc"
   }, {
     path: "/uu-dai-va-hoc-bong",
     component: _3377bcc0,

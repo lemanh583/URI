@@ -1,14 +1,14 @@
 export default function PopupModule() {
-    $(document).ready(function() {
-        $(".prog-play, .visit-video-btn, .hds-play").magnificPopup({
-            // disableOn: 500,
-            type: "iframe",
-            mainClass: "mfp-fade",
-            removalDelay: 160,
-            preloader: false,
-            fixedContentPos: false
-        });
-    });
+    // $(document).ready(function() {
+    //     $(".prog-play, .visit-video-btn, .hds-play").magnificPopup({
+    //         // disableOn: 500,
+    //         type: "iframe",
+    //         mainClass: "mfp-fade",
+    //         removalDelay: 160,
+    //         preloader: false,
+    //         fixedContentPos: false
+    //     });
+    // });
     const popupClose = document.querySelectorAll(".popup-close");
     const popupOverlay = document.querySelectorAll(".popup-overlay");
     const body = document.getElementsByTagName("body")[0];

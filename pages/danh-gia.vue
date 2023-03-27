@@ -13,7 +13,7 @@
 
                   <div class="dsmall pro-list">
 
-                    <div v-for="item in reviews" class="dsmall-item pro-item pro-item-3" data-aos="fade" data-aos-delay="200">
+                    <div v-for="item in reviews" :key="i" class="dsmall-item pro-item pro-item-3" data-aos="fade" data-aos-delay="200">
                       <div class="pro-wrap">
                         <a href="#" class="pro-img">
                           <img width="204" height="180"

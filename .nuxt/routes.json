@@ -1,5 +1,12 @@
 [
   {
+    "name": "app",
+    "path": "/app",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\app.vue",
+    "chunkName": "pages/app",
+    "_name": "_68089dfc"
+  },
+  {
     "name": "cau-hoi-thuong-gap",
     "path": "/cau-hoi-thuong-gap",
     "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\cau-hoi-thuong-gap.vue",
@@ -49,6 +56,20 @@
     "_name": "_70f9daee"
   },
   {
+    "name": "he-thong-nhuong-quyen",
+    "path": "/he-thong-nhuong-quyen",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\he-thong-nhuong-quyen.vue",
+    "chunkName": "pages/he-thong-nhuong-quyen",
+    "_name": "_6cc8dcbc"
+  },
+  {
+    "name": "hinh-anh",
+    "path": "/hinh-anh",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\hinh-anh.vue",
+    "chunkName": "pages/hinh-anh",
+    "_name": "_1a5915be"
+  },
+  {
     "name": "khoa-hoc",
     "path": "/khoa-hoc",
     "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\khoa-hoc.vue",
@@ -82,6 +103,13 @@
     "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\su-kien.vue",
     "chunkName": "pages/su-kien",
     "_name": "_3c2aa4ed"
+  },
+  {
+    "name": "tin-tuc",
+    "path": "/tin-tuc",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\tin-tuc.vue",
+    "chunkName": "pages/tin-tuc",
+    "_name": "_3b0c6ea9"
   },
   {
     "name": "uu-dai-va-hoc-bong",

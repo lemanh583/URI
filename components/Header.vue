@@ -25,6 +25,24 @@
                     class="icon"></noscript>
               </a>
 
+              <!-- <a class="header-ct-link" href="tel:84789166588"><img width="25" height="24"
+                  src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg" alt="" class="icon"
+                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"><noscript><img
+                    width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg" alt=""
+                    class="icon"></noscript>
+                <p class="text">+84 88 623 08 88 </p>
+              </a><a class="header-ct-link" href="mailto:urivietnam.edu@gmail.com"><img width="25" height="24"
+                  src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg" alt="" class="icon"
+                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg"><noscript><img
+                    width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg" alt=""
+                    class="icon"></noscript>
+                <p class="text">urivietnam.edu@gmail.com </p>
+              </a> -->
+            </div>
+
+
+
+            <div class="header-top-right">
               <a class="header-ct-link" href="tel:84789166588"><img width="25" height="24"
                   src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg" alt="" class="icon"
                   data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"><noscript><img
@@ -38,27 +56,15 @@
                     class="icon"></noscript>
                 <p class="text">urivietnam.edu@gmail.com </p>
               </a>
-            </div>
-
-
-
-            <div class="header-top-right">
 
               <ul id="menu-theme-header-menu" class="header-top-action header-top-right-item">
                 <li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932">
-                  <a href="/tin-tuc/">Tin tức</a>
+                  <a href="/dang-ky-nhap-hoc/" style="color: #fff805;">Đăng ký khoá học</a>
                 </li>
-                <!-- <li id="menu-item-1398" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1398">
-                  <a href="https://iportal.nhg.vn/">iPortal</a>
-                </li> -->
-                <li id="menu-item-394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-394"><a
-                    href="/tuyen-dung">Tuyển
-                    dụng</a></li>
               </ul>
               <div class="header-search-icon header-top-right-item">
-                <img width="25" height="24"
-                  src="https://ischool.vn/template/assets/images/header-search-icon.svg"
-                  alt="" data-lazy-src="https://ischool.vn/template/assets/images/header-search-icon.svg"><noscript><img
+                <img width="25" height="24" src="https://ischool.vn/template/assets/images/header-search-icon.svg" alt=""
+                  data-lazy-src="https://ischool.vn/template/assets/images/header-search-icon.svg"><noscript><img
                     width="25" height="24" src="https://ischool.vn/template/assets/images/header-search-icon.svg"
                     alt=""></noscript>
               </div>
@@ -117,19 +123,18 @@
               <ul id="menu-theme-main-menu" class="menu-list">
                 <li
                   class=' menu-item menu-item-type-post_type menu-item-object-page  page_item page-item-909 menu-item-has-children dropdown'>
-                  <a class="menu-link" href="/gioi-thieu">GIỚI THIỆU</a>
+                  <a class="menu-link" href="/gioi-thieu">Về URI</a>
                   <ul class='menu-list'>
-                    <li
-                      class=' menu-item menu-item-type-post_type menu-item-object-page  page_item page-item-909 '>
+                    <li class=' menu-item menu-item-type-post_type menu-item-object-page  page_item page-item-909 '>
                       <a class="menu-link" href="/gioi-thieu">Tổng quan về
                         URI</a>
                     </li>
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/doi-ngu-giao-vien">Đội ngũ giáo
                         viên</a></li>
-                    <!-- <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="https://ischool.vn/tap-doan-giao-duc-nguyen-hoang/">Tập đoàn NHG</a>
-                    </li> -->
+                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                        href="/danh-gia">Review</a>
+                    </li>
                   </ul>
                 </li>
                 <!-- <li
@@ -200,9 +205,12 @@
                   </ul>
                 </li> -->
                 <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
-                  <a class="menu-link" href="/phuong-phap-giao-duc-itl-plus/">CHƯƠNG
-                    TRÌNH HỌC</a>
+                  <a class="menu-link" href="/phuong-phap-giao-duc-itl-plus/">KHOÁ HỌC</a>
                   <ul class='menu-list'>
+                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                        href="/phuong-phap-giao-duc-itl-plus">Vip</a></li>
+                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                        href="/phuong-phap-giao-duc-itl-plus">Class</a></li>
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/phuong-phap-giao-duc-itl-plus">Phương pháp giáo
                         dục</a></li>
@@ -214,25 +222,58 @@
                         href="/luyen-thi-quoc-te/">Lớp luyện thi quốc tế</a></li>
                   </ul>
                 </li>
+                <li class='right menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                    href="/hinh-anh/">SỰ KIỆN, HÌNH ẢNH</a></li>
+
+                <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
+                  <a class="menu-link" href="/tin-tuc/">THÔNG TIN</a>
+                  <ul class='menu-list'>
+                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                        href="/tin-tuc/">Tin tức</a></li>
+                    <!-- <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                        href="/uu-dai-va-hoc-bong/">Ưu đãi và
+                        học bổng</a></li> -->
+                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                        href="/blog/">Blog</a></li>
+                  </ul>
+                </li>
+
+                <li class='right menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                    href="/he-thong-nhuong-quyen/">HỆ THỐNG NHƯỢNG QUYỀN</a></li>
+
+                <!-- 
                 <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
                   <a class="menu-link" href="/dang-ky-nhap-hoc/">TUYỂN SINH</a>
                   <ul class='menu-list'>
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/dang-ky-nhap-hoc/">Đăng ký nhập
                         học</a></li>
-                    <!-- <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/uu-dai-va-hoc-bong/">Ưu đãi và
-                        học bổng</a></li> -->
+                  
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/cau-hoi-thuong-gap/">Câu hỏi
                         thường gặp</a></li>
                   </ul>
-                </li>
+                </li> -->
+
+
                 <li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a class="menu-link"
-                    href="/danh-gia">ĐÁNH GIÁ</a>
+                    href="/app">APP</a>
                 </li>
-                <li class='right menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                    href="/lien-he/">LIÊN HỆ</a></li>
+                <!-- <li class='right menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                    href="/lien-he/">LIÊN HỆ</a></li> -->
+
+
+                <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
+                  <a class="menu-link" href="/lien-he/">LIÊN HỆ</a>
+                  <ul class='menu-list'>
+                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                        href="/tuyen-dung/">Tuyển dụng</a></li>
+
+                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                        href="/lien-he/">Tư vấn</a></li>
+                  </ul>
+                </li>
+
               </ul>
             </nav>
 

@@ -43,19 +43,32 @@
 
 
             <div class="header-top-right">
-              <a class="header-ct-link" href="tel:84789166588"><img width="25" height="24"
-                  src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg" alt="" class="icon"
-                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"><noscript><img
-                    width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg" alt=""
-                    class="icon"></noscript>
-                <p class="text">+84 88 623 08 88 </p>
-              </a><a class="header-ct-link" href="mailto:urivietnam.edu@gmail.com"><img width="25" height="24"
-                  src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg" alt="" class="icon"
-                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg"><noscript><img
-                    width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg" alt=""
-                    class="icon"></noscript>
-                <p class="text">urivietnam.edu@gmail.com </p>
-              </a>
+              <ul id="menu-theme-header-menu" class="header-top-action header-top-right-item">
+                <li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932">
+                  <a class="header-ct-link" href="tel:84789166588" style="display: flex;">
+                    <img width="25" height="24"
+                      src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg" alt="" class="icon"
+                      data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"><noscript><img
+                        width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
+                        alt="" class="icon"></noscript>
+                    <p class="text">+84 88 623 08 88 </p>
+                  </a>
+                </li>
+              </ul>
+
+              <ul id="menu-theme-header-menu" class="header-top-action header-top-right-item">
+                <li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932">
+                  <a class="header-ct-link" href="mailto:urivietnam.edu@gmail.com" style="display: flex;">
+                    <img width="25" height="24"
+                      src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg" alt="" class="icon"
+                      data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg"><noscript><img
+                        width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg"
+                        alt="" class="icon"></noscript>
+                    <p class="text">urivietnam.edu@gmail.com </p>
+                  </a>
+                </li>
+              </ul>
+
 
               <ul id="menu-theme-header-menu" class="header-top-action header-top-right-item">
                 <li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932">
@@ -93,12 +106,12 @@
                       width="24" height="24" src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"
                       alt="VN"></noscript>VN</span>
                 <ul>
-                  <li><a href="#"><img width="512" height="512"
+                  <!-- <li><a href="#"><img width="512" height="512"
                         src="https://ischool.vn/wp-content/uploads/flags/united-kingdom-svgrepo-com.svg" alt="EN"
                         data-lazy-src="https://ischool.vn/wp-content/uploads/flags/united-kingdom-svgrepo-com.svg"><noscript><img
                           width="512" height="512"
                           src="https://ischool.vn/wp-content/uploads/flags/united-kingdom-svgrepo-com.svg"
-                          alt="EN"></noscript>EN</a></li>
+                          alt="EN"></noscript>EN</a></li> -->
                 </ul>
               </div>
 
@@ -137,73 +150,7 @@
                     </li>
                   </ul>
                 </li>
-                <!-- <li
-                  class='syschool-parent menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
-                  <a class="menu-link" href="https://ischool.vn/he-thong-truong/">HỆ THỐNG TRƯỜNG</a>
-                  <ul class='menu-list'>
-                    <li class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown'>
-                      <a class="menu-link" href="javascript:;">iSchool</a>
-                      <ul class='menu-list'>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-cam-pha/">iSchool
-                            Cẩm Phả</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-ha-tinh/">iSchool
-                            Hà Tĩnh</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-quang-tri/">iSchool Quảng Trị</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-quy-nhon/">iSchool
-                            Quy Nhơn</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-nha-trang/">iSchool Nha Trang</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-ninh-thuan/">iSchool Ninh Thuận</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-long-an/">iSchool
-                            Long An</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-tra-vinh/">iSchool
-                            Trà Vinh</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-soc-trang/">iSchool Sóc Trăng</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-bac-lieu/">iSchool
-                            Bạc Liêu</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-rach-gia/">iSchool
-                            Rạch Giá</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/ischool-long-xuyen/">iSchool Long Xuyên</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown'>
-                      <a class="menu-link" href="javascript:;">iSchool bảo trợ</a>
-                      <ul class='menu-list'>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/thpt-nguyen-hue/">THPT
-                            Nguyễn Huệ</a>
-                        </li>
-                        <li class=' menu-item menu-item-type-post_type menu-item-object-mona_system'>
-                          <a class="menu-link" href="https://ischool.vn/thpt-viet-nhat/">THPT Việt
-                            Nhật</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li> -->
+
                 <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
                   <a class="menu-link" href="/phuong-phap-giao-duc-itl-plus/">KHOÁ HỌC</a>
                   <ul class='menu-list'>

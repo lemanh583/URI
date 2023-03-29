@@ -3,9 +3,7 @@
     <div class="container">
       <div class="footer-wrap">
         <a href="#" class="footer-logo">
-          <img width="2029" height="729"
-            src="/images/logo-v2-removebg.png"
-            alt=""
+          <img width="2029" height="729" src="/images/logo-v2-removebg.png" alt=""
             data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/Ban-sao-cua-2018-iSchool-_-logo-new-version-01.png"><noscript><img
               width="2029" height="729"
               src="https://ischool.vn/wp-content/uploads/2022/11/Ban-sao-cua-2018-iSchool-_-logo-new-version-01.png"
@@ -15,77 +13,99 @@
           <div class="dnor-item footer-item footer-item-first">
 
             <div id="nav_menu-3" class="widget footer-col-1 widget_nav_menu">
-              <h3 class="head mona-widget-title">Trung tâm URI</h3>
-              <!-- <div class="menu-he-thong-truong-hoi-nhap-quoc-te-ischool-container">
+              <h3 class="head mona-widget-title">Về URI</h3>
+              <div class="menu-he-thong-truong-hoi-nhap-quoc-te-ischool-container">
                 <ul id="menu-he-thong-truong-hoi-nhap-quoc-te-ischool" class="menu">
-                  <li id="menu-item-420"
+                  <li id="menu-item-420" style="width: 100% !important; "
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
-                    <a href="https://ischool.vn/ischool-cam-pha/">iSchool Cẩm Phả</a>
+                    <a href="https://ischool.vn/ischool-cam-pha/">Tổng quan về URI</a>
                   </li>
-                  <li id="menu-item-2802"
+                  <li id="menu-item-2802" style="width: 100% !important;"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2802">
-                    <a href="https://ischool.vn/ischool-ha-tinh/">iSchool Hà Tĩnh</a>
+                    <a href="https://ischool.vn/ischool-ha-tinh/">Đội ngũ giáo viên</a>
                   </li>
-                  <li id="menu-item-2881"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2881">
-                    <a href="https://ischool.vn/ischool-quang-tri/">iSchool Quảng Trị</a>
+                  <li id="menu-item-2802" style="width: 100% !important;"
+                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2802">
+                    <a href="https://ischool.vn/ischool-ha-tinh/">Review</a>
                   </li>
-                  <li id="menu-item-2880"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2880">
-                    <a href="https://ischool.vn/ischool-quy-nhon/">iSchool Quy Nhơn</a>
+
+                  <li id="menu-item-420" style="width: 100% !important;"
+                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
+                    <a href="https://ischool.vn/ischool-cam-pha/"> Sự kiện, hình ảnh </a>
                   </li>
-                  <li id="menu-item-2879"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2879">
-                    <a href="https://ischool.vn/ischool-nha-trang/">iSchool Nha Trang</a>
-                  </li>
-                  <li id="menu-item-2878"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2878">
-                    <a href="https://ischool.vn/ischool-ninh-thuan/">iSchool Ninh Thuận</a>
-                  </li>
-                  <li id="menu-item-2914"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2914">
-                    <a href="https://ischool.vn/ischool-long-an/">iSchool Long An</a>
-                  </li>
-                  <li id="menu-item-2910"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2910">
-                    <a href="https://ischool.vn/ischool-tra-vinh/">iSchool Trà Vinh</a>
-                  </li>
-                  <li id="menu-item-2911"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2911">
-                    <a href="https://ischool.vn/ischool-soc-trang/">iSchool Sóc Trăng</a>
-                  </li>
-                  <li id="menu-item-2909"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2909">
-                    <a href="https://ischool.vn/ischool-bac-lieu/">iSchool Bạc Liêu</a>
-                  </li>
-                  <li id="menu-item-2908"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2908">
-                    <a href="https://ischool.vn/ischool-rach-gia/">iSchool Rạch Giá</a>
-                  </li>
-                  <li id="menu-item-2912"
-                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2912">
-                    <a href="https://ischool.vn/ischool-long-xuyen/">iSchool Long Xuyên</a>
-                  </li>
+
+
                 </ul>
-              </div> -->
+              </div>
             </div>
-            <!-- <div id="nav_menu-4" class="widget footer-col-1 widget_nav_menu">
-              <h3 class="head mona-widget-title">Hệ thống trường iSchool bảo trợ</h3>
+
+            <div id="nav_menu-4" class="widget footer-col-1 widget_nav_menu">
+              <h3 class="head mona-widget-title">Thông tin</h3>
               <div class="menu-he-thong-truong-ischool-bao-tro-container">
                 <ul id="menu-he-thong-truong-ischool-bao-tro" class="menu">
                   <li id="menu-item-2876"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2876">
-                    <a href="https://ischool.vn/thpt-nguyen-hue/">THPT Nguyễn Huệ</a>
+                    <a href="https://ischool.vn/thpt-nguyen-hue/">Tin tức</a>
                   </li>
                   <li id="menu-item-8698"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-8698">
-                    <a href="https://ischool.vn/thpt-viet-nhat/">THPT Việt Nhật</a>
+                    <a href="https://ischool.vn/thpt-viet-nhat/">Blog</a>
                   </li>
                 </ul>
               </div>
-            </div> -->
+            </div>
+
           </div>
-          <div class="dnor-item footer-item footer-item-second">
+
+
+          <div class="dnor-item footer-item footer-item-first footer-item-first-v1" >
+
+            <div id="nav_menu-3" class="widget footer-col-1 widget_nav_menu">
+              <h3 class="head mona-widget-title">Khoá học</h3>
+              <div class="menu-he-thong-truong-hoi-nhap-quoc-te-ischool-container">
+                <ul id="menu-he-thong-truong-hoi-nhap-quoc-te-ischool" class="menu">
+                  <li id="menu-item-420" style="width: 100% !important;"
+                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
+                    <a href="https://ischool.vn/ischool-cam-pha/">Phương pháp giáo dục cơ bản</a>
+                  </li>
+
+                  <li id="menu-item-420" style="width: 100% !important;"
+                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
+                    <a href="https://ischool.vn/ischool-cam-pha/">Lớp cơ bản</a>
+                  </li>
+
+                  <li id="menu-item-420" style="width: 100% !important;"
+                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
+                    <a href="https://ischool.vn/ischool-cam-pha/">Lớp tư duy chuyên sâu</a>
+                  </li>
+
+                  <li id="menu-item-420" style="width: 100% !important;"
+                    class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
+                    <a href="https://ischool.vn/ischool-cam-pha/">Lớp luyện thi quốc tế</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="nav_menu-4" class="widget footer-col-1 widget_nav_menu">
+              <h3 class="head mona-widget-title">Liên hệ</h3>
+              <ul id="menu-he-thong-truong-hoi-nhap-quoc-te-ischool" class="menu">
+                <li id="menu-item-420" style="width: 100% !important;"
+                  class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
+                  <a href="https://ischool.vn/ischool-cam-pha/">Tuyển dụng</a>
+                </li>
+
+                <li id="menu-item-420" style="width: 100% !important;"
+                  class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
+                  <a href="https://ischool.vn/ischool-cam-pha/">Tư vấn</a>
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+
+          <div class="dnor-item footer-item footer-item-second" >
 
 
 
@@ -106,24 +126,21 @@
                 <div class="mxh-list">
 
                   <a href="https://www.facebook.com/ischoolvn" target="_blank" class="mxh-link">
-                    <img width="24" height="24"
-                      src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E"
-                      alt="" class="icon"
+                    <img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-face.svg" alt=""
+                      class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-face.svg"><noscript><img
                         width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-face.svg" alt=""
                         class="icon"></noscript>
                   </a>
                   <a href="https://www.youtube.com/c/iSchoolVietNam" target="_blank" class="mxh-link">
-                    <img width="24" height="24"
-                      src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E"
+                    <img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg"
                       alt="" class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg"><noscript><img
                         width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg" alt=""
                         class="icon"></noscript>
                   </a>
                   <a href="https://vn.linkedin.com/company/ischoolvietnam" target="_blank" class="mxh-link">
-                    <img width="24" height="24"
-                      src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E"
+                    <img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg"
                       alt="" class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg"><noscript><img
                         width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg"
@@ -147,11 +164,24 @@
           </div>
           <div class="dnor-item footer-item footer-item-third footer-item-double">
 
-            <div class="fb-page" data-href="https://www.facebook.com/trungtamtoanuri" data-tabs="timeline" data-width="400"
-              data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
-              data-show-facepile="true">
+            <!-- <div class="fb-page" data-href="https://www.facebook.com/trungtamtoanuri" data-tabs="timeline"
+              data-width="400" data-height="700" data-small-header="false" data-adapt-container-width="true"
+              data-hide-cover="false" data-show-facepile="true">
               <blockquote cite="https://www.facebook.com/trungtamtoanuri" class="fb-xfbml-parse-ignore"><a
                   href="https://www.facebook.com/trungtamtoanuri">URI VIỆT NAM</a></blockquote>
+            </div> -->
+
+
+            <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/trungtamtoanuri/" data-tabs="timeline"
+              data-width="400" data-height="700" data-small-header="false" data-adapt-container-width="true"
+              data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered"
+              fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=436943418402483&amp;container_width=0&amp;height=700&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fischoolvn%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=400">
+              <span style="vertical-align: bottom; width: 400px; height: 331px;"><iframe name="f2a095f94685fd8"
+                  width="400px" height="700px" data-testid="fb:page Facebook Social Plugin"
+                  title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true"
+                  scrolling="no" allow="encrypted-media"
+                  src="https://www.facebook.com/v15.0/plugins/page.php?adapt_container_width=true&amp;app_id=436943418402483&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df73c70264bd48%26domain%3Dischool.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fischool.vn%252Ff3213d0fd688b2%26relation%3Dparent.parent&amp;container_width=0&amp;height=700&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fischoolvn%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=400"
+                  style="border: none; visibility: visible; width: 400px; height: 331px;" class=""></iframe></span>
             </div>
 
           </div>
@@ -160,3 +190,22 @@
     </div>
   </footer>
 </template>
+
+<style scoped> 
+
+.footer-item-first {
+  width: calc(100% * (3 / 12));
+}
+
+.footer-item-first-v1 {
+  width: calc(100% * (3 / 12));
+}
+
+.footer-item-second {
+  width: calc(100% * (2 / 12));
+}
+.footer-item-third {
+  width: calc(100% * (4 / 12));
+}
+
+</style>

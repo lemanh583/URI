@@ -120,7 +120,7 @@
         </div>
       </div>
       <div class="header-main">
-        <div class="container">
+        <div class="container menu-header-container">
           <div class="header-main-wrapper">
 
             <a href="#" class="header-logo" rel="home" itemprop="url">
@@ -243,7 +243,7 @@
       <div class="popup-main">
         <p class="search-title">
           Tìm kiếm.. </p>
-        <form method="get" id="searchform" action="https://ischool.vn/">
+        <form method="get" id="searchform" action="#">
           <div class="search-wrap">
             <input type="text" class="search-input" name="s" placeholder="Nhập từ khoá" value="">
             <button type="submit" class="btn">
@@ -265,5 +265,15 @@
 .icon-social img {
   width: 30px;
   height: 30px;
+}
+</style>
+
+<style>
+
+@media screen and (min-width: 1300px) {
+  .menu-header-container {
+    width: 130% !important; 
+    max-width: 130rem !important;
+  }
 }
 </style>

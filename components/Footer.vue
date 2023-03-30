@@ -18,20 +18,20 @@
                 <ul id="menu-he-thong-truong-hoi-nhap-quoc-te-ischool" class="menu">
                   <li id="menu-item-420" style="width: 100% !important; "
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
-                    <a href="https://ischool.vn/ischool-cam-pha/">Tổng quan về URI</a>
+                    <a href="/gioi-thieu">Tổng quan về URI</a>
                   </li>
                   <li id="menu-item-2802" style="width: 100% !important;"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2802">
-                    <a href="https://ischool.vn/ischool-ha-tinh/">Đội ngũ giáo viên</a>
+                    <a href="/doi-ngu-giao-vien">Đội ngũ giáo viên</a>
                   </li>
                   <li id="menu-item-2802" style="width: 100% !important;"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2802">
-                    <a href="https://ischool.vn/ischool-ha-tinh/">Review</a>
+                    <a href="/danh-gia">Review</a>
                   </li>
 
                   <li id="menu-item-420" style="width: 100% !important;"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
-                    <a href="https://ischool.vn/ischool-cam-pha/"> Sự kiện, hình ảnh </a>
+                    <a href="/hinh-anh"> Sự kiện, hình ảnh </a>
                   </li>
 
 
@@ -45,11 +45,11 @@
                 <ul id="menu-he-thong-truong-ischool-bao-tro" class="menu">
                   <li id="menu-item-2876"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-2876">
-                    <a href="https://ischool.vn/thpt-nguyen-hue/">Tin tức</a>
+                    <a href="/tin-tuc">Tin tức</a>
                   </li>
                   <li id="menu-item-8698"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-8698">
-                    <a href="https://ischool.vn/thpt-viet-nhat/">Blog</a>
+                    <a href="/blog">Blog</a>
                   </li>
                 </ul>
               </div>
@@ -66,22 +66,22 @@
                 <ul id="menu-he-thong-truong-hoi-nhap-quoc-te-ischool" class="menu">
                   <li id="menu-item-420" style="width: 100% !important;"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
-                    <a href="https://ischool.vn/ischool-cam-pha/">Phương pháp giáo dục cơ bản</a>
+                    <a href="/phuong-phap-giao-duc-itl-plus">Phương pháp giáo dục cơ bản</a>
                   </li>
 
                   <li id="menu-item-420" style="width: 100% !important;"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
-                    <a href="https://ischool.vn/ischool-cam-pha/">Lớp cơ bản</a>
+                    <a href="/co-ban">Lớp cơ bản</a>
                   </li>
 
                   <li id="menu-item-420" style="width: 100% !important;"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
-                    <a href="https://ischool.vn/ischool-cam-pha/">Lớp tư duy chuyên sâu</a>
+                    <a href="/chuyen-sau">Lớp tư duy chuyên sâu</a>
                   </li>
 
                   <li id="menu-item-420" style="width: 100% !important;"
                     class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
-                    <a href="https://ischool.vn/ischool-cam-pha/">Lớp luyện thi quốc tế</a>
+                    <a href="/luyen-thi-quoc-te">Lớp luyện thi quốc tế</a>
                   </li>
                 </ul>
               </div>
@@ -92,12 +92,12 @@
               <ul id="menu-he-thong-truong-hoi-nhap-quoc-te-ischool" class="menu">
                 <li id="menu-item-420" style="width: 100% !important;"
                   class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
-                  <a href="https://ischool.vn/ischool-cam-pha/">Tuyển dụng</a>
+                  <a href="/tuyen-dung">Tuyển dụng</a>
                 </li>
 
                 <li id="menu-item-420" style="width: 100% !important;"
                   class="menu-item menu-item-type-post_type menu-item-object-mona_system menu-item-420">
-                  <a href="https://ischool.vn/ischool-cam-pha/">Tư vấn</a>
+                  <a href="/tu-van">Tư vấn</a>
                 </li>
               </ul>
             </div>
@@ -125,28 +125,28 @@
               <div class="mxh">
                 <div class="mxh-list">
 
-                  <a href="https://www.facebook.com/ischoolvn" target="_blank" class="mxh-link">
+                  <a href="#" target="_blank" class="mxh-link">
                     <img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-face.svg" alt=""
                       class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-face.svg"><noscript><img
                         width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-face.svg" alt=""
                         class="icon"></noscript>
                   </a>
-                  <a href="https://www.youtube.com/c/iSchoolVietNam" target="_blank" class="mxh-link">
+                  <a href="#" target="_blank" class="mxh-link">
                     <img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg"
                       alt="" class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg"><noscript><img
                         width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg" alt=""
                         class="icon"></noscript>
                   </a>
-                  <a href="https://vn.linkedin.com/company/ischoolvietnam" target="_blank" class="mxh-link">
+                  <a href="#" target="_blank" class="mxh-link">
                     <img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg"
                       alt="" class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg"><noscript><img
                         width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg"
                         alt="" class="icon"></noscript>
                   </a>
-                  <a href="https://zalo.me/3902905699396907095" target="_blank" class="mxh-link">
+                  <a href="#" target="_blank" class="mxh-link">
                     <img width="24" height="24"
                       src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E"
                       alt="" class="icon"
@@ -180,7 +180,7 @@
                   width="400px" height="700px" data-testid="fb:page Facebook Social Plugin"
                   title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true"
                   scrolling="no" allow="encrypted-media"
-                  src="https://www.facebook.com/v15.0/plugins/page.php?adapt_container_width=true&amp;app_id=436943418402483&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df73c70264bd48%26domain%3Dischool.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fischool.vn%252Ff3213d0fd688b2%26relation%3Dparent.parent&amp;container_width=0&amp;height=700&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fischoolvn%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=400"
+                  src="https://www.facebook.com/v15.0/plugins/page.php?adapt_container_width=true&amp;app_id=43694341840&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df73c70264bd48%26domain%3Dischool.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fischool.vn%252Ff3213d0fd688b2%26relation%3Dparent.parent&amp;container_width=0&amp;height=700&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fischoolvn%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=400"
                   style="border: none; visibility: visible; width: 400px; height: 331px;" class=""></iframe></span>
             </div>
 

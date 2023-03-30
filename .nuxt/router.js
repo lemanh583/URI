@@ -4,24 +4,24 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _68089dfc = () => interopDefault(import('..\\pages\\app.vue' /* webpackChunkName: "pages/app" */))
-const _357e7934 = () => interopDefault(import('..\\pages\\cau-hoi-thuong-gap.vue' /* webpackChunkName: "pages/cau-hoi-thuong-gap" */))
-const _448ca57e = () => interopDefault(import('..\\pages\\chuyen-sau.vue' /* webpackChunkName: "pages/chuyen-sau" */))
-const _419cee23 = () => interopDefault(import('..\\pages\\co-ban.vue' /* webpackChunkName: "pages/co-ban" */))
-const _6064a296 = () => interopDefault(import('..\\pages\\dang-ky-nhap-hoc.vue' /* webpackChunkName: "pages/dang-ky-nhap-hoc" */))
-const _ee3123c4 = () => interopDefault(import('..\\pages\\danh-gia.vue' /* webpackChunkName: "pages/danh-gia" */))
-const _4b4c2158 = () => interopDefault(import('..\\pages\\doi-ngu-giao-vien.vue' /* webpackChunkName: "pages/doi-ngu-giao-vien" */))
-const _70f9daee = () => interopDefault(import('..\\pages\\gioi-thieu.vue' /* webpackChunkName: "pages/gioi-thieu" */))
-const _6cc8dcbc = () => interopDefault(import('..\\pages\\he-thong-nhuong-quyen.vue' /* webpackChunkName: "pages/he-thong-nhuong-quyen" */))
-const _1a5915be = () => interopDefault(import('..\\pages\\hinh-anh.vue' /* webpackChunkName: "pages/hinh-anh" */))
-const _12a485da = () => interopDefault(import('..\\pages\\khoa-hoc.vue' /* webpackChunkName: "pages/khoa-hoc" */))
-const _0883d3c2 = () => interopDefault(import('..\\pages\\lien-he.vue' /* webpackChunkName: "pages/lien-he" */))
-const _6f2b5f15 = () => interopDefault(import('..\\pages\\luyen-thi-quoc-te.vue' /* webpackChunkName: "pages/luyen-thi-quoc-te" */))
-const _0c55e495 = () => interopDefault(import('..\\pages\\phuong-phap-giao-duc-itl-plus.vue' /* webpackChunkName: "pages/phuong-phap-giao-duc-itl-plus" */))
-const _3c2aa4ed = () => interopDefault(import('..\\pages\\su-kien.vue' /* webpackChunkName: "pages/su-kien" */))
-const _3b0c6ea9 = () => interopDefault(import('..\\pages\\tin-tuc.vue' /* webpackChunkName: "pages/tin-tuc" */))
-const _3377bcc0 = () => interopDefault(import('..\\pages\\uu-dai-va-hoc-bong.vue' /* webpackChunkName: "pages/uu-dai-va-hoc-bong" */))
-const _3dc6276d = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _59f39eee = () => interopDefault(import('../pages/app.vue' /* webpackChunkName: "pages/app" */))
+const _884cff98 = () => interopDefault(import('../pages/cau-hoi-thuong-gap.vue' /* webpackChunkName: "pages/cau-hoi-thuong-gap" */))
+const _304b180f = () => interopDefault(import('../pages/chuyen-sau.vue' /* webpackChunkName: "pages/chuyen-sau" */))
+const _f780201e = () => interopDefault(import('../pages/co-ban.vue' /* webpackChunkName: "pages/co-ban" */))
+const _176b4703 = () => interopDefault(import('../pages/dang-ky-nhap-hoc.vue' /* webpackChunkName: "pages/dang-ky-nhap-hoc" */))
+const _a25d9728 = () => interopDefault(import('../pages/danh-gia.vue' /* webpackChunkName: "pages/danh-gia" */))
+const _f3213e74 = () => interopDefault(import('../pages/doi-ngu-giao-vien.vue' /* webpackChunkName: "pages/doi-ngu-giao-vien" */))
+const _1a147d57 = () => interopDefault(import('../pages/gioi-thieu.vue' /* webpackChunkName: "pages/gioi-thieu" */))
+const _bc520bd8 = () => interopDefault(import('../pages/he-thong-nhuong-quyen.vue' /* webpackChunkName: "pages/he-thong-nhuong-quyen" */))
+const _4042dc0c = () => interopDefault(import('../pages/hinh-anh.vue' /* webpackChunkName: "pages/hinh-anh" */))
+const _1c978361 = () => interopDefault(import('../pages/khoa-hoc.vue' /* webpackChunkName: "pages/khoa-hoc" */))
+const _0d7b4e11 = () => interopDefault(import('../pages/lien-he.vue' /* webpackChunkName: "pages/lien-he" */))
+const _1b40d087 = () => interopDefault(import('../pages/luyen-thi-quoc-te.vue' /* webpackChunkName: "pages/luyen-thi-quoc-te" */))
+const _4d22bb07 = () => interopDefault(import('../pages/phuong-phap-giao-duc-itl-plus.vue' /* webpackChunkName: "pages/phuong-phap-giao-duc-itl-plus" */))
+const _4de7dcdf = () => interopDefault(import('../pages/su-kien.vue' /* webpackChunkName: "pages/su-kien" */))
+const _4cc9a69b = () => interopDefault(import('../pages/tin-tuc.vue' /* webpackChunkName: "pages/tin-tuc" */))
+const _86464324 = () => interopDefault(import('../pages/uu-dai-va-hoc-bong.vue' /* webpackChunkName: "pages/uu-dai-va-hoc-bong" */))
+const _60f4b3df = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -36,75 +36,75 @@ export const routerOptions = {
 
   routes: [{
     path: "/app",
-    component: _68089dfc,
+    component: _59f39eee,
     name: "app"
   }, {
     path: "/cau-hoi-thuong-gap",
-    component: _357e7934,
+    component: _884cff98,
     name: "cau-hoi-thuong-gap"
   }, {
     path: "/chuyen-sau",
-    component: _448ca57e,
+    component: _304b180f,
     name: "chuyen-sau"
   }, {
     path: "/co-ban",
-    component: _419cee23,
+    component: _f780201e,
     name: "co-ban"
   }, {
     path: "/dang-ky-nhap-hoc",
-    component: _6064a296,
+    component: _176b4703,
     name: "dang-ky-nhap-hoc"
   }, {
     path: "/danh-gia",
-    component: _ee3123c4,
+    component: _a25d9728,
     name: "danh-gia"
   }, {
     path: "/doi-ngu-giao-vien",
-    component: _4b4c2158,
+    component: _f3213e74,
     name: "doi-ngu-giao-vien"
   }, {
     path: "/gioi-thieu",
-    component: _70f9daee,
+    component: _1a147d57,
     name: "gioi-thieu"
   }, {
     path: "/he-thong-nhuong-quyen",
-    component: _6cc8dcbc,
+    component: _bc520bd8,
     name: "he-thong-nhuong-quyen"
   }, {
     path: "/hinh-anh",
-    component: _1a5915be,
+    component: _4042dc0c,
     name: "hinh-anh"
   }, {
     path: "/khoa-hoc",
-    component: _12a485da,
+    component: _1c978361,
     name: "khoa-hoc"
   }, {
     path: "/lien-he",
-    component: _0883d3c2,
+    component: _0d7b4e11,
     name: "lien-he"
   }, {
     path: "/luyen-thi-quoc-te",
-    component: _6f2b5f15,
+    component: _1b40d087,
     name: "luyen-thi-quoc-te"
   }, {
     path: "/phuong-phap-giao-duc-itl-plus",
-    component: _0c55e495,
+    component: _4d22bb07,
     name: "phuong-phap-giao-duc-itl-plus"
   }, {
     path: "/su-kien",
-    component: _3c2aa4ed,
+    component: _4de7dcdf,
     name: "su-kien"
   }, {
     path: "/tin-tuc",
-    component: _3b0c6ea9,
+    component: _4cc9a69b,
     name: "tin-tuc"
   }, {
     path: "/uu-dai-va-hoc-bong",
-    component: _3377bcc0,
+    component: _86464324,
     name: "uu-dai-va-hoc-bong"
   }, {
     path: "/",
-    component: _3dc6276d,
+    component: _60f4b3df,
     name: "index"
   }],
 

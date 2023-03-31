@@ -24,33 +24,15 @@
                       </h2>
                       <div class="contact-form">
 
-
-                        <!-- <div class="dsmall download-list center">
-
-                          <div class="dsmall-item download-item download-item-3">
-                            <div class="download-wrap">
-                              <a href="https://ischool.vn/wp-content/uploads/2022/11/2020-MAM-NON-DON-dang-ky-nhap-hoc.pdf"
-                                class="download-name" target="_blank">
-                                Đơn đăng ký nhập học<br>
-                                Mầm non </a>
-                              <div class="download-fl">
-                              
-                              </div>
-                            </div>
-                          </div>
-                          <div class="dsmall-item download-item download-item-3">
-                            <div class="download-wrap">
-                              <a href="https://ischool.vn/wp-content/uploads/2022/11/2020-PHO-THONG-DON-dang-ky-nhap-hoc-A3-1.pdf"
-                                class="download-name" target="_blank">
-                                Đơn đăng ký nhập học<br>
-                                Phổ thông </a>
-                              <div class="download-fl">
-                                
-                              </div>
-                            </div>
-                          </div>
-                        </div> -->
-
+                        <div class="img-top">
+                          <img width="1176" height="956" style="object-fit: contain;"
+                            src="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
+                            class="attachment-full size-full" alt=""
+                            data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg 1176w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-300x244.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-1024x832.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-768x624.jpg 768w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-689x560.jpg 689w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-50x41.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-221x180.jpg 221w"
+                            data-lazy-sizes="(max-width: 1176px) 100vw, 1176px"
+                            data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg" 
+                          />
+                        </div>
 
                         <div class="app-down-btn">
                           <div><img src="http://besgroup.asia/images/ggdownload.png" alt=""></div>
@@ -71,18 +53,15 @@
                   </div>
                 </div>
                 <div class="dsmall-item contact-main-item">
-                  <div class="contact-main-thumbnail">
+                 
                     <img width="1176" height="956" style="object-fit: contain;"
                       src="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png"
-                      class="attachment-full size-full" alt=""
+                      class="attachment-full size-full img-bottom" alt=""
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg 1176w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-300x244.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-1024x832.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-768x624.jpg 768w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-689x560.jpg 689w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-50x41.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-221x180.jpg 221w"
                       data-lazy-sizes="(max-width: 1176px) 100vw, 1176px"
-                      data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg" /><noscript><img
-                        width="1176" height="956" src="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg"
-                        class="attachment-full size-full" alt=""
-                        srcset="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg 1176w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-300x244.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-1024x832.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-768x624.jpg 768w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-689x560.jpg 689w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-50x41.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-221x180.jpg 221w"
-                        sizes="(max-width: 1176px) 100vw, 1176px" /></noscript>
-                  </div>
+                      data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg" 
+                    />
+                 
                 </div>
               </div>
             </div>
@@ -105,12 +84,50 @@ export default {
   /* display: flex; */
   width: 100%;
 }
+
+.contact-form {
+  margin-top: 20%;
+}
+
 .app-down-btn img {
   height: 130px;
 }
 
 .img-ios {
-  width: 142px;
+  width: 421px;
 }
+
+.img-top {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+   .app-down-btn div{
+    display: flex;
+    justify-content: center;
+   }
+
+  .app-down-btn img {
+    height: 90px;  
+  }
+
+  .img-ios {
+    width: 290px;
+  }
+
+  .contact-form {
+    margin-top: 10%;
+  }
+
+  .img-bottom {
+    display: none;
+  }
+
+  .img-top {
+    display: block;
+  }
+
+}
+
 
 </style>

@@ -110,7 +110,7 @@
 
                     <div v-for="i in 12" :key="i" class="dsmall-item pro-item pro-item-3" data-aos="fade" data-aos-delay="400">
                       <div class="pro-wrap">
-                        <a href="#"
+                        <a href="/vinh-danh-gv"
                           class="pro-img">
                           <img width="207" height="180"
                             src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-207x180.jpg"
@@ -126,7 +126,7 @@
                         <div class="pro-content">
                           <h3 class="pro-name">
                             <a
-                              href="https://ischool.vn/vinh-danh-khen-thuong-gv-cbnv-co-thanh-tich-noi-bat-trong-thang-3/">
+                              href="/vinh-danh-gv">
                               VINH DANH, KHEN THƯỞNG GV &#8211; CBNV CÓ THÀNH TÍCH NỔI BẬT
                               TRONG THÁNG 3 </a>
                           </h3>

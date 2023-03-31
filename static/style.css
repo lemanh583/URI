@@ -417,3 +417,53 @@ img {
 }
 #last-name-id {display:none !important; visibility:hidden !important;}
 
+
+
+.btn {
+    background-color: #664411 !important;
+}
+
+.btn-more {
+    background-color: transparent !important;
+    color: #664411 !important;
+}
+
+.btn-more .text {
+    color: #664411 !important;
+}
+
+.footer {
+    border-top:  4px solid #664411 !important;
+}
+
+.menu-page .menu-item.current_page_item {
+    background-color: #664411 !important;
+}
+
+.menu-nav>.menu-list>.menu-item::before {
+    background-color: #feb802 !important;
+}
+
+.page-numbers>li>.page-numbers.current {
+    background-color: #664411 !important;
+    color: white;
+}
+
+.phone-fixed-text {
+    background-color: #664411 !important;
+}
+
+.phone-fixed-text.advise-icon-text {
+    background-color: #feb802 !important;
+}
+
+.page-numbers>li>.page-numbers:not(.dot):hover {
+    background-color: #664411 !important;
+    color: white;
+}
+
+@media screen and (min-width: 1201px) {
+    .menu-page .menu-item:hover {
+        background-color: #664411 !important;
+    }
+}

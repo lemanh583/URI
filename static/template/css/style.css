@@ -1479,7 +1479,8 @@ textarea::-moz-input-placeholder {
     margin-bottom: 3rem;
 }
 
-.footer-item-first {
+
+/* .footer-item-first {
     width: calc(100% * (5 / 12));
 }
 
@@ -1547,7 +1548,9 @@ textarea::-moz-input-placeholder {
     .footer-item-four {
         width: 100%;
     }
-}
+} */
+
+
 
 .footer-menu-double .menu-item {
     width: calc(100% / 2) !important;

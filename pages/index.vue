@@ -1468,3 +1468,14 @@ export default {
   layout: 'Main',
 }
 </script>
+
+<style scoped>
+
+.discover {
+  background-color: #664411 !important;
+}
+
+.num-item:nth-child(8) .num-wrap  {
+  background-color: #664411 !important;
+}
+</style>

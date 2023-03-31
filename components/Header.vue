@@ -123,7 +123,7 @@
         <div class="container menu-header-container">
           <div class="header-main-wrapper">
 
-            <a href="#" class="header-logo" rel="home" itemprop="url">
+            <a href="/" class="header-logo" rel="home" itemprop="url">
               <div class="icon"><img width="235" height="96" src="/images/logo-v2-removebg.png" class="header-logo-image"
                   alt=""
                   data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/2018-iSchool-_-logo-new-version-02-1.svg" /><noscript><img
@@ -152,15 +152,15 @@
                 </li>
 
                 <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
-                  <a class="menu-link" href="/phuong-phap-giao-duc-itl-plus/">KHOÁ HỌC</a>
+                  <a class="menu-link" href="/co-ban/">KHOÁ HỌC</a>
                   <ul class='menu-list'>
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
+                    <!-- <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/phuong-phap-giao-duc-itl-plus">Vip</a></li>
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/phuong-phap-giao-duc-itl-plus">Class</a></li>
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/phuong-phap-giao-duc-itl-plus">Phương pháp giáo
-                        dục</a></li>
+                        dục</a></li> -->
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/co-ban/">Lớp cơ bản</a></li>
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
@@ -265,6 +265,17 @@
 .icon-social img {
   width: 30px;
   height: 30px;
+}
+
+.header-top {
+  background-color: #664411;
+}
+.sticky .header-main {
+  background-color: #664411;
+}
+
+.discover {
+  background-color: #664411;
 }
 </style>
 

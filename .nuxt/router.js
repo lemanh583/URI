@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _59f39eee = () => interopDefault(import('../pages/app.vue' /* webpackChunkName: "pages/app" */))
+const _7a162d25 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
 const _884cff98 = () => interopDefault(import('../pages/cau-hoi-thuong-gap.vue' /* webpackChunkName: "pages/cau-hoi-thuong-gap" */))
 const _304b180f = () => interopDefault(import('../pages/chuyen-sau.vue' /* webpackChunkName: "pages/chuyen-sau" */))
 const _f780201e = () => interopDefault(import('../pages/co-ban.vue' /* webpackChunkName: "pages/co-ban" */))
@@ -20,8 +21,11 @@ const _1b40d087 = () => interopDefault(import('../pages/luyen-thi-quoc-te.vue' /
 const _4d22bb07 = () => interopDefault(import('../pages/phuong-phap-giao-duc-itl-plus.vue' /* webpackChunkName: "pages/phuong-phap-giao-duc-itl-plus" */))
 const _4de7dcdf = () => interopDefault(import('../pages/su-kien.vue' /* webpackChunkName: "pages/su-kien" */))
 const _4cc9a69b = () => interopDefault(import('../pages/tin-tuc.vue' /* webpackChunkName: "pages/tin-tuc" */))
+const _b0336ac8 = () => interopDefault(import('../pages/tuyen-dung/index.vue' /* webpackChunkName: "pages/tuyen-dung/index" */))
 const _86464324 = () => interopDefault(import('../pages/uu-dai-va-hoc-bong.vue' /* webpackChunkName: "pages/uu-dai-va-hoc-bong" */))
+const _1e7e4404 = () => interopDefault(import('../pages/tuyen-dung/_id.vue' /* webpackChunkName: "pages/tuyen-dung/_id" */))
 const _60f4b3df = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _5f3e1297 = () => interopDefault(import('../pages/_slug.vue' /* webpackChunkName: "pages/_slug" */))
 
 const emptyFn = () => {}
 
@@ -38,6 +42,10 @@ export const routerOptions = {
     path: "/app",
     component: _59f39eee,
     name: "app"
+  }, {
+    path: "/blog",
+    component: _7a162d25,
+    name: "blog"
   }, {
     path: "/cau-hoi-thuong-gap",
     component: _884cff98,
@@ -99,13 +107,25 @@ export const routerOptions = {
     component: _4cc9a69b,
     name: "tin-tuc"
   }, {
+    path: "/tuyen-dung",
+    component: _b0336ac8,
+    name: "tuyen-dung"
+  }, {
     path: "/uu-dai-va-hoc-bong",
     component: _86464324,
     name: "uu-dai-va-hoc-bong"
   }, {
+    path: "/tuyen-dung/:id?",
+    component: _1e7e4404,
+    name: "tuyen-dung-id"
+  }, {
     path: "/",
     component: _60f4b3df,
     name: "index"
+  }, {
+    path: "/:slug",
+    component: _5f3e1297,
+    name: "slug"
   }],
 
   fallback: false

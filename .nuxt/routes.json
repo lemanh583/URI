@@ -7,6 +7,13 @@
     "_name": "_59f39eee"
   },
   {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/Users/mac/Documents/untitled folder/URI/pages/blog.vue",
+    "chunkName": "pages/blog",
+    "_name": "_7a162d25"
+  },
+  {
     "name": "cau-hoi-thuong-gap",
     "path": "/cau-hoi-thuong-gap",
     "component": "/Users/mac/Documents/untitled folder/URI/pages/cau-hoi-thuong-gap.vue",
@@ -112,6 +119,13 @@
     "_name": "_4cc9a69b"
   },
   {
+    "name": "tuyen-dung",
+    "path": "/tuyen-dung",
+    "component": "/Users/mac/Documents/untitled folder/URI/pages/tuyen-dung/index.vue",
+    "chunkName": "pages/tuyen-dung/index",
+    "_name": "_b0336ac8"
+  },
+  {
     "name": "uu-dai-va-hoc-bong",
     "path": "/uu-dai-va-hoc-bong",
     "component": "/Users/mac/Documents/untitled folder/URI/pages/uu-dai-va-hoc-bong.vue",
@@ -119,10 +133,24 @@
     "_name": "_86464324"
   },
   {
+    "name": "tuyen-dung-id",
+    "path": "/tuyen-dung/:id?",
+    "component": "/Users/mac/Documents/untitled folder/URI/pages/tuyen-dung/_id.vue",
+    "chunkName": "pages/tuyen-dung/_id",
+    "_name": "_1e7e4404"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/mac/Documents/untitled folder/URI/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_60f4b3df"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "/Users/mac/Documents/untitled folder/URI/pages/_slug.vue",
+    "chunkName": "pages/_slug",
+    "_name": "_5f3e1297"
   }
 ]

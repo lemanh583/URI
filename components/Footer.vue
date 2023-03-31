@@ -10,7 +10,7 @@
               alt=""></noscript>
         </a>
         <div class="dnor footer-list">
-          <div class="dnor-item footer-item footer-item-first">
+          <div class="dnor-item footer-item footer-item-first f1">
 
             <div id="nav_menu-3" class="widget footer-col-1 widget_nav_menu">
               <h3 class="head mona-widget-title">Về URI</h3>
@@ -58,7 +58,7 @@
           </div>
 
 
-          <div class="dnor-item footer-item footer-item-first footer-item-first-v1" >
+          <div class="dnor-item footer-item footer-item-first footer-item-first-v1 f2" >
 
             <div id="nav_menu-3" class="widget footer-col-1 widget_nav_menu">
               <h3 class="head mona-widget-title">Khoá học</h3>
@@ -105,7 +105,7 @@
 
           </div>
 
-          <div class="dnor-item footer-item footer-item-second" >
+          <div class="dnor-item footer-item footer-item-second f3" >
 
 
 
@@ -162,7 +162,7 @@
 
 
           </div>
-          <div class="dnor-item footer-item footer-item-third footer-item-double">
+          <div class="dnor-item footer-item footer-item-third footer-item-double f4" >
 
             <!-- <div class="fb-page" data-href="https://www.facebook.com/trungtamtoanuri" data-tabs="timeline"
               data-width="400" data-height="700" data-small-header="false" data-adapt-container-width="true"
@@ -194,7 +194,7 @@
 <style scoped> 
 
 .footer-item-first {
-  width: calc(100% * (3 / 12));
+  width: calc(100% * (3 / 12)) ;
 }
 
 .footer-item-first-v1 {
@@ -207,5 +207,49 @@
 .footer-item-third {
   width: calc(100% * (4 / 12));
 }
+
+
+
+
+</style>
+
+<style>
+@media screen and (max-width: 1100px) {
+  .f1 {
+    width: calc(100% * (6 / 12)) !important;
+  }
+
+  .f2 {
+    width: calc(100% * (6 / 12)) !important;
+  }
+
+  .f3 {
+    width: calc(100% * (4 / 12)) !important;
+  }
+
+  .f4 {
+    width: calc(100% * (7 / 12)) !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .f1 {
+    width: calc(100% * (6 / 12)) !important;
+  }
+
+  .f2 {
+    width: calc(100% * (6 / 12)) !important;
+  }
+
+  .f3 {
+    width: calc(100% * (12 / 12)) !important;
+  }
+
+  .f4 {
+    width: calc(100% * (12 / 12)) !important;
+  }
+}
+
+
 
 </style>

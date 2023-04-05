@@ -2,155 +2,155 @@
   {
     "name": "app",
     "path": "/app",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/app.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\app.vue",
     "chunkName": "pages/app",
-    "_name": "_59f39eee"
+    "_name": "_68089dfc"
   },
   {
     "name": "blog",
     "path": "/blog",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/blog.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\blog.vue",
     "chunkName": "pages/blog",
-    "_name": "_7a162d25"
+    "_name": "_2ea10fd7"
   },
   {
     "name": "cau-hoi-thuong-gap",
     "path": "/cau-hoi-thuong-gap",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/cau-hoi-thuong-gap.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\cau-hoi-thuong-gap.vue",
     "chunkName": "pages/cau-hoi-thuong-gap",
-    "_name": "_884cff98"
+    "_name": "_357e7934"
   },
   {
     "name": "chuyen-sau",
     "path": "/chuyen-sau",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/chuyen-sau.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\chuyen-sau.vue",
     "chunkName": "pages/chuyen-sau",
-    "_name": "_304b180f"
+    "_name": "_448ca57e"
   },
   {
     "name": "co-ban",
     "path": "/co-ban",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/co-ban.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\co-ban.vue",
     "chunkName": "pages/co-ban",
-    "_name": "_f780201e"
+    "_name": "_419cee23"
   },
   {
     "name": "dang-ky-nhap-hoc",
     "path": "/dang-ky-nhap-hoc",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/dang-ky-nhap-hoc.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\dang-ky-nhap-hoc.vue",
     "chunkName": "pages/dang-ky-nhap-hoc",
-    "_name": "_176b4703"
+    "_name": "_6064a296"
   },
   {
     "name": "danh-gia",
     "path": "/danh-gia",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/danh-gia.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\danh-gia.vue",
     "chunkName": "pages/danh-gia",
-    "_name": "_a25d9728"
+    "_name": "_ee3123c4"
   },
   {
     "name": "doi-ngu-giao-vien",
     "path": "/doi-ngu-giao-vien",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/doi-ngu-giao-vien.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\doi-ngu-giao-vien.vue",
     "chunkName": "pages/doi-ngu-giao-vien",
-    "_name": "_f3213e74"
+    "_name": "_4b4c2158"
   },
   {
     "name": "gioi-thieu",
     "path": "/gioi-thieu",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/gioi-thieu.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\gioi-thieu.vue",
     "chunkName": "pages/gioi-thieu",
-    "_name": "_1a147d57"
+    "_name": "_70f9daee"
   },
   {
     "name": "he-thong-nhuong-quyen",
     "path": "/he-thong-nhuong-quyen",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/he-thong-nhuong-quyen.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\he-thong-nhuong-quyen.vue",
     "chunkName": "pages/he-thong-nhuong-quyen",
-    "_name": "_bc520bd8"
+    "_name": "_6cc8dcbc"
   },
   {
     "name": "hinh-anh",
     "path": "/hinh-anh",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/hinh-anh.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\hinh-anh.vue",
     "chunkName": "pages/hinh-anh",
-    "_name": "_4042dc0c"
+    "_name": "_1a5915be"
   },
   {
     "name": "khoa-hoc",
     "path": "/khoa-hoc",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/khoa-hoc.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\khoa-hoc.vue",
     "chunkName": "pages/khoa-hoc",
-    "_name": "_1c978361"
+    "_name": "_12a485da"
   },
   {
     "name": "lien-he",
     "path": "/lien-he",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/lien-he.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\lien-he.vue",
     "chunkName": "pages/lien-he",
-    "_name": "_0d7b4e11"
+    "_name": "_0883d3c2"
   },
   {
     "name": "luyen-thi-quoc-te",
     "path": "/luyen-thi-quoc-te",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/luyen-thi-quoc-te.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\luyen-thi-quoc-te.vue",
     "chunkName": "pages/luyen-thi-quoc-te",
-    "_name": "_1b40d087"
+    "_name": "_6f2b5f15"
   },
   {
     "name": "phuong-phap-giao-duc-itl-plus",
     "path": "/phuong-phap-giao-duc-itl-plus",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/phuong-phap-giao-duc-itl-plus.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\phuong-phap-giao-duc-itl-plus.vue",
     "chunkName": "pages/phuong-phap-giao-duc-itl-plus",
-    "_name": "_4d22bb07"
+    "_name": "_0c55e495"
   },
   {
     "name": "su-kien",
     "path": "/su-kien",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/su-kien.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\su-kien.vue",
     "chunkName": "pages/su-kien",
-    "_name": "_4de7dcdf"
+    "_name": "_3c2aa4ed"
   },
   {
     "name": "tin-tuc",
     "path": "/tin-tuc",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/tin-tuc.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\tin-tuc.vue",
     "chunkName": "pages/tin-tuc",
-    "_name": "_4cc9a69b"
+    "_name": "_3b0c6ea9"
   },
   {
     "name": "tuyen-dung",
     "path": "/tuyen-dung",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/tuyen-dung/index.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\tuyen-dung\\\\index.vue",
     "chunkName": "pages/tuyen-dung/index",
-    "_name": "_b0336ac8"
+    "_name": "_455ba217"
   },
   {
     "name": "uu-dai-va-hoc-bong",
     "path": "/uu-dai-va-hoc-bong",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/uu-dai-va-hoc-bong.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\uu-dai-va-hoc-bong.vue",
     "chunkName": "pages/uu-dai-va-hoc-bong",
-    "_name": "_86464324"
+    "_name": "_3377bcc0"
   },
   {
     "name": "tuyen-dung-id",
     "path": "/tuyen-dung/:id?",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/tuyen-dung/_id.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\tuyen-dung\\\\_id.vue",
     "chunkName": "pages/tuyen-dung/_id",
-    "_name": "_1e7e4404"
+    "_name": "_ba6d8382"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/index.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_60f4b3df"
+    "_name": "_3dc6276d"
   },
   {
     "name": "slug",
     "path": "/:slug",
-    "component": "/Users/mac/Documents/untitled folder/URI/pages/_slug.vue",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\_slug.vue",
     "chunkName": "pages/_slug",
-    "_name": "_5f3e1297"
+    "_name": "_3c0f8625"
   }
 ]

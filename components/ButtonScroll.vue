@@ -38,10 +38,22 @@
 </template>
 <style scoped>
 .phone-fixed-icon  {
-    background-color: #664411;
+    background-color: #ffbc2d;
+}
+
+.phone-fixed-icon i {
+    color: #000000;
+}
+
+.fixed-ct-item.advise-fixed img {
+    filter: none;
 }
 
 .back-to-top  {
-    background-color: #664411;
+    background-color: #ffbc2d;
+}
+
+.back-to-top .triangle {
+  border-bottom: 6px solid #000000;
 }
 </style>

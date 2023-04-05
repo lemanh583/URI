@@ -185,30 +185,13 @@
                     <img
                       width="1176"
                       height="956"
-                      src="https://scontent.fvii1-1.fna.fbcdn.net/v/t39.30808-6/301556240_606764484483481_223191100583010823_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=0debeb&_nc_ohc=TXBnw25CxW4AX8V8sPM&_nc_ht=scontent.fvii1-1.fna&oh=00_AfA_JybPIUaOIGOIAEkYog1y25llL46M1xbhZHgf2zKEkA&oe=6429C306"
+                      src="/images/vinh-danh.jpg"
                       class="attachment-full size-full"
                       alt=""
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg 1176w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-300x244.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-1024x832.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-768x624.jpg 768w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-689x560.jpg 689w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-50x41.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-221x180.jpg 221w"
                       data-lazy-sizes="(max-width: 1176px) 100vw, 1176px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg"
-                    /><noscript
-                      ><img
-                        width="1176"
-                        height="956"
-                        src="https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam.jpg          1176w,
-                          https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-300x244.jpg   300w,
-                          https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-1024x832.jpg 1024w,
-                          https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-768x624.jpg   768w,
-                          https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-689x560.jpg   689w,
-                          https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-50x41.jpg      50w,
-                          https://ischool.vn/wp-content/uploads/2022/11/ischool-viet-nam-221x180.jpg   221w
-                        "
-                        sizes="(max-width: 1176px) 100vw, 1176px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
               </div>
@@ -235,17 +218,6 @@
                 <div class="location-main">
                   <div class="location-map tabPanel open">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.6864021813626!2d105.6867047153958!3d18.678063287317485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3139cdd8ae2b93f5%3A0xce7980510b67a312!2zVG_DoW4gVMawIER1eSBVcmk!5e0!3m2!1svi!2s!4v1680184045254!5m2!1svi!2s" width="310" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    ><noscript
-                      ><iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3444933638107!2d106.68852822196843!3d10.784905367737611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f34e35cdadb%3A0xa9365011bd664f9a!2zVOG6rXAgxJFvw6BuIEdpw6FvIGThu6VjIE5ndXnhu4VuIEhvw6BuZw!5e0!3m2!1svi!2s!4v1668669643908!5m2!1svi!2s"
-                        width="600"
-                        height="450"
-                        style="border: 0"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                      ></iframe
-                    ></noscript>
                     <div class="loader-wrapper" style="display: none">
                       <span class="loader"><span class="loader-inner"></span></span>
                     </div>
@@ -255,7 +227,7 @@
               <div class="dsmall-item contact-main-item">
                 <div class="contact-content tabPanel-one active">
                   <h2 class="t-title mb-48 t-trans-normal">
-                    Hệ thống trường Hội nhập Quốc tế iSchool
+                    Trung tâm toán URI
                   </h2>
                   <div class="contact-content-wrapper">
                     <div class="contact-content-fl">
@@ -496,3 +468,20 @@ export default {
   layout: "Main",
 };
 </script>
+
+<style scoped>
+.location-map iframe {
+  width: 85%;
+  height: 85%;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .location-map iframe {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+</style>

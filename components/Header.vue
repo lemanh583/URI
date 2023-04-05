@@ -72,7 +72,8 @@
 
               <ul id="menu-theme-header-menu" class="header-top-action header-top-right-item">
                 <li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932">
-                  <a href="/dang-ky-nhap-hoc/" style="color: #fff805;">Đăng ký khoá học</a>
+                  <a href="/dang-ky-nhap-hoc/" style="color: #664411;">Đăng ký khoá học</a>
+                  <!-- #fff805 -->
                 </li>
               </ul>
               <div class="header-search-icon header-top-right-item">
@@ -268,14 +269,14 @@
 }
 
 .header-top {
-  background-color: #664411;
+  background-color: #ffbc2d;
 }
 .sticky .header-main {
-  background-color: #664411;
+  background-color: #ffbc2d;
 }
 
 .discover {
-  background-color: #664411;
+  background-color: #ffbc2d;
 }
 </style>
 

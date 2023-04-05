@@ -151,7 +151,7 @@
                       <div v-for="i in 10" :key="index" class="swiper-slide">
                         <div class="pro-wrap gv-wrap">
                           <a href="#" class="pro-img">
-                            <img width="274" height="180" src="https://scontent.fvii1-1.fna.fbcdn.net/v/t39.30808-6/301556240_606764484483481_223191100583010823_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=0debeb&_nc_ohc=TXBnw25CxW4AX8V8sPM&_nc_ht=scontent.fvii1-1.fna&oh=00_AfA_JybPIUaOIGOIAEkYog1y25llL46M1xbhZHgf2zKEkA&oe=6429C306" class="img wp-post-image" alt=""
+                            <img width="274" height="180" src="/images/vinh-danh.jpg" class="img wp-post-image" alt=""
                               data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-274x180.jpg 274w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-300x197.jpg 300w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600.jpg 522w"
                               data-lazy-sizes="(max-width: 274px) 100vw, 274px"
                               data-lazy-src="https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-274x180.jpg" /> </a>
@@ -238,22 +238,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3.jpg 384w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3-300x300.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3-150x150.jpg 150w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3-50x50.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3-180x180.jpg 180w"
                       data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3.jpg"
-                    /><noscript
-                      ><img
-                        width="384"
-                        height="384"
-                        src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3.jpg"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3.jpg         384w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3-300x300.jpg 300w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3-150x150.jpg 150w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3-50x50.jpg    50w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-3-180x180.jpg 180w
-                        "
-                        sizes="(max-width: 384px) 100vw, 384px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-single">
@@ -270,24 +255,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1.jpg 969w, https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-200x300.jpg 200w, https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-682x1024.jpg 682w, https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-768x1152.jpg 768w, https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-373x560.jpg 373w, https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-33x50.jpg 33w, https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-120x180.jpg 120w"
                       data-lazy-sizes="(max-width: 969px) 100vw, 969px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1.jpg"
-                    /><noscript
-                      ><img
-                        width="969"
-                        height="1454"
-                        src="https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1.jpg"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1.jpg          969w,
-                          https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-200x300.jpg  200w,
-                          https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-682x1024.jpg 682w,
-                          https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-768x1152.jpg 768w,
-                          https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-373x560.jpg  373w,
-                          https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-33x50.jpg     33w,
-                          https://ischool.vn/wp-content/uploads/2022/11/TDH_4105-scaled-1-120x180.jpg  120w
-                        "
-                        sizes="(max-width: 969px) 100vw, 969px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-single">
@@ -304,20 +272,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/gallery_6.png 384w, https://ischool.vn/wp-content/uploads/2022/08/gallery_6-300x300.png 300w, https://ischool.vn/wp-content/uploads/2022/08/gallery_6-150x150.png 150w"
                       data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/gallery_6.png"
-                    /><noscript
-                      ><img
-                        width="384"
-                        height="384"
-                        src="https://ischool.vn/wp-content/uploads/2022/08/gallery_6.png"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/08/gallery_6.png         384w,
-                          https://ischool.vn/wp-content/uploads/2022/08/gallery_6-300x300.png 300w,
-                          https://ischool.vn/wp-content/uploads/2022/08/gallery_6-150x150.png 150w
-                        "
-                        sizes="(max-width: 384px) 100vw, 384px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-double">
@@ -334,25 +289,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n.jpg 1920w, https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-1024x683.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-768x512.jpg 768w, https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-1536x1024.jpg 1536w, https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-840x560.jpg 840w, https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-270x180.jpg 270w"
                       data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n.jpg"
-                    /><noscript
-                      ><img
-                        width="1920"
-                        height="1280"
-                        src="https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n.jpg"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n.jpg           1920w,
-                          https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-300x200.jpg    300w,
-                          https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-1024x683.jpg  1024w,
-                          https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-768x512.jpg    768w,
-                          https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-1536x1024.jpg 1536w,
-                          https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-840x560.jpg    840w,
-                          https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-50x33.jpg       50w,
-                          https://ischool.vn/wp-content/uploads/2022/08/97745576_938515926583603_3925911502262894592_n-270x180.jpg    270w
-                        "
-                        sizes="(max-width: 1920px) 100vw, 1920px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-full">
@@ -369,25 +306,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2.jpg 1728w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-300x139.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-1024x474.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-768x356.jpg 768w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-1536x711.jpg 1536w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-960x444.jpg 960w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-50x23.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-280x130.jpg 280w"
                       data-lazy-sizes="(max-width: 1728px) 100vw, 1728px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2.jpg"
-                    /><noscript
-                      ><img
-                        width="1728"
-                        height="800"
-                        src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2.jpg"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2.jpg          1728w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-300x139.jpg   300w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-1024x474.jpg 1024w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-768x356.jpg   768w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-1536x711.jpg 1536w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-960x444.jpg   960w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-50x23.jpg      50w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-tieu-hoc-ischool-2-280x130.jpg   280w
-                        "
-                        sizes="(max-width: 1728px) 100vw, 1728px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
 
@@ -405,20 +324,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/gallery_1.png 792w, https://ischool.vn/wp-content/uploads/2022/08/gallery_1-300x145.png 300w, https://ischool.vn/wp-content/uploads/2022/08/gallery_1-768x372.png 768w"
                       data-lazy-sizes="(max-width: 792px) 100vw, 792px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/gallery_1.png"
-                    /><noscript
-                      ><img
-                        width="792"
-                        height="384"
-                        src="https://ischool.vn/wp-content/uploads/2022/08/gallery_1.png"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/08/gallery_1.png         792w,
-                          https://ischool.vn/wp-content/uploads/2022/08/gallery_1-300x145.png 300w,
-                          https://ischool.vn/wp-content/uploads/2022/08/gallery_1-768x372.png 768w
-                        "
-                        sizes="(max-width: 792px) 100vw, 792px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-single">
@@ -435,22 +341,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2.jpg 384w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2-300x300.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2-150x150.jpg 150w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2-50x50.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2-180x180.jpg 180w"
                       data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2.jpg"
-                    /><noscript
-                      ><img
-                        width="384"
-                        height="384"
-                        src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2.jpg"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2.jpg         384w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2-300x300.jpg 300w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2-150x150.jpg 150w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2-50x50.jpg    50w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-2-180x180.jpg 180w
-                        "
-                        sizes="(max-width: 384px) 100vw, 384px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-single">
@@ -467,22 +358,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3.jpg 384w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3-300x300.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3-150x150.jpg 150w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3-50x50.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3-180x180.jpg 180w"
                       data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3.jpg"
-                    /><noscript
-                      ><img
-                        width="384"
-                        height="384"
-                        src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3.jpg"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3.jpg         384w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3-300x300.jpg 300w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3-150x150.jpg 150w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3-50x50.jpg    50w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-3-180x180.jpg 180w
-                        "
-                        sizes="(max-width: 384px) 100vw, 384px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-single">
@@ -499,20 +375,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/gallery_4.png 384w, https://ischool.vn/wp-content/uploads/2022/08/gallery_4-300x300.png 300w, https://ischool.vn/wp-content/uploads/2022/08/gallery_4-150x150.png 150w"
                       data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/gallery_4.png"
-                    /><noscript
-                      ><img
-                        width="384"
-                        height="384"
-                        src="https://ischool.vn/wp-content/uploads/2022/08/gallery_4.png"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/08/gallery_4.png         384w,
-                          https://ischool.vn/wp-content/uploads/2022/08/gallery_4-300x300.png 300w,
-                          https://ischool.vn/wp-content/uploads/2022/08/gallery_4-150x150.png 150w
-                        "
-                        sizes="(max-width: 384px) 100vw, 384px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-single">
@@ -529,22 +392,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5.jpg 384w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5-300x300.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5-150x150.jpg 150w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5-50x50.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5-180x180.jpg 180w"
                       data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5.jpg"
-                    /><noscript
-                      ><img
-                        width="384"
-                        height="384"
-                        src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5.jpg"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5.jpg         384w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5-300x300.jpg 300w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5-150x150.jpg 150w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5-50x50.jpg    50w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-5-180x180.jpg 180w
-                        "
-                        sizes="(max-width: 384px) 100vw, 384px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-single">
@@ -561,22 +409,7 @@
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4.jpg 384w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4-300x300.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4-150x150.jpg 150w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4-50x50.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4-180x180.jpg 180w"
                       data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4.jpg"
-                    /><noscript
-                      ><img
-                        width="384"
-                        height="384"
-                        src="https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4.jpg"
-                        class="attachment-full size-full"
-                        alt=""
-                        srcset="
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4.jpg         384w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4-300x300.jpg 300w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4-150x150.jpg 150w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4-50x50.jpg    50w,
-                          https://ischool.vn/wp-content/uploads/2022/11/chuong-trinh-giao-duc-pho-thong-ischool-4-180x180.jpg 180w
-                        "
-                        sizes="(max-width: 384px) 100vw, 384px"
-                    /></noscript>
+                    />
                   </div>
                 </div>
                 <div class="lib-item lib-width-double">

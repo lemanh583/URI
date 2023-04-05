@@ -76,6 +76,7 @@ export default function SwiperModule() {
         })
     }
     const gvSlider = document.querySelectorAll('.gv-slider')
+    console.log('gvSlider', gvSlider)
     if (gvSlider) {
         gvSlider.forEach(item => {
             const swiper = item.querySelector('.swiper');

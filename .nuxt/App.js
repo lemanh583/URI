@@ -6,55 +6,55 @@ import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '../node_modules/ant-design-vue/dist/antd.css'
+import '..\\node_modules\\ant-design-vue\\dist\\antd.css'
 
-import '../static/style.css'
+import '..\\static\\style.css'
 
-import '../static/monaCustom.css'
+import '..\\static\\monaCustom.css'
 
-import '../static/style.min.css'
+import '..\\static\\style.min.css'
 
-import '../static/css/404.css'
+import '..\\static\\css\\404.css'
 
-import '../static/css/loading-btn.css'
+import '..\\static\\css\\loading-btn.css'
 
-import '../static/css/loading-group.css'
+import '..\\static\\css\\loading-group.css'
 
-import '../static/css/mona-custom.css'
+import '..\\static\\css\\mona-custom.css'
 
-import '../static/plugins/contact-form-7/includes/css/styles.css'
+import '..\\static\\plugins\\contact-form-7\\includes\\css\\styles.css'
 
-import '../static/template/assets/font/Averta/stylesheet.css'
+import '..\\static\\template\\assets\\font\\Averta\\stylesheet.css'
 
-import '../static/template/assets/font/Playfair-display/stylesheet.css'
+import '..\\static\\template\\assets\\font\\Playfair-display\\stylesheet.css'
 
-import '../static/template/assets/font/SVN-Aleo/stylesheet.css'
+import '..\\static\\template\\assets\\font\\SVN-Aleo\\stylesheet.css'
 
-import '../static/template/assets/font/Themify/stylesheet.css'
+import '..\\static\\template\\assets\\font\\Themify\\stylesheet.css'
 
-import '../static/template/css/backdoor.css'
+import '..\\static\\template\\css\\backdoor.css'
 
-import '../static/template/css/style.css'
+import '..\\static\\template\\css\\style.css'
 
-import '../static/template/js/library/aos/aos.css'
+import '..\\static\\template\\js\\library\\aos\\aos.css'
 
-import '../static/template/js/library/fontawesome/css/all.css'
+import '..\\static\\template\\js\\library\\fontawesome\\css\\all.css'
 
-import '../static/template/js/library/gallery/lightgallery.min.css'
+import '..\\static\\template\\js\\library\\gallery\\lightgallery.min.css'
 
-import '../static/template/js/library/magnific/magnific-popup.css'
+import '..\\static\\template\\js\\library\\magnific\\magnific-popup.css'
 
-import '../static/template/js/library/select2/select2.min.css'
+import '..\\static\\template\\js\\library\\select2\\select2.min.css'
 
-import '../static/template/js/library/slick/slick.css'
+import '..\\static\\template\\js\\library\\slick\\slick.css'
 
-import '../static/template/js/library/swiper/swiper-bundle.min.css'
+import '..\\static\\template\\js\\library\\swiper\\swiper-bundle.min.css'
 
-import '../static/template/js/library/themifi/themify-icons.css'
+import '..\\static\\template\\js\\library\\themifi\\themify-icons.css'
 
-import '../static/template/js/library/wow/animate.min.css'
+import '..\\static\\template\\js\\library\\wow\\animate.min.css'
 
-import _2d181acf from '../layouts/Main.vue'
+import _2d181acf from '..\\layouts\\Main.vue'
 import _6f6c098b from './layouts/default.vue'
 
 const layouts = { "_Main": sanitizeComponent(_2d181acf),"_default": sanitizeComponent(_6f6c098b) }

@@ -468,6 +468,10 @@ img {
     color: white;
 }
 
+.menu-page {
+    background-color: #664411 !important;
+}
+
 @media screen and (min-width: 1201px) {
     .menu-page .menu-item:hover {
         background-color: #ffbc2d !important;

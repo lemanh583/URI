@@ -1,5 +1,5 @@
 {
-  "type":"module",
+  "type": "module",
   "name": "uri-web",
   "version": "1.0.0",
   "private": true,
@@ -10,6 +10,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@blowstack/ckeditor-nuxt": "^0.6.0",
+    "@ckeditor/ckeditor5-build-classic": "^37.0.1",
+    "@ckeditor/ckeditor5-vue2": "^3.0.1",
     "ant-design-vue": "^1.7.8",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
@@ -17,6 +20,5 @@
     "vue-agile": "^2.0.0",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
-  },
-  "devDependencies": {}
+  }
 }

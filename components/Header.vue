@@ -5,24 +5,37 @@
         <div class="container">
           <div class="header-top-wrapper">
             <div class="header-ct">
-
               <a class="header-ct-link icon-social" href="#">
-                <img width="25" height="24" src="/images/icon-facebook.svg" alt="" class="icon"
-                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg">
+                <img
+                  width="25"
+                  height="24"
+                  src="/images/icon-facebook.svg"
+                  alt=""
+                  class="icon"
+                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
+                />
               </a>
 
-              <a class="header-ct-link icon-social" href="#"><img width="25" height="24" src="/images/icon-instagram.svg"
-                  alt="" class="icon"
-                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"><noscript><img
-                    width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg" alt=""
-                    class="icon"></noscript>
+              <a class="header-ct-link icon-social" href="#"
+                ><img
+                  width="25"
+                  height="24"
+                  src="/images/icon-instagram.svg"
+                  alt=""
+                  class="icon"
+                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
+                />
               </a>
 
-              <a class="header-ct-link icon-social" href="#" style="margin-right: 30px;">
-                <img width="25" height="24" src="/images/icon-tiktok.svg" alt="" class="icon"
-                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"><noscript><img
-                    width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg" alt=""
-                    class="icon"></noscript>
+              <a class="header-ct-link icon-social" href="#" style="margin-right: 30px">
+                <img
+                  width="25"
+                  height="24"
+                  src="/images/icon-tiktok.svg"
+                  alt=""
+                  class="icon"
+                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
+                />
               </a>
 
               <!-- <a class="header-ct-link" href="tel:84789166588"><img width="25" height="24"
@@ -40,47 +53,53 @@
               </a> -->
             </div>
 
-
-
             <div class="header-top-right">
               <ul id="menu-theme-header-menu" class="header-top-action header-top-right-item">
                 <li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932">
-                  <a class="header-ct-link" href="tel:84789166588" style="display: flex;">
-                    <img width="25" height="24"
-                      src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg" alt="" class="icon"
-                      data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"><noscript><img
-                        width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
-                        alt="" class="icon"></noscript>
-                    <p class="text">+84 88 623 08 88 </p>
+                  <a class="header-ct-link" href="tel:84789166588" style="display: flex">
+                    <img
+                      width="25"
+                      height="24"
+                      src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
+                      alt=""
+                      class="icon"
+                      data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
+                    />
+                    <p class="text">+84 88 623 08 88</p>
                   </a>
                 </li>
               </ul>
 
               <ul id="menu-theme-header-menu" class="header-top-action header-top-right-item">
                 <li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932">
-                  <a class="header-ct-link" href="mailto:urivietnam.edu@gmail.com" style="display: flex;">
-                    <img width="25" height="24"
-                      src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg" alt="" class="icon"
-                      data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg"><noscript><img
-                        width="25" height="24" src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg"
-                        alt="" class="icon"></noscript>
-                    <p class="text">urivietnam.edu@gmail.com </p>
+                  <a class="header-ct-link" href="mailto:urivietnam.edu@gmail.com" style="display: flex">
+                    <img
+                      width="25"
+                      height="24"
+                      src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg"
+                      alt=""
+                      class="icon"
+                      data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-mail.svg"
+                    />
+                    <p class="text">urivietnam.edu@gmail.com</p>
                   </a>
                 </li>
               </ul>
 
-
               <ul id="menu-theme-header-menu" class="header-top-action header-top-right-item">
                 <li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932">
-                  <a href="/dang-ky-nhap-hoc/" style="color: #664411;">Đăng ký khoá học</a>
+                  <a href="/dang-ky-nhap-hoc/" style="color: #664411">Đăng ký khoá học</a>
                   <!-- #fff805 -->
                 </li>
               </ul>
               <div class="header-search-icon header-top-right-item">
-                <img width="25" height="24" src="https://ischool.vn/template/assets/images/header-search-icon.svg" alt=""
-                  data-lazy-src="https://ischool.vn/template/assets/images/header-search-icon.svg"><noscript><img
-                    width="25" height="24" src="https://ischool.vn/template/assets/images/header-search-icon.svg"
-                    alt=""></noscript>
+                <img
+                  width="25"
+                  height="24"
+                  src="https://ischool.vn/template/assets/images/header-search-icon.svg"
+                  alt=""
+                  data-lazy-src="https://ischool.vn/template/assets/images/header-search-icon.svg"
+                /><noscript><img width="25" height="24" src="https://ischool.vn/template/assets/images/header-search-icon.svg" alt="" /></noscript>
               </div>
 
               <!--<div class="lang header-lang header-top-right-item">
@@ -102,10 +121,16 @@
                         </div>-->
 
               <div class="hd-language">
-                <span><img width="24" height="24" src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"
-                    alt="VN" data-lazy-src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"><noscript><img
-                      width="24" height="24" src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"
-                      alt="VN"></noscript>VN</span>
+                <span
+                  ><img
+                    width="24"
+                    height="24"
+                    src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"
+                    alt="VN"
+                    data-lazy-src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"
+                  /><noscript><img width="24" height="24" src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg" alt="VN" /></noscript
+                  >VN</span
+                >
                 <ul>
                   <!-- <li><a href="#"><img width="512" height="512"
                         src="https://ischool.vn/wp-content/uploads/flags/united-kingdom-svgrepo-com.svg" alt="EN"
@@ -115,7 +140,6 @@
                           alt="EN"></noscript>EN</a></li> -->
                 </ul>
               </div>
-
             </div>
           </div>
         </div>
@@ -123,38 +147,36 @@
       <div class="header-main">
         <div class="container menu-header-container">
           <div class="header-main-wrapper">
-
             <a href="/" class="header-logo" rel="home" itemprop="url">
-              <div class="icon"><img width="235" height="96" src="/images/logo-v2-removebg.png" class="header-logo-image"
+              <div class="icon">
+                <img
+                  width="235"
+                  height="96"
+                  src="/images/logo-v2-removebg.png"
+                  class="header-logo-image"
                   alt=""
-                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/2018-iSchool-_-logo-new-version-02-1.svg" /><noscript><img
-                    width="235" height="96"
-                    src="https://ischool.vn/wp-content/uploads/2022/08/2018-iSchool-_-logo-new-version-02-1.svg"
-                    class="header-logo-image" alt="" /></noscript></div>
+                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/2018-iSchool-_-logo-new-version-02-1.svg"
+                />
+              </div>
             </a>
             <nav class="menu-nav header-nav">
-
               <ul id="menu-theme-main-menu" class="menu-list">
-                <li
-                  class=' menu-item menu-item-type-post_type menu-item-object-page  page_item page-item-909 menu-item-has-children dropdown'>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-909 menu-item-has-children dropdown">
                   <a class="menu-link" href="/gioi-thieu">Về URI</a>
-                  <ul class='menu-list'>
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page  page_item page-item-909 '>
-                      <a class="menu-link" href="/gioi-thieu">Tổng quan về
-                        URI</a>
+                  <ul class="menu-list">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-909">
+                      <a class="menu-link" href="/gioi-thieu">Tổng quan về URI</a>
                     </li>
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/doi-ngu-giao-vien">Đội ngũ giáo
-                        viên</a></li>
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/danh-gia">Review</a>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <a class="menu-link" href="/doi-ngu-giao-vien">Đội ngũ giáo viên</a>
                     </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-link" href="/danh-gia">Review</a></li>
                   </ul>
                 </li>
 
-                <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
                   <a class="menu-link" href="/co-ban/">KHOÁ HỌC</a>
-                  <ul class='menu-list'>
+                  <ul class="menu-list">
                     <!-- <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/phuong-phap-giao-duc-itl-plus">Vip</a></li>
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
@@ -162,32 +184,51 @@
                     <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/phuong-phap-giao-duc-itl-plus">Phương pháp giáo
                         dục</a></li> -->
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/co-ban/">Lớp cơ bản</a></li>
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/chuyen-sau/">Lớp tư duy chuyên sâu</a></li>
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/luyen-thi-quoc-te/">Lớp luyện thi quốc tế</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <a class="menu-link" href="/lop-hanh-trang-vao-lop-1/">Lớp Hành Trang vào lớp 1</a>
+                    </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-link" href="/co-ban/">Lớp cơ bản</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <a class="menu-link" href="/chuyen-sau/">Lớp tư duy chuyên sâu</a>
+                    </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <a class="menu-link" href="/luyen-thi-quoc-te/">Lớp luyện thi quốc tế</a>
+                    </li>
                   </ul>
                 </li>
-                <li class='right menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                    href="/hinh-anh/">SỰ KIỆN, HÌNH ẢNH</a></li>
 
-                <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
+
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+                  <a class="menu-link" href="#">SỰ KIỆN, HÌNH ẢNH</a>
+                  <ul class="menu-list">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <a class="menu-link" href="/su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <a class="menu-link" href="/hinh-anh/">Hình ảnh</a>
+                    </li>
+                  </ul>
+                </li>
+
+
+                <!-- <li class="right menu-item menu-item-type-post_type menu-item-object-page">
+                  <a class="menu-link" href="/hinh-anh/">SỰ KIỆN, HÌNH ẢNH</a>
+                </li> -->
+
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
                   <a class="menu-link" href="/tin-tuc/">THÔNG TIN</a>
-                  <ul class='menu-list'>
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/tin-tuc/">Tin tức</a></li>
+                  <ul class="menu-list">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-link" href="/tin-tuc/">Tin tức</a></li>
                     <!-- <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/uu-dai-va-hoc-bong/">Ưu đãi và
                         học bổng</a></li> -->
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/blog/">Blog</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-link" href="/blog/">Blog</a></li>
                   </ul>
                 </li>
 
-                <li class='right menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                    href="/he-thong-nhuong-quyen/">HỆ THỐNG NHƯỢNG QUYỀN</a></li>
+                <li class="right menu-item menu-item-type-post_type menu-item-object-page">
+                  <a class="menu-link" href="/he-thong-nhuong-quyen/">HỆ THỐNG NHƯỢNG QUYỀN</a>
+                </li>
 
                 <!-- 
                 <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
@@ -203,25 +244,18 @@
                   </ul>
                 </li> -->
 
-
-                <li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a class="menu-link"
-                    href="/app">APP</a>
-                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a class="menu-link" href="/app">APP</a></li>
                 <!-- <li class='right menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                     href="/lien-he/">LIÊN HỆ</a></li> -->
 
-
-                <li class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown'>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
                   <a class="menu-link" href="/lien-he/">LIÊN HỆ</a>
-                  <ul class='menu-list'>
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/tuyen-dung/">Tuyển dụng</a></li>
+                  <ul class="menu-list">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-link" href="/tuyen-dung/">Tuyển dụng</a></li>
 
-                    <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
-                        href="/lien-he/">Tư vấn</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-link" href="/lien-he/">Tư vấn</a></li>
                   </ul>
                 </li>
-
               </ul>
             </nav>
 
@@ -242,14 +276,12 @@
         <i class="ti-close icon"></i>
       </div>
       <div class="popup-main">
-        <p class="search-title">
-          Tìm kiếm.. </p>
+        <p class="search-title">Tìm kiếm..</p>
         <form method="get" id="searchform" action="#">
           <div class="search-wrap">
-            <input type="text" class="search-input" name="s" placeholder="Nhập từ khoá" value="">
+            <input type="text" class="search-input" name="s" placeholder="Nhập từ khoá" value="" />
             <button type="submit" class="btn">
-              <p class="text">
-                Tìm kiếm </p>
+              <p class="text">Tìm kiếm</p>
             </button>
           </div>
         </form>
@@ -281,10 +313,9 @@
 </style>
 
 <style>
-
 @media screen and (min-width: 1300px) {
   .menu-header-container {
-    width: 130% !important; 
+    width: 130% !important;
     max-width: 130rem !important;
   }
 }

@@ -2,11 +2,20 @@
   "ButtonScroll": {
     "description": "Auto imported from components/ButtonScroll.vue"
   },
+  "CkeditorNuxt": {
+    "description": "Auto imported from components/CkeditorNuxt.vue"
+  },
+  "ContactCourse": {
+    "description": "Auto imported from components/ContactCourse.vue"
+  },
   "Footer": {
     "description": "Auto imported from components/Footer.vue"
   },
   "Header": {
     "description": "Auto imported from components/Header.vue"
+  },
+  "MenuCourse": {
+    "description": "Auto imported from components/MenuCourse.vue"
   },
   "MenuMobile": {
     "description": "Auto imported from components/MenuMobile.vue"

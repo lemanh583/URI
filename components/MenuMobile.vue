@@ -7,12 +7,10 @@
           <nav class="menu-nav mobile-nav">
             <ul id="menu-theme-mobile-menu" class="menu-list">
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                <a class="menu-link" href="#">TRANG CHỦ</a>
+                <a class="menu-link" href="/">TRANG CHỦ</a>
               </li>
-              <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown"
-              >
-                <a class="menu-link" href="/gioi-thieu">VỀ URI</a>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+                <a class="menu-link" href="#">VỀ URI</a>
                 <ul class="menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
                     <a class="menu-link" href="/gioi-thieu">Tổng quan về URI</a>
@@ -79,15 +77,11 @@
                   </li>
                 </ul>
               </li> -->
-              <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown"
-              >
-                <a class="menu-link" href="/phuong-phap-giao-duc-itl-plus">KHÓA HỌC</a>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+                <a class="menu-link" href="#">KHÓA HỌC</a>
                 <ul class="menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a class="menu-link" href="/phuong-phap-giao-duc-itl-plus"
-                      >Phương pháp giáo dục</a
-                    >
+                    <a class="menu-link" href="/lop-hanh-trang-vao-lop-1">Lớp hành trang vào lớp 1</a>
                   </li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
                     <a class="menu-link" href="/co-ban">Lớp cơ bản</a>
@@ -101,8 +95,17 @@
                 </ul>
               </li>
 
-              <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
-                <a class="menu-link" href="/hinh-anh">SỰ KIỆN, HÌNH ẢNH</a>
+
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+                <a class="menu-link" href="#">SỰ KIỆN, HÌNH ẢNH</a>
+                <ul class="menu-list">
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a class="menu-link" href="/su-kien">Sự kiện</a>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a class="menu-link" href="/hinh-anh">Hình ảnh</a>
+                  </li>
+                </ul>
               </li>
 
               <!-- <li
@@ -163,14 +166,10 @@
             <p class="mobile-title">THÔNG TIN LIÊN HỆ</p>
 
             <div class="mobile-fl mb-16s">
-              <span class="fw-6">Phone:</span
-              ><a href="tel:84789166588" class="mobile-text mobile-link">+84 88 623 08 88 </a>
+              <span class="fw-6">Phone:</span><a href="tel:84789166588" class="mobile-text mobile-link">+84 88 623 08 88 </a>
             </div>
             <div class="mobile-fl mb-16s">
-              <span class="fw-6">Email:</span
-              ><a href="mailto:urivietnam.edu@gmail.com" class="mobile-text mobile-link"
-                >urivietnam.edu@gmail.com
-              </a>
+              <span class="fw-6">Email:</span><a href="mailto:urivietnam.edu@gmail.com" class="mobile-text mobile-link">urivietnam.edu@gmail.com </a>
             </div>
           </div>
         </div>
@@ -187,32 +186,16 @@
             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E"
             alt=""
             data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg"
-          /><noscript
-            ><img
-              width="24"
-              height="24"
-              src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg"
-              alt=""
-          /></noscript>
+          />
         </a>
-        <a
-          href="#"
-          target="_blank"
-          class="mobile-mxh-link"
-        >
+        <a href="#" target="_blank" class="mobile-mxh-link">
           <img
             width="24"
             height="24"
             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E"
             alt=""
             data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg"
-          /><noscript
-            ><img
-              width="24"
-              height="24"
-              src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg"
-              alt=""
-          /></noscript>
+          />
         </a>
         <a href="#" target="_blank" class="mobile-mxh-link">
           <img
@@ -221,13 +204,7 @@
             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E"
             alt=""
             data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-zalo.svg"
-          /><noscript
-            ><img
-              width="24"
-              height="24"
-              src="https://ischool.vn/wp-content/uploads/2023/01/icon-zalo.svg"
-              alt=""
-          /></noscript>
+          />
         </a>
       </div>
 

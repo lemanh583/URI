@@ -7,19 +7,26 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _68089dfc = () => interopDefault(import('..\\pages\\app.vue' /* webpackChunkName: "pages/app" */))
 const _2ea10fd7 = () => interopDefault(import('..\\pages\\blog.vue' /* webpackChunkName: "pages/blog" */))
 const _357e7934 = () => interopDefault(import('..\\pages\\cau-hoi-thuong-gap.vue' /* webpackChunkName: "pages/cau-hoi-thuong-gap" */))
+const _7ac0d76a = () => interopDefault(import('..\\pages\\chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te.vue' /* webpackChunkName: "pages/chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te" */))
 const _448ca57e = () => interopDefault(import('..\\pages\\chuyen-sau.vue' /* webpackChunkName: "pages/chuyen-sau" */))
 const _419cee23 = () => interopDefault(import('..\\pages\\co-ban.vue' /* webpackChunkName: "pages/co-ban" */))
+const _62b4229f = () => interopDefault(import('..\\pages\\co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1.vue' /* webpackChunkName: "pages/co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1" */))
 const _6064a296 = () => interopDefault(import('..\\pages\\dang-ky-nhap-hoc.vue' /* webpackChunkName: "pages/dang-ky-nhap-hoc" */))
 const _ee3123c4 = () => interopDefault(import('..\\pages\\danh-gia.vue' /* webpackChunkName: "pages/danh-gia" */))
+const _4e2fb683 = () => interopDefault(import('..\\pages\\danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo.vue' /* webpackChunkName: "pages/danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo" */))
 const _4b4c2158 = () => interopDefault(import('..\\pages\\doi-ngu-giao-vien.vue' /* webpackChunkName: "pages/doi-ngu-giao-vien" */))
 const _70f9daee = () => interopDefault(import('..\\pages\\gioi-thieu.vue' /* webpackChunkName: "pages/gioi-thieu" */))
 const _6cc8dcbc = () => interopDefault(import('..\\pages\\he-thong-nhuong-quyen.vue' /* webpackChunkName: "pages/he-thong-nhuong-quyen" */))
 const _1a5915be = () => interopDefault(import('..\\pages\\hinh-anh.vue' /* webpackChunkName: "pages/hinh-anh" */))
+const _c96c2cb0 = () => interopDefault(import('..\\pages\\hinh-anh-hoat-dong.vue' /* webpackChunkName: "pages/hinh-anh-hoat-dong" */))
 const _12a485da = () => interopDefault(import('..\\pages\\khoa-hoc.vue' /* webpackChunkName: "pages/khoa-hoc" */))
 const _0883d3c2 = () => interopDefault(import('..\\pages\\lien-he.vue' /* webpackChunkName: "pages/lien-he" */))
+const _2626f19c = () => interopDefault(import('..\\pages\\lop-hanh-trang-vao-lop-1.vue' /* webpackChunkName: "pages/lop-hanh-trang-vao-lop-1" */))
 const _6f2b5f15 = () => interopDefault(import('..\\pages\\luyen-thi-quoc-te.vue' /* webpackChunkName: "pages/luyen-thi-quoc-te" */))
 const _0c55e495 = () => interopDefault(import('..\\pages\\phuong-phap-giao-duc-itl-plus.vue' /* webpackChunkName: "pages/phuong-phap-giao-duc-itl-plus" */))
 const _3c2aa4ed = () => interopDefault(import('..\\pages\\su-kien.vue' /* webpackChunkName: "pages/su-kien" */))
+const _11b52cc7 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
+const _2508157b = () => interopDefault(import('..\\pages\\test2.vue' /* webpackChunkName: "pages/test2" */))
 const _3b0c6ea9 = () => interopDefault(import('..\\pages\\tin-tuc.vue' /* webpackChunkName: "pages/tin-tuc" */))
 const _455ba217 = () => interopDefault(import('..\\pages\\tuyen-dung\\index.vue' /* webpackChunkName: "pages/tuyen-dung/index" */))
 const _3377bcc0 = () => interopDefault(import('..\\pages\\uu-dai-va-hoc-bong.vue' /* webpackChunkName: "pages/uu-dai-va-hoc-bong" */))
@@ -51,6 +58,10 @@ export const routerOptions = {
     component: _357e7934,
     name: "cau-hoi-thuong-gap"
   }, {
+    path: "/chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te",
+    component: _7ac0d76a,
+    name: "chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te"
+  }, {
     path: "/chuyen-sau",
     component: _448ca57e,
     name: "chuyen-sau"
@@ -59,6 +70,10 @@ export const routerOptions = {
     component: _419cee23,
     name: "co-ban"
   }, {
+    path: "/co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1",
+    component: _62b4229f,
+    name: "co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1"
+  }, {
     path: "/dang-ky-nhap-hoc",
     component: _6064a296,
     name: "dang-ky-nhap-hoc"
@@ -66,6 +81,10 @@ export const routerOptions = {
     path: "/danh-gia",
     component: _ee3123c4,
     name: "danh-gia"
+  }, {
+    path: "/danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo",
+    component: _4e2fb683,
+    name: "danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo"
   }, {
     path: "/doi-ngu-giao-vien",
     component: _4b4c2158,
@@ -83,6 +102,10 @@ export const routerOptions = {
     component: _1a5915be,
     name: "hinh-anh"
   }, {
+    path: "/hinh-anh-hoat-dong",
+    component: _c96c2cb0,
+    name: "hinh-anh-hoat-dong"
+  }, {
     path: "/khoa-hoc",
     component: _12a485da,
     name: "khoa-hoc"
@@ -90,6 +113,10 @@ export const routerOptions = {
     path: "/lien-he",
     component: _0883d3c2,
     name: "lien-he"
+  }, {
+    path: "/lop-hanh-trang-vao-lop-1",
+    component: _2626f19c,
+    name: "lop-hanh-trang-vao-lop-1"
   }, {
     path: "/luyen-thi-quoc-te",
     component: _6f2b5f15,
@@ -102,6 +129,14 @@ export const routerOptions = {
     path: "/su-kien",
     component: _3c2aa4ed,
     name: "su-kien"
+  }, {
+    path: "/test",
+    component: _11b52cc7,
+    name: "test"
+  }, {
+    path: "/test2",
+    component: _2508157b,
+    name: "test2"
   }, {
     path: "/tin-tuc",
     component: _3b0c6ea9,

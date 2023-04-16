@@ -21,6 +21,13 @@
     "_name": "_357e7934"
   },
   {
+    "name": "chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te",
+    "path": "/chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te.vue",
+    "chunkName": "pages/chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te",
+    "_name": "_7ac0d76a"
+  },
+  {
     "name": "chuyen-sau",
     "path": "/chuyen-sau",
     "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\chuyen-sau.vue",
@@ -35,6 +42,13 @@
     "_name": "_419cee23"
   },
   {
+    "name": "co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1",
+    "path": "/co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1.vue",
+    "chunkName": "pages/co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1",
+    "_name": "_62b4229f"
+  },
+  {
     "name": "dang-ky-nhap-hoc",
     "path": "/dang-ky-nhap-hoc",
     "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\dang-ky-nhap-hoc.vue",
@@ -47,6 +61,13 @@
     "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\danh-gia.vue",
     "chunkName": "pages/danh-gia",
     "_name": "_ee3123c4"
+  },
+  {
+    "name": "danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo",
+    "path": "/danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo.vue",
+    "chunkName": "pages/danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo",
+    "_name": "_4e2fb683"
   },
   {
     "name": "doi-ngu-giao-vien",
@@ -77,6 +98,13 @@
     "_name": "_1a5915be"
   },
   {
+    "name": "hinh-anh-hoat-dong",
+    "path": "/hinh-anh-hoat-dong",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\hinh-anh-hoat-dong.vue",
+    "chunkName": "pages/hinh-anh-hoat-dong",
+    "_name": "_c96c2cb0"
+  },
+  {
     "name": "khoa-hoc",
     "path": "/khoa-hoc",
     "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\khoa-hoc.vue",
@@ -89,6 +117,13 @@
     "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\lien-he.vue",
     "chunkName": "pages/lien-he",
     "_name": "_0883d3c2"
+  },
+  {
+    "name": "lop-hanh-trang-vao-lop-1",
+    "path": "/lop-hanh-trang-vao-lop-1",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\lop-hanh-trang-vao-lop-1.vue",
+    "chunkName": "pages/lop-hanh-trang-vao-lop-1",
+    "_name": "_2626f19c"
   },
   {
     "name": "luyen-thi-quoc-te",
@@ -110,6 +145,20 @@
     "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\su-kien.vue",
     "chunkName": "pages/su-kien",
     "_name": "_3c2aa4ed"
+  },
+  {
+    "name": "test",
+    "path": "/test",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\test.vue",
+    "chunkName": "pages/test",
+    "_name": "_11b52cc7"
+  },
+  {
+    "name": "test2",
+    "path": "/test2",
+    "component": "C:\\\\Users\\\\manhl\\\\Downloads\\\\Telegram Desktop\\\\URI\\\\pages\\\\test2.vue",
+    "chunkName": "pages/test2",
+    "_name": "_2508157b"
   },
   {
     "name": "tin-tuc",

@@ -507,6 +507,14 @@ export default {
 </script>
 
 <style scoped>
+.banner-title {
+  text-align: left;
+}
+
+.banner-des p{
+  text-align: left;
+}
+
 .ul-custom li {
   list-style: disc !important;
 }

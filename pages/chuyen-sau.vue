@@ -390,3 +390,13 @@ export default {
   components: { MenuCourse, ContactCourse },
 };
 </script>
+
+<style scoped>
+.banner-title {
+  text-align: left;
+}
+
+.banner-des p{
+  text-align: left;
+}
+</style>

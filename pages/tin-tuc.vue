@@ -12,7 +12,7 @@
                       <img
                         width="750"
                         height="563"
-                        src="https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/341161805_766349888424437_9213074952146074807_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=QZ4JQVbkAY0AX9jSQpf&_nc_ht=scontent.fhan5-11.fna&oh=00_AfD74czxnavcDDi1K3MQbw2rw2tDSx_6aPh8ZoEWYPc2Pg&oe=6440234D"
+                        src="/images/post1/1.jpg"
                         class="img wp-post-image"
                         alt=""
                         data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0.jpg 750w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-300x225.jpg 300w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-746x560.jpg 746w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-50x38.jpg 50w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-240x180.jpg 240w"
@@ -164,10 +164,10 @@
                             <div class="sidebar-body">
                               <div class="sidebar-menu">
                                 <div class="sidebar-menu-list">
-                                  <a v-for="i in 10" :key="i" href="#" class="sidebar-menu-link">
+                                  <!-- <a v-for="i in 10" :key="i" href="#" class="sidebar-menu-link">
                                     <i class="fal fa-long-arrow-right"></i>
                                     <p class="text">Danh mục + {{ i }}</p>
-                                  </a>
+                                  </a> -->
                                 </div>
                               </div>
                             </div>
@@ -251,19 +251,19 @@ export default {
           title: "CHIẾN BINH URI KẾT THÚC CHẶNG ĐUA CHUNG KẾT QUỐC TẾ TIMO 2023 VỚI KẾT QUẢ ẤN TƯỢNG",
           des: "Với tinh thần quyết tâm cao và sau những cố gắng rèn luyện, các chiến binh URI đã kết thúc hành trình chinh phục cuộc thi CHUNG KẾT QUỐC TẾ TIMO 2023 với kết quả ấn tượng",
           link: "/chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te",
-          img: "https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/341161805_766349888424437_9213074952146074807_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=QZ4JQVbkAY0AX9jSQpf&_nc_ht=scontent.fhan5-11.fna&oh=00_AfD74czxnavcDDi1K3MQbw2rw2tDSx_6aPh8ZoEWYPc2Pg&oe=6440234D"
+          img: "/images/post1/1.jpg"
         },
         {
           title: "CÓ GÌ KHÁC BIỆT TRONG CHƯƠNG TRÌNH 'HÀNH TRANG VÀO LỚP 1' CỦA URI",
           des: "Chương trình chuẩn bị hành trang cho con vào lớp 1 tại URI mang tới cơ hội học hỏi kiến thức và thực hành kỹ năng cho trẻ mầm non để sẵn sàng chinh phục bậc tiểu học",
           link: "/co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1",
-          img: "https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/337416170_2187181761472659_3932245639957708825_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=1LqyGTyhB9UAX9vfl2S&_nc_ht=scontent.fhan5-2.fna&oh=00_AfDDmaqIR-YAyxkxVOEvU3OTgNTYPJX9ha5FVtDMGW6euQ&oe=64415BA7"
+          img: "/images/tt1.jpg"
         },
         {
           title: "DANH SÁCH CÁC “CHIẾN BINH NHÍ” URI LỌT VÀO VÒNG CHUNG KẾT CUỘC GIA KÌ THI TOÁN HỌC QUỐC TẾ HKIMO",
           des: "Kỳ thi Olympic Toán học quốc tế HKIMO (Hongkong International Mathematical Olympiad) là kỳ thi được tổ chức hàng năm nhằm mục đích tạo ra một sân chơi bổ ích dành cho tất cả học sinh yêu thích bộ môn Toán học",
           link: "/danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo",
-          img: "https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/336173625_236705368806080_1232643124292024209_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=dk8VNrROnFgAX9CwuPv&_nc_ht=scontent.fhan5-2.fna&oh=00_AfAy2VRdkbUud_e3zb1jn0wcaaF7c4XM-w_jXDdJ9o7Yfw&oe=64415699"
+          img: "/images/post2/1.jpg"
         },
       ]
     }

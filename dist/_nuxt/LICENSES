@@ -27,9 +27,6 @@ object-assign
 //! moment.js locale configuration
 
 
-/*! http://mths.be/codepointat v0.1.0 by @mathias */
-
-
 /*!
  * Vue.js v2.7.14
  * (c) 2014-2022 Evan You

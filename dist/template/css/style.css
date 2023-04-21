@@ -828,13 +828,13 @@ textarea::-moz-input-placeholder {
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #af2c2c;
+    background: #ffbc2d;
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #af2c2c;
+    background: #ffbc2d;
 }
 
 .menu-nav {
@@ -1703,7 +1703,7 @@ textarea::-moz-input-placeholder {
     width: 2.2rem;
     height: 0.2rem;
     border-radius: 0.4rem;
-    background-color: #af2c2c;
+    background-color: #ffbc2d;
     display: block;
     margin: 5px 0;
     -webkit-transition: all 0.3s ease-in-out;
@@ -4624,7 +4624,7 @@ textarea::-moz-input-placeholder {
 .swiper-next {
     width: 56px;
     height: 56px;
-    background-color: #142348;
+    background-color: #664411;
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: -webkit-flex;
     display: -moz-flex;
@@ -4655,7 +4655,7 @@ textarea::-moz-input-placeholder {
 }
 
 .swiper-next {
-    background-color: #af2c2c;
+    background-color: #ffbc2d;
 }
 
 .m-mid {
@@ -7516,7 +7516,7 @@ textarea::-moz-input-placeholder {
 }
 
 .road-over::-webkit-scrollbar-thumb {
-    background: #af2c2c;
+    background: #ffbc2d;
     border-radius: 6px;
 }
 

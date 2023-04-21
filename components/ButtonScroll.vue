@@ -42,9 +42,12 @@
 }
 
 .phone-fixed-icon i {
-    color: #000000;
+    color: #000000 !important;
 }
 
+.phone-fixed-text {
+  color: #000000 ;
+}
 .fixed-ct-item.advise-fixed img {
     filter: none;
 }

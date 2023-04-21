@@ -117,10 +117,10 @@
                             <div class="sidebar-body">
                               <div class="sidebar-menu">
                                 <div class="sidebar-menu-list">
-                                  <a v-for="i in 10" href="#" class="sidebar-menu-link">
+                                  <!-- <a v-for="i in 10" href="#" class="sidebar-menu-link">
                                     <i class="fal fa-long-arrow-right"></i>
                                     <p class="text">Danh mục {{ i }}</p>
-                                  </a>
+                                  </a> -->
                                 </div>
                               </div>
                             </div>
@@ -163,7 +163,7 @@
                       </div>
                       <div class="sidebar-body">
                         <div class="dsmall news-list">
-                          <div v-for="i in 4" class="dsmall-item news-item">
+                          <div v-for="i in 1" class="dsmall-item news-item">
                             <div class="news-wrap">
                               <a href="#" class="news-img">
                                 <img

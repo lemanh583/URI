@@ -251,7 +251,7 @@
                       <img
                         width="1920"
                         height="1280"
-                        src="/images/new-image/17.jpg"
+                        src="/images/b4.jpg"
                         class="img"
                         alt=""
                         data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
@@ -259,7 +259,7 @@
                       />
                     </div>
                     <h2 class="num-title t-title">
-                      <span style="font-size: 2vmax; color: #664411"
+                      <span style="font-size: 2vmax; color: black;"
                         >NHỮNG CON SỐ<br />
                         ẤN TƯỢNG</span
                       >
@@ -270,8 +270,8 @@
                 <div class="num-item">
                   <div class="num-wrap">
                     <div class="num-content">
-                      <p class="number">14</p>
-                      <p class="des">Năm thành lập</p>
+                      <p class="number">500</p>
+                      <p class="des">Học viên đồng hành</p>
                     </div>
                   </div>
                 </div>
@@ -282,7 +282,7 @@
                       <img
                         width="1920"
                         height="1280"
-                        src="/images/new-image/13.jpg"
+                        src="/images/b1.jpg"
                         class="img"
                         alt=""
                         data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
@@ -298,7 +298,7 @@
                       <img
                         width="1920"
                         height="1280"
-                        src="/images/new-image/22.jpg"
+                        src="/images/b2.jpg"
                         class="img"
                         alt=""
                         data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
@@ -311,8 +311,8 @@
                 <div class="num-item">
                   <div class="num-wrap">
                     <div class="num-content">
-                      <p class="number">1.000</p>
-                      <p class="des">Cán bộ nhân viên</p>
+                      <p class="number">97%</p>
+                      <p class="des">Học viên đạt điểm khá, giỏi tại lớp</p>
                     </div>
                   </div>
                 </div>
@@ -323,7 +323,7 @@
                       <img
                         width="384"
                         height="384"
-                        src="/images/new-image/23.jpg"
+                        src="/images/b3.jpg"
                         class="img"
                         alt=""
                         data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/gallery_6.png 384w, https://ischool.vn/wp-content/uploads/2022/08/gallery_6-300x300.png 300w, https://ischool.vn/wp-content/uploads/2022/08/gallery_6-150x150.png 150w"
@@ -337,8 +337,8 @@
                 <div class="num-item">
                   <div class="num-wrap">
                     <div class="num-content">
-                      <p class="number">14</p>
-                      <p class="des">Cơ sở trường</p>
+                      <p class="number">200</p>
+                      <p class="des">Học viên đạt giải và huy chương tại các kỳ thi Toán quốc tế</p>
                     </div>
                   </div>
                 </div>
@@ -346,8 +346,8 @@
                 <div class="num-item">
                   <div class="num-wrap">
                     <div class="num-content">
-                      <p class="number">47.000</p>
-                      <p class="des">Học sinh đã đồng hành</p>
+                      <p class="number">1.000 </p>
+                      <p class="des">Lượt học viên tham gia các kỳ thi Toán quốc tế như TIMO, KANGAROO, VTMO, SASMO, HKIMO, BIG BAY BIE, FMO, ASMO.....</p>
                     </div>
                   </div>
                 </div>
@@ -823,26 +823,24 @@
                               data-lazy-src="https://ischool.vn/template/assets/images/icon-quote.svg"
                             />
                             <div class="add-text">
-                              Tôi đánh giá cao về sự nhiệt tình, năng động trong tác giảng dạy và năng lực của quý thầy cô tại trường. Bên cạnh việc
-                              học tập, nhà trường còn tổ chức nhiều sân chơi cho bé như: trồng rau để bé được tiếp cận với công viêc thường ngày, các
-                              lớp học năng khiếu: Tin, Tiếng Anh, Âm nhạc, Mỹ thuật đã giúp từng bé phát huy được năng lực, sở trường của mình, các
-                              hoạt động dã ngoại để bé được học hỏi trao dồi kiến thức và kỹ năng giao tiếp.
+                              Nguyên Trung học tới nay cũng đã 2 năm tại URI rồi, con vẫn rất hào hứng và thích đi học URI như những ngày đầu, mẹ thấy
+                              con học tự giác và tiến bộ nhiều. Thích đi học tới nỗi đi học chậm còn bứt rứt và trách mẹ
                             </div>
                             <div class="add-user">
                               <div class="add-user-ava">
                                 <img
                                   width="227"
                                   height="250"
-                                  src="https://ischool.vn/wp-content/uploads/2022/10/1-001-e1668409055428.jpg"
+                                  src="/images/rv-main-1.png"
                                   class="img"
-                                  alt="Chị Huỳnh Thị Kim Hường"
+                                  alt="Chị Thoa"
                                   data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/1-001-e1668409055428.jpg 227w, https://ischool.vn/wp-content/uploads/2022/10/1-001-e1668409055428-45x50.jpg 45w, https://ischool.vn/wp-content/uploads/2022/10/1-001-e1668409055428-163x180.jpg 163w"
                                   data-lazy-sizes="(max-width: 227px) 100vw, 227px"
                                   data-lazy-src="https://ischool.vn/wp-content/uploads/2022/10/1-001-e1668409055428.jpg"
                                 />
                               </div>
                               <div class="add-user-info">
-                                <p class="add-user-name">Chị Huỳnh Thị Kim Hường</p>
+                                <p class="add-user-name">Chị Thoa</p>
                                 <!-- <p class="add-user-des">
                                   Phụ huynh trường iSchool Long Xuyên </p> -->
                               </div>
@@ -862,26 +860,24 @@
                               data-lazy-src="https://ischool.vn/template/assets/images/icon-quote.svg"
                             />
                             <div class="add-text">
-                              Phương rất thích cách học không áp lực, bé được tự do khám phá và được tìm hiểu những sở trường của mình. Dạo này bé còn
-                              thêm cả tiếng Anh khi trò chuyện nữa, nhiều từ mẹ chưa biết thì bé còn giải thích ngược lại cho mẹ… Mình thấy những điều
-                              mà hồi nhỏ mình không có được, không làm được thì giờ tại URI, mình mong con được hưởng trọn vẹn một nền giáo dục tốt
-                              tại Vinh hiện nay.
+                              Hai con rất thích đi học ở URI, thích học toán. Các con theo học cũng đã lâu, mẹ thấy con học tiếng bộ, URI cũng có
+                              nhiều hoạt động bổ ích cho các con.
                             </div>
                             <div class="add-user">
                               <div class="add-user-ava">
                                 <img
                                   width="600"
                                   height="600"
-                                  src="https://ischool.vn/wp-content/uploads/2022/11/dien-vien-le-phuong.jpg"
+                                  src="/images/rv-main-2.png"
                                   class="img"
-                                  alt="diễn viên lê phương"
+                                  alt=""
                                   data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/dien-vien-le-phuong.jpg 600w, https://ischool.vn/wp-content/uploads/2022/11/dien-vien-le-phuong-300x300.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/dien-vien-le-phuong-150x150.jpg 150w, https://ischool.vn/wp-content/uploads/2022/11/dien-vien-le-phuong-560x560.jpg 560w, https://ischool.vn/wp-content/uploads/2022/11/dien-vien-le-phuong-50x50.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/dien-vien-le-phuong-180x180.jpg 180w"
                                   data-lazy-sizes="(max-width: 600px) 100vw, 600px"
                                   data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/dien-vien-le-phuong.jpg"
                                 />
                               </div>
                               <div class="add-user-info">
-                                <p class="add-user-name">Chị Lê Phương</p>
+                                <p class="add-user-name">Chị Bình</p>
                                 <!-- <p class="add-user-des">
                                   Phụ huynh trường iSchool Trà Vinh </p> -->
                               </div>
@@ -899,21 +895,17 @@
                               alt=""
                               class="icon"
                               data-lazy-src="https://ischool.vn/template/assets/images/icon-quote.svg"
-                            /><noscript
-                              ><img width="40" height="40" src="https://ischool.vn/template/assets/images/icon-quote.svg" alt="" class="icon"
-                            /></noscript>
+                            />
                             <div class="add-text">
-                              Dưới sự dìu dắt và dạy dỗ của các thầy cô giáo, em dần dần tự tin hơn với bản thân mình. Chương trình học cân bằng giữa
-                              kiến thức ở lớp và các chương trình ngoại khóa, kỹ năng, âm nhạc, thể thao giúp em có nhiều hứng thú trong việc học tập.
-                              Bên cạnh đó, chương trình tiếng Anh với sự giao tiếp thường xuyên với giáo viên nước ngoài giúp em phát triển khả năng
-                              tiếng Anh, để có thể giao tiếp tự tin mọi lúc mọi nơi.
+                              Mẹ rất thích cho con đi học ở URI, bởi tại đây các con không chỉ được nuôi dưỡng tình yêu toán học, mà URI còn góp phần
+                              tạo nên những chàng trai, cô gái của mẹ vô cùng ấm áp và ngọt ngào
                             </div>
                             <div class="add-user">
                               <div class="add-user-ava">
                                 <img
                                   width="380"
                                   height="390"
-                                  src="https://ischool.vn/wp-content/uploads/2022/10/HO-VAN-CUONG-e1668409029913.jpg"
+                                  src="/images/rv-main-3.png"
                                   class="img"
                                   alt=""
                                   data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/HO-VAN-CUONG-e1668409029913.jpg 380w, https://ischool.vn/wp-content/uploads/2022/10/HO-VAN-CUONG-e1668409029913-292x300.jpg 292w, https://ischool.vn/wp-content/uploads/2022/10/HO-VAN-CUONG-e1668409029913-50x50.jpg 50w, https://ischool.vn/wp-content/uploads/2022/10/HO-VAN-CUONG-e1668409029913-175x180.jpg 175w"
@@ -922,7 +914,7 @@
                                 />
                               </div>
                               <div class="add-user-info">
-                                <p class="add-user-name">Em Hồ Văn Cường</p>
+                                <p class="add-user-name">Chị Trang</p>
                                 <!-- <p class="add-user-des">
                                   Cựu học sinh iSchool </p> -->
                               </div>
@@ -930,7 +922,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="swiper-slide">
+                      <!-- <div class="swiper-slide">
                         <div class="add-wrap">
                           <div class="add-content">
                             <img
@@ -965,20 +957,20 @@
                               </div>
                               <div class="add-user-info">
                                 <p class="add-user-name">Chị La Thúy Trân</p>
-                                <!-- <p class="add-user-des">
-                                  Phụ huynh trường iSchool Trà Vinh </p> -->
+                               
                               </div>
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                   <div class="add-img">
                     <img
+                      style="object-position: bottom;"
                       width="2312"
                       height="891"
-                      src="https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533.png"
+                      src="/images/new-image/24.jpg"
                       class="attachment-full size-full"
                       alt=""
                       data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533.png 2312w, https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533-300x116.png 300w, https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533-1024x395.png 1024w, https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533-768x296.png 768w, https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533-1536x592.png 1536w, https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533-2048x789.png 2048w, https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533-960x370.png 960w, https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533-50x19.png 50w, https://ischool.vn/wp-content/uploads/2022/10/0487cbb8e3d37aa7fd7bb18374322533-280x108.png 280w"

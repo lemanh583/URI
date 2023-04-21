@@ -28,25 +28,25 @@
                       </p> -->
                       <p> 🏆 𝐍𝐠𝐮𝐲𝐞̂̃𝐧 Đ𝐚̆𝐧𝐠 𝐒𝐚𝐧𝐠, 𝐋𝐨̛́𝐩 𝟐 𝐏𝐓𝐂𝐋𝐂𝐏𝐇 - 𝐇𝐮𝐲 𝐜𝐡𝐮̛𝐨̛𝐧𝐠 𝐕𝐚̀𝐧𝐠 <br /></p>
                       <img
-                        src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/341157004_1289070958631731_1727989277167632533_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=uFEW3oJbnwQAX-LzH00&_nc_ht=scontent.fhan5-10.fna&oh=00_AfD_hNthH6aFLVvIRY2lfNDrHF85ADCa4XaeBTEqdFV56w&oe=6440A7CD"
+                        src="/images/post1/2.jpg"
                         alt=""
                       />
 
                       <p>  🏆 𝐍𝐠𝐮𝐲𝐞̂̃𝐧 𝐇𝐮𝐲 𝐓𝐨𝐚̀𝐧, 𝐋𝐨̛́𝐩 𝟏 𝐓𝐢𝐞̂̉𝐮 𝐡𝐨̣𝐜 𝐓𝐡𝐮 𝐓𝐡𝐮𝐲̉ - 𝐇𝐮𝐲 𝐂𝐡𝐮̛𝐨̛𝐧𝐠 𝐕𝐚̀𝐧𝐠 <br /></p>
                       <img
-                        src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/341192764_764209071860913_2621024028313151551_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=AYldYP1i_5YAX_Mu-VA&_nc_ht=scontent.fhan5-8.fna&oh=00_AfB7EfP7cF4kE1lz5WqRTTHQ0ciLfKpe1demmy-5Jp06Cg&oe=643F81E2"
+                        src="/images/post1/3.jpg"
                         alt=""
                       />
 
                       <p>  🏆 Đ𝐚̣̆𝐧𝐠 𝐓𝐡𝐚́𝐢 𝐁𝐚́𝐜𝐡, 𝐋𝐨̛́𝐩 𝟏 𝐓𝐡𝐮̛̣𝐜 𝐡𝐚̀𝐧𝐡 𝐬𝐮̛ 𝐩𝐡𝐚̣𝐦 Đ𝐚̣𝐢 𝐡𝐨̣𝐜 𝐕𝐢𝐧𝐡 - 𝐇𝐮𝐲 𝐜𝐡𝐮̛𝐨̛𝐧𝐠 𝐕𝐚̀𝐧𝐠 <br /></p>
                       <img
-                        src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/341140410_3530215483923523_1482294917346558630_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=HgTxL07fackAX8gAV9B&_nc_ht=scontent.fhan5-8.fna&oh=00_AfAo79kmiEq6sfEU68QHoXjfiGD27CxGOCD51PH7VCFcpQ&oe=64416116"
+                        src="/images/post1/4.jpg"
                         alt=""
                       />
 
                       <p>  🏅 𝐇𝐨𝐚̀𝐧𝐠 𝐍𝐠𝐡𝐢̃𝐚 𝐁𝐚́𝐜𝐡, 𝐋𝐨̛́𝐩 𝟓 𝐍𝐠𝐮𝐲𝐞̂̃𝐧 𝐓𝐫𝐚̉𝐢 - 𝐆𝐢𝐚̉𝐢 𝐤𝐡𝐮𝐲𝐞̂́𝐧 𝐤𝐡𝐢́𝐜𝐡 <br /></p>
                       <img
-                        src="https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/341519827_952170079137013_4326319829786182247_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=5hCTzmnF0D4AX8EmM7M&_nc_ht=scontent.fhan5-11.fna&oh=00_AfAnj19DhhvgBOgM9nmnBBayhrQEQNxjpGu0Fl5KWBMHOQ&oe=64402266"
+                        src="/images/post1/5.jpg"
                         alt=""
                       />
 
@@ -126,10 +126,10 @@
                             <div class="sidebar-body">
                               <div class="sidebar-menu">
                                 <div class="sidebar-menu-list">
-                                  <a v-for="i in 10" href="#" class="sidebar-menu-link">
+                                  <!-- <a v-for="i in 10" href="#" class="sidebar-menu-link">
                                     <i class="fal fa-long-arrow-right"></i>
                                     <p class="text">Danh mục {{ i }}</p>
-                                  </a>
+                                  </a> -->
                                 </div>
                               </div>
                             </div>
@@ -149,9 +149,7 @@
                           class="icon"
                           alt=""
                           data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                        /><noscript
-                          ><img width="15" height="15" src="https://ischool.vn/template/assets/images/icon-dm.svg" class="icon" alt=""
-                        /></noscript>
+                        />
                       </div>
                     </div>
                     <div class="side-overlay"></div>
@@ -165,14 +163,12 @@
                           alt=""
                           class="icon"
                           data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                        /><noscript
-                          ><img width="15" height="15" src="https://ischool.vn/template/assets/images/icon-dm.svg" alt="" class="icon"
-                        /></noscript>
+                        />
                         <p class="sidebar-title">Bài viết nổi bật</p>
                       </div>
                       <div class="sidebar-body">
                         <div class="dsmall news-list">
-                          <div v-for="i in 4" class="dsmall-item news-item">
+                          <div v-for="i in 1" class="dsmall-item news-item">
                             <div class="news-wrap">
                               <a href="#" class="news-img">
                                 <img
@@ -243,143 +239,6 @@
         </section> -->
       </div>
     </main>
-
-    <div class="popup brochure" id="brochure">
-      <div class="popup-overlay"></div>
-      <div class="popup-main">
-        <div class="popup-over">
-          <div class="popup-wrapper">
-            <div class="wpcf7 no-js" id="wpcf7-f2757-o1" lang="vi" dir="ltr">
-              <div class="screen-reader-response">
-                <p role="status" aria-live="polite" aria-atomic="true"></p>
-                <ul></ul>
-              </div>
-              <form
-                action="/vinh-danh-khen-thuong-gv-cbnv-co-thanh-tich-noi-bat-trong-thang-3/#wpcf7-f2757-o1"
-                method="post"
-                class="wpcf7-form init"
-                aria-label="Contact form"
-                data-status="init"
-              >
-                <div style="display: none">
-                  <input type="hidden" name="_wpcf7" value="2757" />
-                  <input type="hidden" name="_wpcf7_version" value="5.7.3" />
-                  <input type="hidden" name="_wpcf7_locale" value="vi" />
-                  <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2757-o1" />
-                  <input type="hidden" name="_wpcf7_container_post" value="0" />
-                  <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                  <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
-                </div>
-                <span class="wpcf7-form-control-wrap your-source"
-                  ><input
-                    size="40"
-                    class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden"
-                    aria-invalid="false"
-                    value="VINH DANH, KHEN THƯỞNG GV - CBNV CÓ THÀNH TÍCH NỔI BẬT TRONG THÁNG 3"
-                    type="hidden"
-                    name="your-source"
-                /></span>
-                <input class="wpcf7-form-control wpcf7-hidden" value="" type="hidden" name="your-file" />
-                <h2 class="t-title mb-32">LIÊN HỆ VỚI <span class="c-pri">iSCHOOL</span></h2>
-                <div class="contact-form">
-                  <div class="f-gr">
-                    <div class="f-list">
-                      <div class="f-item f-item-2">
-                        <span class="wpcf7-form-control-wrap" data-name="your-name"
-                          ><input
-                            size="40"
-                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required re-input"
-                            aria-required="true"
-                            aria-invalid="false"
-                            placeholder="HỌ TÊN"
-                            value=""
-                            type="text"
-                            name="your-name"
-                        /></span>
-                        <span id="last-name-id" class="wpcf7-form-control-wrap last-name-wrap"
-                          ><label for="last-name" class="hp-message">Please leave this field empty.</label
-                          ><input
-                            id="last-name"
-                            class="wpcf7-form-control wpcf7-text last-name"
-                            type="text"
-                            name="last-name"
-                            value=""
-                            size="40"
-                            tabindex="-1"
-                            autocomplete="new-password"
-                        /></span>
-                      </div>
-                      <div class="f-item f-item-2">
-                        <span class="wpcf7-form-control-wrap" data-name="your-email"
-                          ><input
-                            size="40"
-                            class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email re-input"
-                            aria-required="true"
-                            aria-invalid="false"
-                            placeholder="EMAIL"
-                            value=""
-                            type="email"
-                            name="your-email"
-                        /></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="f-gr">
-                    <span class="wpcf7-form-control-wrap" data-name="your-tel"
-                      ><input
-                        size="40"
-                        class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel re-input"
-                        aria-required="true"
-                        aria-invalid="false"
-                        placeholder="SỐ ĐIỆN THOẠI"
-                        value=""
-                        type="tel"
-                        name="your-tel"
-                    /></span>
-                  </div>
-                  <div class="f-gr">
-                    <span class="wpcf7-form-control-wrap" data-name="your-message">
-                      <textarea
-                        cols="40"
-                        rows="10"
-                        class="wpcf7-form-control wpcf7-textarea re-input area"
-                        aria-invalid="false"
-                        placeholder="iSchool CÓ THỂ HỖ TRỢ GÌ CHO GIA ĐÌNH?"
-                        name="your-message"
-                      ></textarea>
-                    </span>
-                  </div>
-                  <span class="wpcf7-form-control-wrap recaptcha" data-name="recaptcha"
-                    ><span data-sitekey="6LfBfngkAAAAAOtn9TaUClF4gN11Pvu9nWC0MnDV" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"></span>
-                    <noscript>
-                      <div class="grecaptcha-noscript">
-                        <iframe
-                          src="https://www.google.com/recaptcha/api/fallback?k=6LfBfngkAAAAAOtn9TaUClF4gN11Pvu9nWC0MnDV"
-                          frameborder="0"
-                          scrolling="no"
-                          width="310"
-                          height="430"
-                        >
-                        </iframe>
-                        <textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here"> </textarea>
-                      </div>
-                    </noscript>
-                  </span>
-                  <div class="f-gr grp-btn-mona">
-                    <button type="submit" class="btn btn-line">Đăng ký ngay</button>
-                    <input class="wpcf7-form-control has-spinner wpcf7-submit btn-hidden-submit" type="submit" value="Send" />
-                  </div>
-                </div>
-                <div class="wpcf7-response-output" aria-hidden="true"></div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="popup-close">
-          <i class="fas fa-times icon"></i>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 <script>

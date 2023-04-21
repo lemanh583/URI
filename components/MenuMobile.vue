@@ -10,7 +10,7 @@
                 <a class="menu-link" href="/">TRANG CHỦ</a>
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
-                <a class="menu-link" href="#">VỀ URI</a>
+                <a class="menu-link" href="#">VỀ URI <i class="fas fa-angle-down"> </i></a>
                 <ul class="menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
                     <a class="menu-link" href="/gioi-thieu">Tổng quan về URI</a>
@@ -78,7 +78,7 @@
                 </ul>
               </li> -->
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
-                <a class="menu-link" href="#">KHÓA HỌC</a>
+                <a class="menu-link" href="#">KHÓA HỌC <i class="fas fa-angle-down"> </i></a>
                 <ul class="menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
                     <a class="menu-link" href="/lop-hanh-trang-vao-lop-1">Lớp hành trang vào lớp 1</a>
@@ -97,7 +97,7 @@
 
 
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
-                <a class="menu-link" href="#">SỰ KIỆN, HÌNH ẢNH</a>
+                <a class="menu-link" href="#">SỰ KIỆN, HÌNH ẢNH <i class="fas fa-angle-down"> </i></a>
                 <ul class="menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
                     <a class="menu-link" href="/su-kien">Sự kiện</a>
@@ -127,9 +127,9 @@
               </li> -->
 
               <li
-                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown"
+                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-has-children dropdown"
               >
-                <a class="menu-link" href="/tin-tuc">THÔNG TIN</a>
+                <a class="menu-link" href="/tin-tuc">THÔNG TIN <i class="fas fa-angle-down"> </i></a>
                 <ul class="menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
                     <a class="menu-link" href="/tin-tuc">Tin tức</a>
@@ -148,9 +148,9 @@
               </li>
 
               <li
-                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown"
+                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-has-children dropdown"
               >
-                <a class="menu-link" href="/lien-he">LIÊN HỆ</a>
+                <a class="menu-link" href="/lien-he">LIÊN HỆ <i class="fas fa-angle-down"> </i></a>
                 <ul class="menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
                     <a class="menu-link" href="/tuyen-dung">Tuyển dụng</a>
@@ -175,7 +175,7 @@
         </div>
       </div>
 
-      <div class="mobile-mxh">
+      <!-- <div class="mobile-mxh">
         <a href="#" target="_blank" class="mobile-mxh-link">
           <img src="" alt="" />
         </a>
@@ -206,7 +206,7 @@
             data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-zalo.svg"
           />
         </a>
-      </div>
+      </div> -->
 
       <div class="mobile-close">
         <i class="fas fa-times icon"></i>
@@ -214,3 +214,14 @@
     </div>
   </div>
 </template>
+
+<script>
+import MobileModule from "../static/template/js/module/MobileModule";
+
+export default {
+  mounted() {
+    MobileModule()
+  }
+}
+
+</script>

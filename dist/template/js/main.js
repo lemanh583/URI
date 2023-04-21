@@ -1,4 +1,4 @@
-import MobileModule from "./module/MobileModule.js";
+// import MobileModule from "./module/MobileModule.js";
 import AosModule from "./module/AosModule.js";
 import WowModule from "./module/WowModule.js";
 import BtnToTopModule from "./module/BtnToTopModule.js";
@@ -22,7 +22,7 @@ import FaqsModule from "./module/FaqsModule.js";
 import MapLoadModule from "./module/MapLoadModule.js";
 
 window.addEventListener("DOMContentLoaded", () => {
-    MobileModule();
+    // MobileModule();
     AosModule();
     // WowModule();
     BtnToTopModule();

@@ -162,7 +162,7 @@
             <nav class="menu-nav header-nav">
               <ul id="menu-theme-main-menu" class="menu-list">
                 <li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-909 menu-item-has-children dropdown">
-                  <a class="menu-link" href="/gioi-thieu">Về URI</a>
+                  <a class="menu-link" href="/gioi-thieu">Về URI <i class="fas fa-angle-down"> </i></a>
                   <ul class="menu-list">
                     <li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-909">
                       <a class="menu-link" href="/gioi-thieu">Tổng quan về URI</a>
@@ -175,7 +175,7 @@
                 </li>
 
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
-                  <a class="menu-link" href="/co-ban/">KHOÁ HỌC</a>
+                  <a class="menu-link" href="/co-ban/">Khoá học <i class="fas fa-angle-down"> </i></a>
                   <ul class="menu-list">
                     <!-- <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
                         href="/phuong-phap-giao-duc-itl-plus">Vip</a></li>
@@ -199,7 +199,7 @@
 
 
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
-                  <a class="menu-link" href="#">SỰ KIỆN, HÌNH ẢNH</a>
+                  <a class="menu-link" href="#">Sự kiện, Hình ảnh <i class="fas fa-angle-down"> </i></a>
                   <ul class="menu-list">
                     <li class="menu-item menu-item-type-post_type menu-item-object-page">
                       <a class="menu-link" href="/su-kien/">Sự kiện</a>
@@ -216,7 +216,7 @@
                 </li> -->
 
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
-                  <a class="menu-link" href="/tin-tuc/">THÔNG TIN</a>
+                  <a class="menu-link" href="/tin-tuc/">Thông tin<i class="fas fa-angle-down"> </i></a>
                   <ul class="menu-list">
                     <li class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-link" href="/tin-tuc/">Tin tức</a></li>
                     <!-- <li class=' menu-item menu-item-type-post_type menu-item-object-page'><a class="menu-link"
@@ -227,7 +227,7 @@
                 </li>
 
                 <li class="right menu-item menu-item-type-post_type menu-item-object-page">
-                  <a class="menu-link" href="/he-thong-nhuong-quyen/">HỆ THỐNG NHƯỢNG QUYỀN</a>
+                  <a class="menu-link" href="/he-thong-nhuong-quyen/">Hệ thống nhượng quyền</a>
                 </li>
 
                 <!-- 
@@ -249,7 +249,7 @@
                     href="/lien-he/">LIÊN HỆ</a></li> -->
 
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
-                  <a class="menu-link" href="/lien-he/">LIÊN HỆ</a>
+                  <a class="menu-link" href="/lien-he/">Liên hệ <i class="fas fa-angle-down"> </i></a>
                   <ul class="menu-list">
                     <li class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-link" href="/tuyen-dung/">Tuyển dụng</a></li>
 

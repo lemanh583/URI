@@ -247,6 +247,7 @@
                 <i class="ti-angle-right"></i>
               </div>
             </div>
+            
           </div>
         </section>
 
@@ -417,7 +418,7 @@
 </template>
 
 <script>
-import SwiperModule from "../static/template/js/module/SwiperModule";
+// import SwiperModule from "../static/template/js/module/SwiperModule";
 export default {
   layout: "Main",
   data() {
@@ -487,7 +488,7 @@ export default {
     };
   },
   mounted() {
-    SwiperModule();
+    // SwiperModule();
   },
 };
 </script>

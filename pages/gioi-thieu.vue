@@ -110,24 +110,24 @@
                                 data-lazy-src="https://ischool.vn/template/assets/images/icon-quote.svg"
                               /> -->
                               <div class="text fsi message-content mona-content" data-aos="fade-up-cus" data-aos-delay="300">
-                                <p style="text-align: justify">
+                                <p style="text-align: left">
                                   Các nghiên cứu đã chỉ ra rằng bất kỳ đứa trẻ nào cũng tiềm tàng những khả năng về trí tuệ, điều quan trọng là cần
                                   những phương pháp phù hợp để mở khóa tiềm năng đó.
                                 </p>
 
-                                <p style="text-align: justify">
+                                <p style="text-align: left">
                                   Toán tư duy URI không chỉ đơn thuần là dạy các con học toán mà sẽ giúp phát huy tính sáng tạo, sự linh hoạt của não
                                   bộ, khả năng tư duy thông qua các bài toán, khả năng ngôn ngữ, cách giải quyết vấn đề, từ đó mang đến cho các con
                                   trí thông minh và sự phát triển toàn diện hơn.
                                 </p>
 
-                                <p style="text-align: justify">
+                                <p style="text-align: left">
                                   Với cái Tâm làm giáo dục là luôn lấy Chất lượng và Trải nghiệm học viên làm kim chỉ nam cho mọi hoạt động, đội ngũ
                                   URI EDUCATION cam kết rằng Chúng tôi đang không ngừng nỗ lực nghiên cứu và cải tiến chương trình học phù hợp giúp
                                   phát huy tối đa năng lực và tâm lực giúp các con phát triển vui, khoẻ, thông minh.
                                 </p>
 
-                                <p style="text-align: justify">
+                                <p style="text-align: left">
                                   Và URI EDUCATION chắc chắn sẽ là nơi mang lại nhiều giá trị nhân văn cho các con trong quá trình trưởng thành và
                                   nuôi dưỡng tâm hồn, trí tuệ đó.
                                 </p>
@@ -179,7 +179,7 @@
                           />
                           <h3 class="prose-name">Tầm Nhìn</h3>
                           <div class="prose-des mona-content">
-                            <p style="text-align: justify">
+                            <p style="text-align: left">
                               Giúp cho thế hệ học sinh Việt Nam yêu và giỏi toán hơn, phát triển tối đa năng lực tư duy sáng tạo logic
                             </p>
                           </div>
@@ -212,7 +212,7 @@
                           />
                           <h3 class="prose-name">Sứ Mệnh</h3>
                           <div class="prose-des mona-content">
-                            <p style="text-align: justify">Mang những phương pháp giáo dục tối ưu nhất cho thế hệ trẻ Việt Nam</p>
+                            <p style="text-align: left">Mang những phương pháp giáo dục tối ưu nhất cho thế hệ trẻ Việt Nam</p>
                           </div>
                         </div>
                         <div class="prose-img">
@@ -409,22 +409,22 @@
                           <h3 class="t-title prog-name mb-32" data-aos="fade-up-cus">Tôn Trọng</h3>
 
                           <div class="text mona-content" data-aos="fade-up-cus" data-aos-delay="300">
-                            <p style="text-align: justify">
+                            <p style="text-align: left">
                               Tôn trọng bản thân và mọi người; chấp nhận người khác có những quan điểm không giống với mình. Trong nhà trường, “Tôn
                               trọng” được thể hiện qua những phẩm chất và hành động:
                             </p>
                             <ul>
                               <li style="list-style-type: none">
                                 <ul>
-                                  <li style="text-align: justify">Thông cảm, yêu thương và tôn trọng nhu cầu, tình cảm của người khác</li>
-                                  <li style="text-align: justify">
+                                  <li style="text-align: left">Thông cảm, yêu thương và tôn trọng nhu cầu, tình cảm của người khác</li>
+                                  <li style="text-align: left">
                                     Tôn trọng và thân thiện với sự khác biệt về hoàn cảnh, văn hóa và năng lực của mỗi cá nhân trong cộng đồng
                                   </li>
-                                  <li style="text-align: justify">Tôn trọng sự khác biệt, ý kiến trái chiều, sự phản biện</li>
-                                  <li style="text-align: justify">Tuân thủ nội quy của nhà trường</li>
-                                  <li style="text-align: justify">Lắng nghe và không ngắt lời người khác</li>
-                                  <li style="text-align: justify">Công nhận ưu điểm và khả năng của mỗi người</li>
-                                  <li style="text-align: justify">Tôn trọng tính đa dạng về văn hóa trong cộng đồng nhà trường</li>
+                                  <li style="text-align: left">Tôn trọng sự khác biệt, ý kiến trái chiều, sự phản biện</li>
+                                  <li style="text-align: left">Tuân thủ nội quy của nhà trường</li>
+                                  <li style="text-align: left">Lắng nghe và không ngắt lời người khác</li>
+                                  <li style="text-align: left">Công nhận ưu điểm và khả năng của mỗi người</li>
+                                  <li style="text-align: left">Tôn trọng tính đa dạng về văn hóa trong cộng đồng nhà trường</li>
                                 </ul>
                               </li>
                             </ul>
@@ -460,7 +460,7 @@
                           <h3 class="t-title prog-name mb-32" data-aos="fade-up-cus">Kỷ Luật</h3>
 
                           <div class="text mona-content" data-aos="fade-up-cus" data-aos-delay="300">
-                            <p style="text-align: justify">
+                            <p style="text-align: left">
                               Cán bộ, giáo viên, nhân viên và học sinh Hệ thống iSchool luôn tuyệt đối tuân thủ quy định của cơ quan, nội quy của nhà
                               trường và pháp luật của nhà nước; làm chủ mọi hành vi nhận thức của mình; luôn biết tự đề ra mục tiêu để cố gắng vươn
                               lên và vững vàng, kiên định trước mọi khó khăn.
@@ -538,7 +538,13 @@
 </template>
 
 <script>
+import SwiperModule from "../static/template/js/module/SwiperModule"
+import TabModule from "../static/template/js/module/TabModule"
 export default {
   layout: "Main",
+  mounted() {
+    SwiperModule()
+    TabModule()
+  }
 };
 </script>

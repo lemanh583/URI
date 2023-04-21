@@ -9,21 +9,22 @@
                 <h2 class="t-title" data-aos="fade-down-cus">HÌNH ẢNH HOẠT ĐỘNG</h2>
               </div>
               <div class="lib-list gallery" data-aos="fade-up-cus">
-                <div class="col-image">
+                <div v-for="col in cols" :key="col.key" class="col-image">
                   <img
-                    v-for="i in 8"
+                    v-for="(item, index) in col.list"
                     width="384"
                     height="384"
-                    :src="`/images/new-image/ha-${i}.jpg`"
+                    :src="`/images/new-image/${item}`"
                     class="attachment-full size-full"
                     alt=""
+                    :key="index"
                     data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/gallery_3.png 384w, https://ischool.vn/wp-content/uploads/2022/08/gallery_3-300x300.png 300w, https://ischool.vn/wp-content/uploads/2022/08/gallery_3-150x150.png 150w"
                     data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                     data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/gallery_3.png"
                   />
                 </div>
 
-                <div class="col-image">
+                <!-- <div class="col-image">
                   <img
                     v-for="i in 8"
                     width="384"
@@ -35,9 +36,9 @@
                     data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                     data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/gallery_3.png"
                   />
-                </div>
+                </div> -->
 
-                <div class="col-image">
+                <!-- <div class="col-image">
                   <img
                     v-for="i in 8"
                     width="384"
@@ -49,9 +50,9 @@
                     data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                     data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/gallery_3.png"
                   />
-                </div>
+                </div> -->
 
-                <div class="col-image">
+                <!-- <div class="col-image">
                   <img
                     v-for="i in 7"
                     width="384"
@@ -63,7 +64,7 @@
                     data-lazy-sizes="(max-width: 384px) 100vw, 384px"
                     data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/gallery_3.png"
                   />
-                </div>
+                </div> -->
               </div>
 
               <div id="pagination-container" class="page-numbers m-top"></div>
@@ -81,7 +82,37 @@ export default {
   layout: "Main",
   mounted() {
     SwiperModule();
+
+    for(let i = 0 ; i < this.cols.length ; i++) {
+      for(let j = i ; j < this.total ; j += 4) {
+        this.cols[i].list.push('ha-' + (j + 1) + ".jpg")
+      }
+    }
+
   },
+  data() {
+    return {
+      cols: [
+        {
+          key: "col-1",
+          list: []
+        },
+        {
+          key: "col-2",
+          list: []
+        },
+        {
+          key: "col-3",
+          list: []
+        },
+        {
+          key: "col-4",
+          list: []
+        }
+      ],
+      total: 31
+    }
+  }
 };
 </script>
 

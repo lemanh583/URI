@@ -1,4 +1,8 @@
-export default function SwiperModule() {
+export default function SwiperModule(load) {
+    let route = document.location.pathname.replace(/\//g, '')
+    let pass = ['su-kien', 'tin-tuc', 'hinh-anh', '', 'co-so-vat-chat', 'hinh-anh-hoat-dong']
+    console.log('____a____', pass.includes(route))
+    if(pass.includes(route) && !load) return
     const bannerSlider = document.querySelectorAll('.banner-slider')
     if (bannerSlider) {
         bannerSlider.forEach(item => {
@@ -12,6 +16,7 @@ export default function SwiperModule() {
                 item.querySelector(".swiper-next").style = "display: none";
                 item.querySelector(".swiper-prev").style = "display: none";
             }
+            // console.log('swiper', swiper)
             var slider = new Swiper(swiper, {
                 // freeMode: true,
                 watchSlidesProgress: true,

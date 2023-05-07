@@ -4,6 +4,7 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _dc652228 = () => interopDefault(import('..\\pages\\404.vue' /* webpackChunkName: "pages/404" */))
 const _4ec98355 = () => interopDefault(import('..\\pages\\app.vue' /* webpackChunkName: "pages/app" */))
 const _1ffcd59e = () => interopDefault(import('..\\pages\\blog.vue' /* webpackChunkName: "pages/blog" */))
 const _e4a13e26 = () => interopDefault(import('..\\pages\\cau-hoi-thuong-gap.vue' /* webpackChunkName: "pages/cau-hoi-thuong-gap" */))
@@ -11,6 +12,7 @@ const _61cb727a = () => interopDefault(import('..\\pages\\chien-binh-uri-ket-thu
 const _6965c1c8 = () => interopDefault(import('..\\pages\\chuyen-sau.vue' /* webpackChunkName: "pages/chuyen-sau" */))
 const _4b1e5e2a = () => interopDefault(import('..\\pages\\co-ban.vue' /* webpackChunkName: "pages/co-ban" */))
 const _03a43d78 = () => interopDefault(import('..\\pages\\co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1.vue' /* webpackChunkName: "pages/co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1" */))
+const _6916fbe8 = () => interopDefault(import('..\\pages\\co-so-vat-chat.vue' /* webpackChunkName: "pages/co-so-vat-chat" */))
 const _66f7fc08 = () => interopDefault(import('..\\pages\\dang-ky-nhap-hoc.vue' /* webpackChunkName: "pages/dang-ky-nhap-hoc" */))
 const _37ccf865 = () => interopDefault(import('..\\pages\\danh-gia.vue' /* webpackChunkName: "pages/danh-gia" */))
 const _f5f79b6c = () => interopDefault(import('..\\pages\\danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo.vue' /* webpackChunkName: "pages/danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo" */))
@@ -44,6 +46,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/404",
+    component: _dc652228,
+    name: "404"
+  }, {
     path: "/app",
     component: _4ec98355,
     name: "app"
@@ -71,6 +77,10 @@ export const routerOptions = {
     path: "/co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1",
     component: _03a43d78,
     name: "co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1"
+  }, {
+    path: "/co-so-vat-chat",
+    component: _6916fbe8,
+    name: "co-so-vat-chat"
   }, {
     path: "/dang-ky-nhap-hoc",
     component: _66f7fc08,

@@ -1,0 +1,26 @@
+{
+    "base": [
+        {
+            "id": 1,
+            "name": "Cơ sở Vinh"
+        }
+    ],
+    "course": [
+        {
+            "id": 1,
+            "name": "Lớp hành trang vào lớp 1"
+        },
+        {
+            "id": 2,
+            "name": "Lớp cơ bản"
+        },
+        {
+            "id": 3,
+            "name": "Lớp tư duy chuyên sâu"
+        },
+        {
+            "id": 4,
+            "name": "Lớp luyện thi quốc tế"
+        }
+    ]
+}

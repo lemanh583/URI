@@ -1,407 +1,185 @@
 <template>
   <div>
-    <main class="main">
-      <div class="detail">
-        <section class="ss-detail">
-          <div class="detail-main ss-pd">
-            <div class="container">
-              <div class="dsmall side">
-                <div class="dsmall-item side-nine">
-                  <div class="detail-wrapper">
-                    <div class="detail-block" data-aos="fade-up-cus">
-                      <div class="pro-wrap">
-                        <div class="pro-content">
-                          <h1 class="detail-pro-name pro-name">
-                            VINH DANH, KHEN THƯỞNG GV &#8211; CBNV CÓ THÀNH TÍCH NỔI BẬT TRONG THÁNG
-                            3
-                          </h1>
+    <div v-if="loading && loadingPostCategory" class="loading-container">
+      <a-spin :indicator="loading" class="loading" />
+    </div>
+
+    <div v-else>
+      <main v-if="loading && !loadingPostCategory && !loadingCategory" class="main">
+        <div class="news">
+          <!-- <section class="banner">
+            <div class="banner-slider">
+              <div class="swiper loop-none">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="banner-wrap right">
+                      <div class="banner-img">
+                        <img
+                          width="750"
+                          height="563"
+                          :src="newPost.url_image"
+                          class="img wp-post-image"
+                          alt=""
+                          data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0.jpg 750w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-300x225.jpg 300w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-746x560.jpg 746w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-50x38.jpg 50w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-240x180.jpg 240w"
+                          data-lazy-sizes="(max-width: 750px) 100vw, 750px"
+                          data-lazy-src="https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0.jpg"
+                        />
+                      </div>
+                      <div class="banner-posi">
+                        <div class="container">
+                          <div class="banner-content">
+                            <div class="t-title-primary">
+                              <a :href="'/' + newPost.slug" class="banner-title banner-title-second small">
+                                {{ newPost.title }}
+                              </a>
+                            </div>
+                  
+                            <div class="banner-des">
+                              {{ newPost.descriptions }}
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="detail-block mona-content post-content" data-aos="fade-up-cus">
-                      <p>
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          >Trong buổi SHDC sáng hôm nay, bên cạnh việc phổ biến các nội dung chính
-                          trong tuần, BCH Đoàn trường cũng đã thông qua những quyết định để khen
-                          thưởng các cá nhân và tập thể GV &#8211; CBNV cùng các em học sinh có
-                          thành tích nổi bật trong các hoạt động vừa qua.</span
-                        >
-                      </p>
-                      <p>
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          >Khen thưởng em Phạm Ngọc Lan Hương &#8211; Học sinh đạt kết quả học tập
-                          cao nhất khối 1 của hệ thống.</span
-                        >
-                      </p>
-                      <div
-                        id="attachment_11624"
-                        style="width: 266px"
-                        class="wp-caption aligncenter"
-                      >
-                        <img
-                          aria-describedby="caption-attachment-11624"
-                          class="size-medium wp-image-11624"
-                          src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3757-256x300.jpg"
-                          alt="Khen thưởng em Phạm Ngọc Lan Hương - Học sinh đạt kết quả học tập cao nhất khối 1 của hệ thống iSchool."
-                          width="256"
-                          height="300"
-                          data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/IMG_3757-256x300.jpg 256w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3757-873x1024.jpg 873w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3757-768x901.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3757-1309x1536.jpg 1309w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3757-477x560.jpg 477w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3757-43x50.jpg 43w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3757-153x180.jpg 153w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3757.jpg 1636w"
-                          data-lazy-sizes="(max-width: 256px) 100vw, 256px"
-                          data-lazy-src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3757-256x300.jpg"
-                        />
-                        <p id="caption-attachment-11624" class="wp-caption-text">
-                          <span style="font-family: 'book antiqua', palatino, serif"
-                            >Khen thưởng em Phạm Ngọc Lan Hương &#8211; Học sinh đạt kết quả học tập
-                            cao nhất khối 1 của hệ thống.</span
-                          >
-                        </p>
-                      </div>
-                      <p>
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          >Khen thưởng giáo viên tổ tiếng Anh và các em học sinh lọt top 8 trường
-                          vào vòng shortlist giải thưởng &#8220;Trường học lành mạnh nhất
-                          AIA&#8221;</span
-                        >
-                      </p>
-                      <div
-                        id="attachment_11630"
-                        style="width: 310px"
-                        class="wp-caption aligncenter"
-                      >
-                        <img
-                          aria-describedby="caption-attachment-11630"
-                          class="size-medium wp-image-11630"
-                          src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-300x261.jpg"
-                          alt="Khen thưởng giáo viên tổ Tiếng Anh"
-                          width="300"
-                          height="261"
-                          data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-300x261.jpg 300w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-1024x891.jpg 1024w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-768x668.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-1536x1337.jpg 1536w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-643x560.jpg 643w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-50x44.jpg 50w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-207x180.jpg 207w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748.jpg 1920w"
-                          data-lazy-sizes="(max-width: 300px) 100vw, 300px"
-                          data-lazy-src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-300x261.jpg"
-                        />
-                        <p id="caption-attachment-11630" class="wp-caption-text">
-                          Khen thưởng giáo viên tổ Tiếng Anh
-                        </p>
-                      </div>
-                      <div
-                        id="attachment_11634"
-                        style="width: 310px"
-                        class="wp-caption aligncenter"
-                      >
-                        <img
-                          aria-describedby="caption-attachment-11634"
-                          class="size-medium wp-image-11634"
-                          src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3753-300x200.jpg"
-                          alt='Cùng các em học sinh tham gia dự án "Trường học lành mạnh nhất AIA"'
-                          width="300"
-                          height="200"
-                          data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/IMG_3753-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3753-1024x684.jpg 1024w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3753-768x513.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3753-1536x1026.jpg 1536w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3753-839x560.jpg 839w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3753-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3753-270x180.jpg 270w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3753.jpg 1920w"
-                          data-lazy-sizes="(max-width: 300px) 100vw, 300px"
-                          data-lazy-src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3753-300x200.jpg"
-                        />
-                        <p id="caption-attachment-11634" class="wp-caption-text">
-                          <span style="font-family: 'book antiqua', palatino, serif"
-                            >Cùng các em học sinh tham gia dự án &#8220;Trường học lành mạnh nhất
-                            AIA&#8221;</span
-                          >
-                        </p>
-                      </div>
-                      <p>
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          >Khen thưởng tập thể các lớp đạt giải trong Hội thao chào mừng kỷ niệm 92
-                          năm ngày thành lập Đoàn TNCS Hồ Chí Minh</span
-                        >.
-                      </p>
-                      <p>
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          >Ở môn Bóng chuyền hơi nữ và bóng chuyền nam, sau những giờ thi đấu đầy nỗ
-                          lực, bảng nam &amp; bảng nữ đã về đích với chung một bảng xếp hạng như
-                          sau:</span
-                        ><br />
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          ><span
-                            class="x3nfvp2 x1j61x8r x1fcty0u xdj266r xhhsvwb xat24cr xgzva0m xxymvpz xlup9mm x1kky2od"
-                            ><img
-                              src="https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f947.png"
-                              alt="🥇"
-                              width="16"
-                              height="16"
-                              data-lazy-src="https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f947.png" /></span
-                          >Lớp 12A: Giải nhất bóng chuyền nam &amp; Giải nhất bóng chuyền hơi
-                          nữ</span
-                        ><br />
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          ><span
-                            class="x3nfvp2 x1j61x8r x1fcty0u xdj266r xhhsvwb xat24cr xgzva0m xxymvpz xlup9mm x1kky2od"
-                            ><img
-                              src="https://static.xx.fbcdn.net/images/emoji.php/v9/t15/1/16/1f948.png"
-                              alt="🥈"
-                              width="16"
-                              height="16"
-                              data-lazy-src="https://static.xx.fbcdn.net/images/emoji.php/v9/t15/1/16/1f948.png" /></span
-                          >Lớp 10A: Giải nhì bóng chuyền nam &amp; Giải nhì bóng chuyền hơi nữ</span
-                        ><br />
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          ><span
-                            class="x3nfvp2 x1j61x8r x1fcty0u xdj266r xhhsvwb xat24cr xgzva0m xxymvpz xlup9mm x1kky2od"
-                            ><img
-                              src="https://static.xx.fbcdn.net/images/emoji.php/v9/t96/1/16/1f949.png"
-                              alt="🥉"
-                              width="16"
-                              height="16"
-                              data-lazy-src="https://static.xx.fbcdn.net/images/emoji.php/v9/t96/1/16/1f949.png" /></span>
-                          Lớp 11A: Giải ba bóng chuyền nam &amp; Giải ba bóng chuyền hơi nữ</span
-                        ><br />
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          ><span
-                            class="x3nfvp2 x1j61x8r x1fcty0u xdj266r xhhsvwb xat24cr xgzva0m xxymvpz xlup9mm x1kky2od"
-                            ><img
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%3E%3C/svg%3E"
-                              alt="🥉"
-                              width="16"
-                              height="16"
-                              data-lazy-src="https://static.xx.fbcdn.net/images/emoji.php/v9/t96/1/16/1f949.png" /><noscript
-                              ><img
-                                src="https://static.xx.fbcdn.net/images/emoji.php/v9/t96/1/16/1f949.png"
-                                alt="🥉"
-                                width="16"
-                                height="16" /></noscript
-                          ></span>
-                          Lớp 10B: Giải tư bóng chuyền nam &amp; Giải tư bóng chuyền hơi nữ</span
-                        >
-                      </p>
-                      <img
-                        class="alignnone size-medium wp-image-11636"
-                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20264'%3E%3C/svg%3E"
-                        alt=""
-                        width="300"
-                        height="264"
-                        data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-300x264.jpg 300w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-1024x901.jpg 1024w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-768x676.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-1536x1351.jpg 1536w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-637x560.jpg 637w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-50x44.jpg 50w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-205x180.jpg 205w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1.jpg 1920w"
-                        data-lazy-sizes="(max-width: 300px) 100vw, 300px"
-                        data-lazy-src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-300x264.jpg"
-                      /><noscript
-                        ><img
-                          class="alignnone size-medium wp-image-11636"
-                          src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-300x264.jpg"
-                          alt=""
-                          width="300"
-                          height="264"
-                          srcset="
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-300x264.jpg    300w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-1024x901.jpg  1024w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-768x676.jpg    768w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-1536x1351.jpg 1536w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-637x560.jpg    637w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-50x44.jpg       50w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1-205x180.jpg    205w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3762-1.jpg           1920w
-                          "
-                          sizes="(max-width: 300px) 100vw, 300px"
-                      /></noscript>
-                      <img
-                        class="alignnone size-medium wp-image-11638"
-                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20229'%3E%3C/svg%3E"
-                        alt=""
-                        width="300"
-                        height="229"
-                        data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-300x229.jpg 300w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-1024x782.jpg 1024w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-768x586.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-1536x1173.jpg 1536w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-733x560.jpg 733w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-50x38.jpg 50w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-236x180.jpg 236w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3764.jpg 1920w"
-                        data-lazy-sizes="(max-width: 300px) 100vw, 300px"
-                        data-lazy-src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-300x229.jpg"
-                      /><noscript
-                        ><img
-                          class="alignnone size-medium wp-image-11638"
-                          src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-300x229.jpg"
-                          alt=""
-                          width="300"
-                          height="229"
-                          srcset="
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-300x229.jpg    300w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-1024x782.jpg  1024w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-768x586.jpg    768w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-1536x1173.jpg 1536w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-733x560.jpg    733w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-50x38.jpg       50w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3764-236x180.jpg    236w,
-                            https://ischool.vn/wp-content/uploads/2023/03/IMG_3764.jpg           1920w
-                          "
-                          sizes="(max-width: 300px) 100vw, 300px"
-                      /></noscript>
-                      <p>
-                        <span style="font-family: 'book antiqua', palatino, serif"
-                          >Khen thưởng Nhân viên &#8211; CBNV đạt giải trong trò chơi Ném phi tiêu
-                          chào mừng kỷ niệm 92 năm ngày thành lập Đoàn TNCS Hồ Chí Minh.</span
-                        >
-                      </p>
-                     
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
                     </div>
                   </div>
+                </div>
+              </div>
 
-                  <!-- <div class="share" data-aos="fade-up-cus">
-                    <p class="text">Chia sẻ bài viết</p>
-                    <div class="mxh">
-                      <div class="mxh-list">
-                        <span class="copylink_message"
-                          >Bạn vừa copylink bài viết này vào clipboard!</span
-                        >
-                        <div
-                          class="mxh-link copylink_function"
-                          data-link="https://ischool.vn/vinh-danh-khen-thuong-gv-cbnv-co-thanh-tich-noi-bat-trong-thang-3/"
-                        >
-                          <i class="far fa-link icon"></i>
+              <div class="banner-control swiper-control">
+                <div class="swiper-prev">
+                  <i class="ti-angle-left"></i>
+                </div>
+                <div class="swiper-next">
+                  <i class="ti-angle-right"></i>
+                </div>
+              </div>
+            </div>
+          </section> -->
+
+          <section class="ss-news">
+            <div class="news-main ss-pd">
+              <div class="container">
+                <h2 class="t-title mb-32" data-aos="fade-down-cus"> {{ category.find(i => i.slug == $route.path.replace(/\//g,'')).name }}</h2>
+                <!-- <div v-if="loading" class="loading-container">
+                  <a-spin :indicator="loading" class="loading" />
+                </div> -->
+                
+                <div class="dsmall side">
+                  <div class="dsmall-item side-nine">
+                    <div v-if="list.length" class="dsmall pro-list">
+                      <div v-for="item in list" :key="item._id" class="dsmall-item pro-item pro-item-3" data-aos="fade" data-aos-delay="400">
+                        <div class="pro-wrap">
+                          <a :href="'/' + item.slug" class="pro-img">
+                            <img
+                              width="207"
+                              height="180"
+                              :src="item.url_image"
+                              class="img wp-post-image"
+                              alt="URI Hình ảnh"
+                            />
+                          </a>
+                          <div class="pro-content">
+                            <h3 class="pro-name">
+                              <a :href="'/' + item.slug"> {{ item.title }} </a>
+                            </h3>
+                            <div class="pro-des">
+                              {{ item.descriptions }}
+                            </div>
+                          </div>
                         </div>
-                        <a
-                          href="mailto:type%20email%20address%20here?subject=I%20wanted%20to%20share%20this%20post%20with%20you%20from%20Hệ thống trường Hội nhập Quốc tế iSchool&body=VINH DANH, KHEN THƯỞNG GV &#8211; CBNV CÓ THÀNH TÍCH NỔI BẬT TRONG THÁNG 3 - https://ischool.vn/vinh-danh-khen-thuong-gv-cbnv-co-thanh-tich-noi-bat-trong-thang-3/"
-                          title="Email to a friend/colleague"
-                          target="_blank"
-                          class="mxh-link"
-                        >
-                          <i class="fal fa-envelope icon"></i>
-                        </a>
-                        <a
-                          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fischool.vn%2Fvinh-danh-khen-thuong-gv-cbnv-co-thanh-tich-noi-bat-trong-thang-3%2F&t=VINH DANH, KHEN THƯỞNG GV &#8211; CBNV CÓ THÀNH TÍCH NỔI BẬT TRONG THÁNG 3"
-                          onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=500');
-                                        return false;"
-                          class="mxh-link"
-                        >
-                          <i class="ti-facebook icon"></i>
-                        </a>
-                        <a
-                          href="http://www.twitter.com/share?url=https%3A%2F%2Fischool.vn%2Fvinh-danh-khen-thuong-gv-cbnv-co-thanh-tich-noi-bat-trong-thang-3%2F"
-                          onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=500');
-                                        return false;"
-                          class="mxh-link"
-                        >
-                          <i class="ti-twitter-alt icon"></i>
-                        </a>
                       </div>
                     </div>
-                  </div> -->
 
-                </div>
-                <div class="dsmall-item side-three">
-                  <div class="sidebar" data-aos="fade-up-cus">
-                    <div class="side-fixed">
-                      <div class="side-fixed-wrap">
-                        <div
-                          id="m_category_list-2"
-                          class="widget news-sidebar widget_m_category_list"
-                        >
-                          <div class="sidebar-block">
-                            <div class="sidebar-head">
-                              <img
-                                width="15"
-                                height="15"
-                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2015%2015'%3E%3C/svg%3E"
-                                alt=""
-                                class="icon"
-                                data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                              /><noscript
-                                ><img
+                    <div v-else>Không có kết quả</div>
+
+                    <div v-if="list.length" class="page-numbers m-top">
+                      <a-pagination v-model="page" :pageSize="limit" :total="total" @change="changePagination" show-less-items />
+                    </div>
+                  </div>
+                  <div class="dsmall-item side-three">
+                    <div class="sidebar none-news" data-aos="fade-up-cus">
+                      <div class="side-fixed">
+                        <div class="side-fixed-wrap">
+                          <div id="m_category_list-3" class="widget blog-sidebar widget_m_category_list">
+                            <div class="sidebar-block">
+                              <div class="sidebar-head">
+                                <img
                                   width="15"
                                   height="15"
                                   src="https://ischool.vn/template/assets/images/icon-dm.svg"
                                   alt=""
                                   class="icon"
-                              /></noscript>
-                              <p class="sidebar-title">Danh mục</p>
-                            </div>
-                            <div class="sidebar-body">
-                              <div class="sidebar-menu">
-                                <div class="sidebar-menu-list">
-                                  <a
-                                    v-for="i in 10"
-                                    href="#"
-                                    class="sidebar-menu-link"
-                                  >
-                                    <i class="fal fa-long-arrow-right"></i>
-                                    <p class="text">Danh mục {{ i }}</p>
-                                  </a>
-
-                                 
+                                  data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
+                                />
+                                <p class="sidebar-title">Danh mục</p>
+                              </div>
+                              <div class="sidebar-body">
+                                <div class="sidebar-menu">
+                                  <div class="sidebar-menu-list">
+                                    <a v-for="i in category" :key="i._id" :href="'/' + i.slug" class="sidebar-menu-link">
+                                      <i class="fal fa-long-arrow-right"></i>
+                                      <p class="text">{{ i.name }}</p>
+                                    </a>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
+                        <div class="side-close">
+                          <i class="fas fa-times close icon"></i>
+                        </div>
                       </div>
-                      <div class="side-close">
-                        <i class="fas fa-times close icon"></i>
-                      </div>
-                    </div>
-                    <div class="side-open">
-                      <div class="side-open-wrap">
-                        <img
-                          width="15"
-                          height="15"
-                          src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2015%2015'%3E%3C/svg%3E"
-                          class="icon"
-                          alt=""
-                          data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                        /><noscript
-                          ><img
+                      <div class="side-open">
+                        <div class="side-open-wrap">
+                          <img
                             width="15"
                             height="15"
-                            src="https://ischool.vn/template/assets/images/icon-dm.svg"
+                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2015%2015'%3E%3C/svg%3E"
                             class="icon"
                             alt=""
-                        /></noscript>
+                            data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="side-overlay"></div>
+                      <div class="side-overlay"></div>
 
-                    <div class="sidebar-block">
-                      <div class="sidebar-head">
-                        <img
-                          width="15"
-                          height="15"
-                          src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2015%2015'%3E%3C/svg%3E"
-                          alt=""
-                          class="icon"
-                          data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                        /><noscript
-                          ><img
+                      <div class="sidebar-block">
+                        <div class="sidebar-head">
+                          <img
                             width="15"
                             height="15"
                             src="https://ischool.vn/template/assets/images/icon-dm.svg"
                             alt=""
                             class="icon"
-                        /></noscript>
-                        <p class="sidebar-title">Bài viết nổi bật</p>
-                      </div>
-                      <div class="sidebar-body">
-                        <div class="dsmall news-list">
-                          <div    v-for="i in 4" class="dsmall-item news-item">
-                            <div class="news-wrap">
-                              <a
-                                href="#"
-                                class="news-img"
-                              >
-                                <img
-                                  width="800"
-                                  height="500"
-                                  src="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg"
-                                  class="attachment-full size-full wp-post-image"
-                                  alt="cập nhật lịch nghỉ Tết Nguyên đán 2023 của học sinh"
-                                  data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg 800w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-300x188.jpeg 300w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-768x480.jpeg 768w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-50x31.jpeg 50w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-280x175.jpeg 280w"
-                                  data-lazy-sizes="(max-width: 800px) 100vw, 800px"
-                                  data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg"
-                                />
-                              </a>
-                              <div class="news-content">
-                                <a
-                                  href="#"
-                                  class="news-name"
-                                >
-                                  Lịch nghỉ Tết Nguyên đán 2023 chính thức của học sinh 63 tỉnh
-                                  thành
+                            data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
+                          />
+                          <p class="sidebar-title">Bài viết nổi bật</p>
+                        </div>
+                        <div class="sidebar-body">
+                          <div class="dsmall news-list">
+                            <div v-for="(item, i) in viewPost" :key="i" class="dsmall-item news-item">
+                              <div class="news-wrap">
+                                <a :href="'/' + item.slug" class="news-img">
+                                  <img
+                                    width="800"
+                                    height="500"
+                                    :src="item.url_image"
+                                    class="attachment-full size-full wp-post-image"
+                                    alt=""
+                                    data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg 800w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-300x188.jpeg 300w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-768x480.jpeg 768w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-50x31.jpeg 50w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-280x175.jpeg 280w"
+                                    data-lazy-sizes="(max-width: 800px) 100vw, 800px"
+                                    data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg"
+                                  />
                                 </a>
+                                <div class="news-content">
+                                  <a :href="'/' + item.slug" class="news-name">
+                                    {{ item.title }}
+                                  </a>
+                                </div>
                               </div>
                             </div>
                           </div>
-                        
                         </div>
                       </div>
                     </div>
@@ -409,15 +187,126 @@
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
+      </main>
 
-        <section class="pro">
-          <div
-            data-bg="https://ischool.vn/template/assets/images/br-blur.png"
-            class="pro ss-pd pro-br rocket-lazyload"
-            style=""
-          >
+      <main v-else class="main">
+        <div class="detail">
+          <section class="ss-detail">
+            <div class="detail-main ss-pd">
+              <div class="container">
+                <div class="dsmall side">
+                  <div class="dsmall-item side-nine">
+                    <div class="detail-wrapper">
+                      <div class="detail-block" data-aos="fade-up-cus">
+                        <div class="pro-wrap">
+                          <div class="pro-content">
+                            <h1 class="detail-pro-name pro-name">
+                              {{ post.title }}
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        {{ post.descriptions }}
+                      </div>
+                      <div class="detail-block mona-content post-content content-db" data-aos="fade-up-cus" v-html="post.content"></div>
+                    </div>
+                  </div>
+                  <div class="dsmall-item side-three">
+                    <div class="sidebar" data-aos="fade-up-cus">
+                      <div class="side-fixed">
+                        <div class="side-fixed-wrap">
+                          <div id="m_category_list-2" class="widget news-sidebar widget_m_category_list">
+                            <div class="sidebar-block">
+                              <div class="sidebar-head">
+                                <img
+                                  width="15"
+                                  height="15"
+                                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2015%2015'%3E%3C/svg%3E"
+                                  alt=""
+                                  class="icon"
+                                  data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
+                                />
+                                <p class="sidebar-title">Danh mục</p>
+                              </div>
+                              <div class="sidebar-body">
+                                <div class="sidebar-menu">
+                                  <div class="sidebar-menu-list">
+                                    <a v-for="i in category" :href="'/' + i.slug" class="sidebar-menu-link">
+                                      <i class="fal fa-long-arrow-right"></i>
+                                      <p class="text">{{ i.name }}</p>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="side-close">
+                          <i class="fas fa-times close icon"></i>
+                        </div>
+                      </div>
+                      <div class="side-open">
+                        <div class="side-open-wrap">
+                          <img
+                            width="15"
+                            height="15"
+                            src="https://ischool.vn/template/assets/images/icon-dm.svg"
+                            class="icon"
+                            alt=""
+                            data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
+                          />
+                        </div>
+                      </div>
+                      <div class="side-overlay"></div>
+
+                      <div class="sidebar-block">
+                        <div class="sidebar-head">
+                          <img
+                            width="15"
+                            height="15"
+                            src="https://ischool.vn/template/assets/images/icon-dm.svg"
+                            alt=""
+                            class="icon"
+                            data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
+                          />
+                          <p class="sidebar-title">Bài viết nổi bật</p>
+                        </div>
+                        <div class="sidebar-body">
+                          <div class="dsmall news-list">
+                            <div v-for="i in viewPost" class="dsmall-item news-item">
+                              <div class="news-wrap">
+                                <a :href="'/' + i.slug" class="news-img">
+                                  <img
+                                    width="800"
+                                    height="500"
+                                    :src="i.url_image"
+                                    class="attachment-full size-full wp-post-image"
+                                    alt="cập nhật lịch nghỉ Tết Nguyên đán 2023 của học sinh"
+                                    data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg 800w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-300x188.jpeg 300w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-768x480.jpeg 768w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-50x31.jpeg 50w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-280x175.jpeg 280w"
+                                    data-lazy-sizes="(max-width: 800px) 100vw, 800px"
+                                    data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg"
+                                  />
+                                </a>
+                                <div class="news-content">
+                                  <a :href="'/' + i.slug" class="news-name"> {{ i.title }} </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- <section class="pro">
+          <div data-bg="https://ischool.vn/template/assets/images/br-blur.png" class="pro ss-pd pro-br rocket-lazyload" style="">
             <div class="container">
               <h2 class="t-title mb-32" data-aos="fade-down-cus">Tin tức từ URI</h2>
               <div class="pro-slider" data-aos="fade-up-cus">
@@ -425,10 +314,7 @@
                   <div class="swiper-wrapper">
                     <div v-for="i in 10" class="swiper-slide">
                       <div class="pro-wrap">
-                        <a
-                          href="https://ischool.vn/isers-tranh-tai-tai-vong-chung-ket-vioedu-cap-thanh-pho/"
-                          class="pro-img"
-                        >
+                        <a href="https://ischool.vn/isers-tranh-tai-tai-vong-chung-ket-vioedu-cap-thanh-pho/" class="pro-img">
                           <img
                             width="258"
                             height="180"
@@ -441,192 +327,132 @@
                           />
                         </a>
                         <div class="pro-content">
-                       
                           <h3 class="pro-name">
-                            <a
-                              href="#"
-                            >
-                              iSERS TRANH TÀI TẠI VÒNG CHUNG KẾT VIOEDU CẤP THÀNH PHỐ
-                            </a>
+                            <a href="#"> iSERS TRANH TÀI TẠI VÒNG CHUNG KẾT VIOEDU CẤP THÀNH PHỐ </a>
                           </h3>
                           <div class="pro-des">
-                            Vượt qua vòng thi cấp trường, các bạn iSers Sóc Trăng có thành tích xuất
-                            sắc tiếp tục tranh tài tại vòng thi chung kết cấp thành phố vào chiều
-                            ngày 29/3/2023. Ở vòng chung kết này, các thí sinh tập trung thi tại
-                            trường dưới sự giám sát trực tiếp của giáo viên và [&hellip;]
+                            Vượt qua vòng thi cấp trường, các bạn iSers Sóc Trăng có thành tích xuất sắc tiếp tục tranh tài tại vòng thi chung kết cấp
+                            thành phố vào chiều ngày 29/3/2023. Ở vòng chung kết này, các thí sinh tập trung thi tại trường dưới sự giám sát trực tiếp
+                            của giáo viên và [&hellip;]
                           </div>
                         </div>
                       </div>
-                    </div>  
+                    </div>
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
-    </main>
-
-    <div class="popup brochure" id="brochure">
-      <div class="popup-overlay"></div>
-      <div class="popup-main">
-        <div class="popup-over">
-          <div class="popup-wrapper">
-            <div class="wpcf7 no-js" id="wpcf7-f2757-o1" lang="vi" dir="ltr">
-              <div class="screen-reader-response">
-                <p role="status" aria-live="polite" aria-atomic="true"></p>
-                <ul></ul>
-              </div>
-              <form
-                action="/vinh-danh-khen-thuong-gv-cbnv-co-thanh-tich-noi-bat-trong-thang-3/#wpcf7-f2757-o1"
-                method="post"
-                class="wpcf7-form init"
-                aria-label="Contact form"
-                data-status="init"
-              >
-                <div style="display: none">
-                  <input type="hidden" name="_wpcf7" value="2757" />
-                  <input type="hidden" name="_wpcf7_version" value="5.7.3" />
-                  <input type="hidden" name="_wpcf7_locale" value="vi" />
-                  <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2757-o1" />
-                  <input type="hidden" name="_wpcf7_container_post" value="0" />
-                  <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                  <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
-                </div>
-                <span class="wpcf7-form-control-wrap your-source"
-                  ><input
-                    size="40"
-                    class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden"
-                    aria-invalid="false"
-                    value="VINH DANH, KHEN THƯỞNG GV - CBNV CÓ THÀNH TÍCH NỔI BẬT TRONG THÁNG 3"
-                    type="hidden"
-                    name="your-source"
-                /></span>
-                <input
-                  class="wpcf7-form-control wpcf7-hidden"
-                  value=""
-                  type="hidden"
-                  name="your-file"
-                />
-                <h2 class="t-title mb-32">LIÊN HỆ VỚI <span class="c-pri">iSCHOOL</span></h2>
-                <div class="contact-form">
-                  <div class="f-gr">
-                    <div class="f-list">
-                      <div class="f-item f-item-2">
-                        <span class="wpcf7-form-control-wrap" data-name="your-name"
-                          ><input
-                            size="40"
-                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required re-input"
-                            aria-required="true"
-                            aria-invalid="false"
-                            placeholder="HỌ TÊN"
-                            value=""
-                            type="text"
-                            name="your-name"
-                        /></span>
-                        <span id="last-name-id" class="wpcf7-form-control-wrap last-name-wrap"
-                          ><label for="last-name" class="hp-message"
-                            >Please leave this field empty.</label
-                          ><input
-                            id="last-name"
-                            class="wpcf7-form-control wpcf7-text last-name"
-                            type="text"
-                            name="last-name"
-                            value=""
-                            size="40"
-                            tabindex="-1"
-                            autocomplete="new-password"
-                        /></span>
-                      </div>
-                      <div class="f-item f-item-2">
-                        <span class="wpcf7-form-control-wrap" data-name="your-email"
-                          ><input
-                            size="40"
-                            class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email re-input"
-                            aria-required="true"
-                            aria-invalid="false"
-                            placeholder="EMAIL"
-                            value=""
-                            type="email"
-                            name="your-email"
-                        /></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="f-gr">
-                    <span class="wpcf7-form-control-wrap" data-name="your-tel"
-                      ><input
-                        size="40"
-                        class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel re-input"
-                        aria-required="true"
-                        aria-invalid="false"
-                        placeholder="SỐ ĐIỆN THOẠI"
-                        value=""
-                        type="tel"
-                        name="your-tel"
-                    /></span>
-                  </div>
-                  <div class="f-gr">
-                    <span class="wpcf7-form-control-wrap" data-name="your-message">
-                      <textarea
-                        cols="40"
-                        rows="10"
-                        class="wpcf7-form-control wpcf7-textarea re-input area"
-                        aria-invalid="false"
-                        placeholder="iSchool CÓ THỂ HỖ TRỢ GÌ CHO GIA ĐÌNH?"
-                        name="your-message"
-                      ></textarea>
-                    </span>
-                  </div>
-                  <span class="wpcf7-form-control-wrap recaptcha" data-name="recaptcha"
-                    ><span
-                      data-sitekey="6LfBfngkAAAAAOtn9TaUClF4gN11Pvu9nWC0MnDV"
-                      class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"
-                    ></span>
-                    <noscript>
-                      <div class="grecaptcha-noscript">
-                        <iframe
-                          src="https://www.google.com/recaptcha/api/fallback?k=6LfBfngkAAAAAOtn9TaUClF4gN11Pvu9nWC0MnDV"
-                          frameborder="0"
-                          scrolling="no"
-                          width="310"
-                          height="430"
-                        >
-                        </iframe>
-                        <textarea
-                          name="g-recaptcha-response"
-                          rows="3"
-                          cols="40"
-                          placeholder="reCaptcha Response Here"
-                        >
-                        </textarea>
-                      </div>
-                    </noscript>
-                  </span>
-                  <div class="f-gr grp-btn-mona">
-                    <button type="submit" class="btn btn-line">Đăng ký ngay</button>
-                    <input
-                      class="wpcf7-form-control has-spinner wpcf7-submit btn-hidden-submit"
-                      type="submit"
-                      value="Send"
-                    />
-                  </div>
-                </div>
-                <div class="wpcf7-response-output" aria-hidden="true"></div>
-              </form>
-            </div>
-          </div>
+        </section> -->
         </div>
-        <div class="popup-close">
-          <i class="fas fa-times icon"></i>
-        </div>
-      </div>
+      </main>
     </div>
   </div>
 </template>
 <script>
 export default {
-  layout: 'Main',
-}
+  layout: "Main",
+  data() {
+    return {
+      post: {},
+      loading: true,
+      category: [],
+      loadingCategory: true,
+      loadingPostCategory: true,
+      viewPost: [],
+      list: [],
+      page: 1,
+      limit: 1,
+      total: 0,
+    };
+  },
+  methods: {
+    getViewPost() {
+      this.$axios
+        .post(this.$config.baseURL + "/post/list", {
+          page: 1,
+          limit: 5,
+          sort: { view: -1 },
+          filter: {
+            slug_category: "tin-tuc",
+          },
+        })
+        .then((response) => {
+          this.viewPost = response.data.list;
+        })
+        .catch((error) => console.error(error));
+    },
+    getPost() {
+      let regex = /[0-9]/g;
+      let slug = this.$route.params.slug.replace(/\//g, "");
+      if (!regex.test(slug)) return;
+      this.loading = true;
+      this.$axios
+        .get(this.$config.baseURL + "/post/get/" + slug)
+        .then((response) => {
+          this.post = response.data.data;
+        })
+        .catch((error) => {
+          this.$router.push({ path: "/404" });
+          console.error(error);
+        })
+        .finally(() => (this.loading = false));
+    },
+    async getCategory() {
+      this.loadingCategory = true;
+      await this.$axios
+        .get(this.$config.baseURL + "/category/list")
+        .then((response) => {
+          this.category = response.data.list;
+        })
+        .catch((error) => console.error(error))
+        .finally(() => (this.loadingCategory = false));
+    },
+    getListFromCategory() {
+      let regex = /[0-9]/g;
+      let slug = this.$route.params.slug.replace(/\//g, "");
+      if (regex.test(slug)) return;
+      this.loadingPostCategory = true;
+      this.$axios
+        .post(this.$config.baseURL + "/post/list", {
+          page: this.page,
+          limit: this.limit,
+          sort: { view: -1 },
+          filter: {
+            slug_category: slug,
+          },
+        })
+        .then((response) => {
+          this.list = response.data.list;
+          this.total = response.data.total;
+        })
+        .catch((error) => {
+          this.$router.push({ path: "/404" });
+          console.error(error);
+        })
+        .finally(() => (this.loadingPostCategory = false));
+    },
+    changePagination() {
+      this.$router.push({ path: this.$route.params.slug, query: { page: this.page } });
+      setTimeout(() => {
+        this.getListFromCategory();
+      }, 100);
+    },
+  },
+  async mounted() {
+    this.getPost();
+    this.getListFromCategory();
+    this.getCategory();
+    this.getViewPost();
+  },
+};
 </script>
+
+<!-- <style>
+img {
+  width: 70%;
+  margin: auto;
+}
+
+</style> -->

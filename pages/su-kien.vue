@@ -12,7 +12,7 @@
                       <img
                         width="750"
                         height="563"
-                        src="/images/post1/1.jpg"
+                        :src="newPost.url_image"
                         class="img wp-post-image"
                         alt=""
                         data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0.jpg 750w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-300x225.jpg 300w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-746x560.jpg 746w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-50x38.jpg 50w, https://ischool.vn/wp-content/uploads/2022/12/dln05820-1607763489_750x0-240x180.jpg 240w"
@@ -24,11 +24,8 @@
                       <div class="container">
                         <div class="banner-content">
                           <div class="t-title-primary">
-                            <a
-                              href="https://ischool.vn/chi-tiet-su-kien/livestream-chuong-trinh-qua-tang-giang-sinh-2022/"
-                              class="banner-title banner-title-second small"
-                            >
-                              CHIẾN BINH URI KẾT THÚC CHẶNG ĐUA CHUNG KẾT QUỐC TẾ TIMO 2023 VỚI KẾT QUẢ ẤN TƯỢNG
+                            <a :href="'/' + newPost.slug" class="banner-title small">
+                              {{ newPost.title }}
                             </a>
                           </div>
                           <!-- <div class="banner-time">
@@ -73,8 +70,7 @@
                             </div>
                           </div> -->
                           <div class="banner-des">
-                            Với tinh thần quyết tâm cao và sau những cố gắng rèn luyện, các chiến binh URI đã kết thúc hành trình chinh phục cuộc thi
-                            CHUNG KẾT QUỐC TẾ TIMO 2023 với kết quả ấn tượng
+                            {{ newPost.descriptions }}
                           </div>
                         </div>
                       </div>
@@ -104,13 +100,13 @@
                 <div class="gv-slider">
                   <div class="swiper loop">
                     <div class="swiper-wrapper">
-                      <div v-for="i in list" :key="i.link" class="swiper-slide">
+                      <div v-for="i in viewPost" :key="i._id" class="swiper-slide">
                         <div class="pro-wrap gv-wrap">
-                          <a :href="i.link" class="pro-img">
+                          <a :href="'/' + i.slug" class="pro-img">
                             <img
                               width="274"
                               height="180"
-                              :src="i.img"
+                              :src="i.url_image"
                               class="img wp-post-image"
                               alt=""
                               data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-274x180.jpg 274w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-300x197.jpg 300w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600.jpg 522w"
@@ -120,12 +116,12 @@
                           </a>
                           <div class="pro-content t-center">
                             <h3 class="pro-name second">
-                              <a :href="i.link"> {{ i.title }} </a>
+                              <a :href="'/' + i.slug"> {{ i.title }} </a>
                             </h3>
                             <div class="pro-level">
                               <!-- <div class="pro-level-item">17/12/2022</div> -->
                             </div>
-                            <div class="pro-des">{{ i.des }}</div>
+                            <div class="pro-des">{{ i.descriptions }}</div>
                           </div>
                         </div>
                       </div>
@@ -143,23 +139,26 @@
             </div>
           </div>
         </section>
-
         <section class="ss-news">
           <div class="news-main ss-pd">
             <div class="container">
               <h2 class="t-title t-center mb-32">TẤT CẢ SỰ KIỆN</h2>
               <div class="dsmall side">
                 <div class="dsmall-item side-nine">
+                  <!-- <div v-if="loading" class="loading-container">
+                    <a-spin :indicator="loading" class="loading" />
+                  </div> -->
+
                   <div class="dsmall pro-list">
-                    <div v-for="i in list" :key="i.link" class="dsmall-item pro-item pro-item-3" data-aos="fade" data-aos-delay="400">
+                    <div v-for="i in list" :key="i._id" class="dsmall-item pro-item pro-item-3" data-aos="fade" data-aos-delay="400">
                       <div class="pro-wrap">
-                        <a :href="i.link" class="pro-img">
+                        <a :href="'/' + i.slug" class="pro-img">
                           <img
                             width="207"
                             height="180"
-                            :src="i.img"
+                            :src="i.url_image"
                             class="img wp-post-image"
-                            alt="Khen thưởng giáo viên tổ Tiếng Anh"
+                            alt=""
                             data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-207x180.jpg 207w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-300x261.jpg 300w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-1024x891.jpg 1024w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-768x668.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-1536x1337.jpg 1536w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-643x560.jpg 643w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-50x44.jpg 50w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748.jpg 1920w"
                             data-lazy-sizes="(max-width: 207px) 100vw, 207px"
                             data-lazy-src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-207x180.jpg"
@@ -167,10 +166,10 @@
                         </a>
                         <div class="pro-content">
                           <h3 class="pro-name">
-                            <a :href="i.link">{{ i.title }} </a>
+                            <a :href="'/' + i.slug">{{ i.title }} </a>
                           </h3>
                           <div class="pro-des">
-                            {{ i.des }}
+                            {{ i.descriptions }}
                           </div>
                         </div>
                       </div>
@@ -178,19 +177,7 @@
                   </div>
 
                   <div class="page-numbers m-top">
-                    <ul class="page-numbers">
-                      <li><span aria-current="page" class="page-numbers current">1</span></li>
-                      <!-- <li><a class="page-numbers" href="#">2</a></li>
-                      <li><a class="page-numbers" href="#">3</a></li>
-                      <li><a class="page-numbers" href="#">4</a></li>
-                      <li><span class="page-numbers dots">&hellip;</span></li>
-                      <li><a class="page-numbers" href="#">52</a></li>
-                      <li><a class="page-numbers" href="#">53</a></li>
-                      <li><a class="page-numbers" href="#">54</a></li>
-                      <li>
-                        <a class="next page-numbers" href="#"><i class="fas fa-chevron-right"></i></a>
-                      </li> -->
-                    </ul>
+                    <a-pagination v-model="page" :pageSize="limit" :total="total" @change="changePagination" show-less-items />
                   </div>
                 </div>
               </div>
@@ -204,34 +191,190 @@
 
 <script>
 import SwiperModule from "../static/template/js/module/SwiperModule";
+import UAParser from "ua-parser-js";
 export default {
   layout: "Main",
+  // async asyncData({ params, query, redirect, $axios, $config, req }) {
+  //   let newPost = {};
+  //   let viewPost = [];
+  //   let page = 1;
+  //   let limit = 12;
+  //   let total = 0;
+  //   let list = [];
+
+  //   // const header = req.headers["user-agent"];
+  //   // const userAgent = header.toLowerCase();
+  //   // const isMobile = userAgent.includes("mobile");
+
+  //   // if (isMobile) {
+  //   //   limit = 8;
+  //   // }
+
+  //   // console.log("screenWidth", screenWidth);
+
+  //   await $axios
+  //     .post($config.baseURL + "/post/list", {
+  //       page: 1,
+  //       limit: 1,
+  //       filter: {
+  //         slug_category: "su-kien",
+  //       },
+  //     })
+  //     .then((response) => {
+  //       newPost = response.data?.list[0];
+  //     })
+  //     .catch((error) => console.error(error));
+
+  //   await $axios
+  //     .post($config.baseURL + "/post/list", {
+  //       page: 1,
+  //       limit: 5,
+  //       sort: { view: -1 },
+  //       filter: {
+  //         slug_category: "su-kien",
+  //       },
+  //     })
+  //     .then((response) => {
+  //       viewPost = response.data.list;
+  //     })
+  //     .catch((error) => console.error(error));
+
+  //   // let loading = true;
+
+  //   // loading = true;
+
+  //   // if (params.query.page) {
+  //   //   page = Number(params.query.page) || 1;
+  //   // }
+  //   // let width = window.innerWidth;
+  //   // if (width <= 768) {
+  //   //   limit = 8;
+  //   // }
+  //   // await $axios
+  //   //   .post($config.baseURL + "/post/list", {
+  //   //     page: page,
+  //   //     limit: limit,
+  //   //     filter: {
+  //   //       slug_category: "su-kien",
+  //   //     },
+  //   //   })
+  //   //   .then((response) => {
+  //   //     console.log("params1231231232", params);
+  //   //     list = response.data.list;
+  //   //     total = response.data.total;
+  //   //   })
+  //   //   .catch((error) => console.error(error));
+  //   // .finally(() => (loading = false));
+
+  //   return { newPost, viewPost, page, limit, total, list, params, query };
+  // },
+  // layout: "Main",
   data() {
     return {
-      list: [
-        {
-          title: "CHIẾN BINH URI KẾT THÚC CHẶNG ĐUA CHUNG KẾT QUỐC TẾ TIMO 2023 VỚI KẾT QUẢ ẤN TƯỢNG",
-          des: "Với tinh thần quyết tâm cao và sau những cố gắng rèn luyện, các chiến binh URI đã kết thúc hành trình chinh phục cuộc thi CHUNG KẾT QUỐC TẾ TIMO 2023 với kết quả ấn tượng",
-          link: "/chien-binh-uri-ket-thuc-chang-dua-chung-ket-quoc-te",
-          img: "/images/post1/1.jpg",
-        },
-        {
-          title: "DANH SÁCH CÁC “CHIẾN BINH NHÍ” URI LỌT VÀO VÒNG CHUNG KẾT CUỘC GIA KÌ THI TOÁN HỌC QUỐC TẾ HKIMO",
-          des: "Kỳ thi Olympic Toán học quốc tế HKIMO (Hongkong International Mathematical Olympiad) là kỳ thi được tổ chức hàng năm nhằm mục đích tạo ra một sân chơi bổ ích dành cho tất cả học sinh yêu thích bộ môn Toán học",
-          link: "/danh-sach-cac-chien-binh-nhi-lot-vao-chung-ket-hkimo",
-          img: "/images/post2/1.jpg",
-        },
-        {
-          title: "🎉🎉 'CƠN MƯA HUY CHƯƠNG' TẠI #VÒNG_CHUNG_KẾT_QUỐC_GIA KỲ THI TOÁN QUỐC TẾ BIG BAY BEI 2022",
-          des: "Trải qua vòng Chung kết Quốc gia,10 Chiến binh nhí nhà URI đã vượt qua hàng nghìn thí sinh xuất sắc khác, tự tin bản lĩnh giành chiến thắng tại Vòng Chung Kết Quốc Gia kỳ thi Toán Quốc Tế Big Bay Bei, mang về các thành tích đáng tự hào",
-          link: "#",
-          img: "/images/post1/1.jpg",
-        },
-      ],
+      list: [],
+      page: 1,
+      limit: 12,
+      total: 0,
+      viewPost: [],
+      loading: true,
+      newPost: {
+        url_image: "",
+        title: "",
+        slug: "",
+        descriptions: "",
+      },
     };
   },
-  mounted() {
-    SwiperModule();
+  methods: {
+    async getViewPost() {
+      await this.$axios
+        .post(this.$config.baseURL + "/post/list", {
+          page: 1,
+          limit: 5,
+          sort: { view: -1 },
+          filter: {
+            slug_category: "su-kien",
+          },
+        })
+        .then((response) => {
+          this.viewPost = response.data.list;
+          console.log('1');
+        })
+        .catch((error) => console.error(error));
+    },
+    async getOnePost() {
+      await this.$axios
+        .post(this.$config.baseURL + "/post/list", {
+          page: 1,
+          limit: 1,
+          filter: {
+            slug_category: "su-kien",
+          },
+        })
+        .then((response) => {
+          this.newPost = response.data?.list[0];
+          console.log('2');
+        })
+        .catch((error) => console.error(error));
+    },
+    getPost() {
+      this.loading = true;
+      if (this.$route.query.page) {
+        this.page = Number(this.$route.query.page) || 1;
+      }
+      let width = window.innerWidth;
+      if (width <= 768) {
+        this.limit = 8;
+      }
+      this.$axios
+        .post(this.$config.baseURL + "/post/list", {
+          page: this.page,
+          limit: this.limit,
+          filter: {
+            slug_category: "su-kien",
+          },
+        })
+        .then((response) => {
+          this.list = response.data.list;
+          this.total = response.data.total;
+        })
+        .catch((error) => console.error(error))
+        .finally(() => (this.loading = false));
+    },
+    // getCategory() {
+    //   this.loadingCategory = true;
+    //   this.$axios
+    //     .get(this.$config.baseURL + "/category/list")
+    //     .then((response) => {
+    //       this.category = response.data.list;
+    //     })
+    //     .catch((error) => console.error(error))
+    //     .finally(() => (this.loadingCategory = false));
+    // },
+    changePagination() {
+      this.$router.push({ path: "/su-kien", query: { page: this.page } });
+      setTimeout(() => {
+        this.getPost();
+      }, 100);
+    },
+  },
+  async created() {
+    console.log('___a____');
+    
+    // await this.getOnePost()
+    // await this.getViewPost()
+    console.log('___b____');
+  },
+  // computed: {
+  //   loadCall() {
+  //     return 
+  //   }
+  // },  
+  async mounted() {
+    console.log("___c____");
+    await Promise.all([this.getViewPost(), this.getOnePost()]);
+    SwiperModule(true)
+    this.getPost();
   },
 };
 </script>

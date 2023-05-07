@@ -20,7 +20,7 @@ import MenuMobile from "../components/MenuMobile.vue";
 import Footer from "../components/Footer.vue";
 import ButtonScroll from "../components/ButtonScroll.vue";
 
-import SwiperModule from "../static/template/js/module/SwiperModule";
+// import SwiperModule from "../static/template/js/module/SwiperModule";
 
 export default {
   components: {
@@ -30,8 +30,7 @@ export default {
     MenuMobile,
   },
   mounted() {
-    SwiperModule();
-
+    // SwiperModule();
     let script = document.createElement("script");
     script.text = `
         var chatbox = document.getElementById('fb-customer-chat');

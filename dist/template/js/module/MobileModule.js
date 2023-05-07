@@ -1,25 +1,5 @@
 export default function MobileModule() {
 
-    console.log("window.location.pathname", window.location.pathname)
-    const path = window.location.pathname
-    // const pathOld = localStorage.getItem('path')
-    // if(path == pathOld) return
-    // localStorage.setItem('path', path)
-
-    const count = localStorage.getItem('count')
-    console.log('count', count)
-    if(count && path != '/') {
-        localStorage.setItem('count', Number(count) + 1)
-    }
-    const count_2 = localStorage.getItem('count')
-    if(count && Number(count_2) == 2 && path != '/') {
-        localStorage.removeItem('count')
-        return
-    }
-    if(!count && path != '/') {
-        localStorage.setItem('count', 1)
-    }
-
     const burgerBtn = document.getElementById("hamburger");
 
     const mobile = document.querySelector(".mobile");
@@ -100,27 +80,20 @@ export default function MobileModule() {
     const arrowIcon = document.querySelectorAll(
         ".mobile-nav .menu-list .menu-item a i"
     );
-    console.log('arrowIcon', arrowIcon)
+   
     if (arrowIcon) {
         arrowIcon.forEach((item) => {
             item.addEventListener("click", (e) => {
                 e.preventDefault();
-                console.log('item', item)
                 const menuListsMobi = item.parentElement.parentElement.parentElement.querySelectorAll(".menu-list")
-                console.log('menuListsMobi', menuListsMobi)
                 menuListsMobi.forEach(item => {
                     $(item).slideUp();
-                    console.log("____co____")
                 })
-                const menu =
-                    item.parentElement.parentElement.querySelectorAll(".menu-list")[0];
-                console.log('menu', menu.style.display)
+                const menu = item.parentElement.parentElement.querySelectorAll(".menu-list")[0];       
                 if (menu.style.display == "none" || menu.style.display == "") {
                     $(menu).slideDown();
-                    console.log("____co____1____")
                 } else {
                     $(menu).slideUp();
-                    console.log("____co____2____")
                 }
                 $(item.parentElement.parentElement).toggleClass("active");
             });

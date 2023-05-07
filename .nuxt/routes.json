@@ -1,5 +1,12 @@
 [
   {
+    "name": "404",
+    "path": "/404",
+    "component": "D:\\\\URI\\\\pages\\\\404.vue",
+    "chunkName": "pages/404",
+    "_name": "_dc652228"
+  },
+  {
     "name": "app",
     "path": "/app",
     "component": "D:\\\\URI\\\\pages\\\\app.vue",
@@ -47,6 +54,13 @@
     "component": "D:\\\\URI\\\\pages\\\\co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1.vue",
     "chunkName": "pages/co-gi-khac-biet-trong-chuong-trinh-hanh-trang-vao-lop-1",
     "_name": "_03a43d78"
+  },
+  {
+    "name": "co-so-vat-chat",
+    "path": "/co-so-vat-chat",
+    "component": "D:\\\\URI\\\\pages\\\\co-so-vat-chat.vue",
+    "chunkName": "pages/co-so-vat-chat",
+    "_name": "_6916fbe8"
   },
   {
     "name": "dang-ky-nhap-hoc",

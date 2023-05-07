@@ -9,13 +9,7 @@
             src="/images/logo-v2-removebg.png"
             alt=""
             data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/Ban-sao-cua-2018-iSchool-_-logo-new-version-01.png"
-          /><noscript
-            ><img
-              width="2029"
-              height="729"
-              src="https://ischool.vn/wp-content/uploads/2022/11/Ban-sao-cua-2018-iSchool-_-logo-new-version-01.png"
-              alt=""
-          /></noscript>
+          />
         </a>
         <div class="dnor footer-list">
           <div class="dnor-item footer-item footer-item-first f1">
@@ -155,9 +149,7 @@
                       alt=""
                       class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-face.svg"
-                    /><noscript
-                      ><img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-face.svg" alt="" class="icon"
-                    /></noscript>
+                    />
                   </a>
                   <a href="#" target="_blank" class="mxh-link">
                     <img
@@ -167,9 +159,7 @@
                       alt=""
                       class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg"
-                    /><noscript
-                      ><img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-youtube.svg" alt="" class="icon"
-                    /></noscript>
+                    />
                   </a>
                   <a href="#" target="_blank" class="mxh-link">
                     <img
@@ -179,9 +169,7 @@
                       alt=""
                       class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg"
-                    /><noscript
-                      ><img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-linkedin.svg" alt="" class="icon"
-                    /></noscript>
+                    />
                   </a>
                   <a href="#" target="_blank" class="mxh-link">
                     <img
@@ -191,9 +179,7 @@
                       alt=""
                       class="icon"
                       data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/icon-zalo.svg"
-                    /><noscript
-                      ><img width="24" height="24" src="https://ischool.vn/wp-content/uploads/2023/01/icon-zalo.svg" alt="" class="icon"
-                    /></noscript>
+                    />
                   </a>
                 </div>
               </div>

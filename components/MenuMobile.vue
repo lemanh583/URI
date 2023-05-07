@@ -95,7 +95,6 @@
                 </ul>
               </li>
 
-
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
                 <a class="menu-link" href="#">SỰ KIỆN, HÌNH ẢNH <i class="fas fa-angle-down"> </i></a>
                 <ul class="menu-list">
@@ -103,7 +102,15 @@
                     <a class="menu-link" href="/su-kien">Sự kiện</a>
                   </li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a class="menu-link" href="/hinh-anh">Hình ảnh</a>
+                    <a class="menu-link" href="#">Hình ảnh <i class="fas fa-angle-down custom-menu-i"> </i></a>
+                    <ul class="menu-list">
+                      <li class="menu-item menu-item-type-post_type menu-item-object-mona_system">
+                        <a class="menu-link" href="/hinh-anh-hoat-dong">Hình ảnh hoạt động</a>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-mona_system">
+                        <a class="menu-link" href="/co-so-vat-chat">Cơ sở vật chất</a>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
@@ -126,9 +133,7 @@
                 </ul>
               </li> -->
 
-              <li
-                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-has-children dropdown"
-              >
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
                 <a class="menu-link" href="/tin-tuc">THÔNG TIN <i class="fas fa-angle-down"> </i></a>
                 <ul class="menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
@@ -147,9 +152,7 @@
                 <a class="menu-link" href="/app">APP</a>
               </li>
 
-              <li
-                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-has-children dropdown"
-              >
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
                 <a class="menu-link" href="/lien-he">LIÊN HỆ <i class="fas fa-angle-down"> </i></a>
                 <ul class="menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page">
@@ -165,12 +168,8 @@
           <div class="mobile-content">
             <p class="mobile-title">THÔNG TIN LIÊN HỆ</p>
 
-            <div class="mobile-fl mb-16s">
-              <span class="fw-6">Phone:</span><a href="tel:84789166588" class="mobile-text mobile-link">+84 88 623 08 88 </a>
-            </div>
-            <div class="mobile-fl mb-16s">
-              <span class="fw-6">Email:</span><a href="mailto:urivietnam.edu@gmail.com" class="mobile-text mobile-link">urivietnam.edu@gmail.com </a>
-            </div>
+            <div class="mobile-fl mb-16s"><span class="fw-6">Phone:</span><a href="tel:84789166588" class="mobile-text mobile-link">+84 88 623 08 88 </a></div>
+            <div class="mobile-fl mb-16s"><span class="fw-6">Email:</span><a href="mailto:urivietnam.edu@gmail.com" class="mobile-text mobile-link">urivietnam.edu@gmail.com </a></div>
           </div>
         </div>
       </div>
@@ -220,8 +219,18 @@ import MobileModule from "../static/template/js/module/MobileModule";
 
 export default {
   mounted() {
-    MobileModule()
-  }
-}
-
+    MobileModule();
+  },
+};
 </script>
+
+
+<style scoped>
+.custom-menu-i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 0px !important;
+  transform: none !important; */
+}
+</style>

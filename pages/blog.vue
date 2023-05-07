@@ -9,29 +9,20 @@
             </div>
 
             <div class="dsmall syschool-list ss-pd-b">
-              <div v-for="i in 9" :key="i" class="dsmall-item syschool-item syschool-item-3">
+              <div v-for="i in list" :key="i._id" class="dsmall-item syschool-item syschool-item-3">
                 <div class="syschool-wrap">
-                  <a href="#" class="syschool-img">
-                    <img
-                      width="1344"
-                      height="574"
-                      src="https://giasutienphong.com.vn/wp-content/uploads/2021/07/luyen_noi_tieng_anh.jpg"
-                      class="attachment-full size-full wp-post-image"
-                      alt="ischool cẩm phả"
-                      data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/08/ischool-cam-pha-e1668507105991.jpg 1344w, https://ischool.vn/wp-content/uploads/2022/08/ischool-cam-pha-e1668507105991-300x128.jpg 300w, https://ischool.vn/wp-content/uploads/2022/08/ischool-cam-pha-e1668507105991-1024x437.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/08/ischool-cam-pha-e1668507105991-768x328.jpg 768w, https://ischool.vn/wp-content/uploads/2022/08/ischool-cam-pha-e1668507105991-960x410.jpg 960w, https://ischool.vn/wp-content/uploads/2022/08/ischool-cam-pha-e1668507105991-50x21.jpg 50w, https://ischool.vn/wp-content/uploads/2022/08/ischool-cam-pha-e1668507105991-280x120.jpg 280w"
-                      data-lazy-sizes="(max-width: 1344px) 100vw, 1344px"
-                      data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/ischool-cam-pha-e1668507105991.jpg"
-                    />
+                  <a :href="'/' + i.slug" class="syschool-img">
+                    <img width="1344" height="574" :src="i.url_image" class="attachment-full size-full wp-post-image" :alt="i.title" />
                   </a>
                   <div class="syschool-content">
                     <h3 class="syschool-name">
-                      <a href="#"> Bí quyết luyện nói tiếng Anh của tôi </a>
+                      <a :href="'/' + i.slug"> {{ i.title }} </a>
                     </h3>
                     <div class="syschool-info">
                       <div class="syschool-info-item">
                         <div class="info-detail-mona">
                           <p class="text">
-                            Có rất nhiều bài chia sẻ về kỹ năng này. Nhưng tôi vẫn muốn viết. Thứ nhất, tôi nghĩ những bài đó chưa đủ. Thứ hai, tôi tin mình có thể gửi tới bạn góc nhìn mới hơn về việc học. Học luyện nói tiếng Anh không khó. Vì khó thì đã không phải ngôn...
+                            {{ i.descriptions }}
                           </p>
                         </div>
                       </div>
@@ -40,15 +31,19 @@
                           <a class="text link" href="tel:0855413689">0855 413 689</a>
                         </div>
                       </div> -->
-                      <div class="syschool-info-item">
+                      <!-- <div class="syschool-info-item">
                         <div class="info-detail-mona">
                           <p class="text">Trần Văn An</p>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div v-if="list.length" class="page-numbers m-top">
+              <a-pagination v-model="page" :pageSize="limit" :total="total" @change="changePagination" show-less-items />
             </div>
           </div>
         </div>
@@ -60,5 +55,49 @@
 <script>
 export default {
   layout: "Main",
+  data() {
+    return {
+      loading: true,
+      page: 1,
+      limit: 12,
+      total: 0,
+      list: [],
+    };
+  },
+  methods: {
+    getPost() {
+      this.loading = true;
+      if (this.$route.query.page) {
+        this.page = Number(this.$route.query.page) || 1;
+      }
+      let width = window.innerWidth;
+      if (width <= 768) {
+        this.limit = 8;
+      }
+      this.$axios
+        .post(this.$config.baseURL + "/post/list", {
+          page: this.page,
+          limit: this.limit,
+          filter: {
+            slug_category: "blog",
+          },
+        })
+        .then((response) => {
+          this.list = response.data.list;
+          this.total = response.data.total;
+        })
+        .catch((error) => console.error(error))
+        .finally(() => (this.loading = false));
+    },
+    changePagination() {
+      this.$router.push({ path: "/blog", query: { page: this.page } });
+      setTimeout(() => {
+        this.getPost();
+      }, 100);
+    },
+  },
+  mounted() {
+    this.getPost();
+  },
 };
 </script>

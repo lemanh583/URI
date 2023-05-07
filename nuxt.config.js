@@ -10,12 +10,12 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Tìm hiểu các khóa học toán độc quyền tại trung tâm toán học UriEdu, giúp con em bạn tiếp thu kiến thức một cách nhanh chóng và hiệu quả. Đăng ký ngay hôm nay để nhận ưu đãi giảm giá' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'keywords', content: 'trung tam uri,uri,trung tâm toán học, học toán, khóa học toán, giảm giá, ưu đãi' },
+      { name: 'keywords', content: 'trung tam uri,uri, trung tâm toán học, học toán, khóa học toán, giảm giá, ưu đãi' },
       { property: "og:title", content: "Trung tâm toán học URI" },
       { property: "og:image", content: "/images/logo-meta.png" },
       { property: "og:url", content: "http://uriedu.vn" },
       { property: "og:site_name", content: "Trung tâm toán học URI" },
-      { property: "og:description", content: "Tìm hiểu các khóa học toán độc quyền tại trung tâm toán học UriEdu, giúp con em bạn tiếp thu kiến thức một cách nhanh chóng và hiệu quả. Đăng ký ngay hôm nay để nhận ưu đãi giảm giá" },
+      { property: "og:description", content: "Tìm hiểu các khóa học toán độc quyền tại trung tâm toán học URI, giúp con em bạn tiếp thu kiến thức một cách nhanh chóng và hiệu quả. Đăng ký ngay hôm nay để nhận ưu đãi giảm giá" },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/images/logo-meta.png' },
@@ -307,9 +307,14 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  publicRuntimeConfig: {
+    baseURL: 'http://api.uriedu.vn/api'
+    // baseURL: 'http://localhost:3100/api'
   }
 }

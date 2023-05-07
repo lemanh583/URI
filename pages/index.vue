@@ -6,36 +6,38 @@
           <div class="banner-slider">
             <div class="swiper loop">
               <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div v-for="slide in listSlide" :key="slide._id" class="swiper-slide">
                   <div class="banner-wrap left">
                     <div class="banner-img">
                       <img
                         width="1920"
                         height="1280"
-                        src="/images/new-image/3.jpg"
+                        :src="slide.url_image"
                         class="attachment-full size-full"
-                        alt="giáo viên và học sinh mầm non tại trường iSchool"
+                        :alt="slide.descriptions"
                         data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
                       />
                     </div>
                     <div class="banner-posi">
                       <div class="container">
                         <div class="banner-content">
-                          <h2 class="banner-title second">TOMORROW'S <span class="c-third fw-7">PIONEERS</span></h2>
-                          <div class="banner-title-second">Tuyển sinh năm học 2022 - 2023</div>
+                          <h2 v-if="slide.title.length <= 1" class="banner-title second"> {{ slide.title }}</h2>
+                          <h2 v-else class="banner-title second"> {{ getTitle(slide.title).first }} <span class="c-third fw-7"> {{ getTitle(slide.title).end }} </span></h2>
+                         
+                          <div class="banner-title-second">{{ slide.descriptions }}</div>
 
-                          <!-- <div class="banner-btn">
-                            <a href="#" class="btn">
+                          <div v-if="slide.link" class="banner-btn">
+                            <a :href="slide.link" class="btn">
                               <p class="text">Tìm hiểu thêm</p>
                               <i class="ti-angle-right icon-right"></i>
                             </a>
-                          </div> -->
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                   <div class="banner-wrap left">
                     <div class="banner-img">
                       <img
@@ -80,7 +82,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
 
@@ -259,7 +261,7 @@
                       />
                     </div>
                     <h2 class="num-title t-title">
-                      <span style="font-size: 2vmax; color: black;"
+                      <span style="font-size: 2vmax; color: black"
                         >NHỮNG CON SỐ<br />
                         ẤN TƯỢNG</span
                       >
@@ -346,7 +348,7 @@
                 <div class="num-item">
                   <div class="num-wrap">
                     <div class="num-content">
-                      <p class="number">1.000 </p>
+                      <p class="number">1.000</p>
                       <p class="des">Lượt học viên tham gia các kỳ thi Toán quốc tế như TIMO, KANGAROO, VTMO, SASMO, HKIMO, BIG BAY BIE, FMO, ASMO.....</p>
                     </div>
                   </div>
@@ -391,9 +393,7 @@
                             CHƯƠNG TRÌNH<br />
                             GIÁO DỤC
                           </h3>
-                          <p class="discover-des">
-                            Chương trình học cá nhân hóa phù hợp với năng lực của từng học sinh trong độ tuổi Tiểu học và Tiền tiểu học
-                          </p>
+                          <p class="discover-des">Chương trình học cá nhân hóa phù hợp với năng lực của từng học sinh trong độ tuổi Tiểu học và Tiền tiểu học</p>
                         </div>
                       </div>
                       <div class="discover-col">
@@ -448,9 +448,7 @@
                             data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/computer-2-1.svg"
                           />
                           <h3 class="discover-name">TÀI LIỆU</h3>
-                          <p class="discover-des">
-                            Giáo trình độc quyền URI, được nghiên cứu bởi các chuyên gia hàng đầu, phù hợp với tâm sinh lý trẻ
-                          </p>
+                          <p class="discover-des">Giáo trình độc quyền URI, được nghiên cứu bởi các chuyên gia hàng đầu, phù hợp với tâm sinh lý trẻ</p>
                         </div>
                       </div>
                       <div class="discover-col">
@@ -475,9 +473,7 @@
                             data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/chart-histogram-1.svg"
                           />
                           <h3 class="discover-name">KHÔNG GIAN</h3>
-                          <p class="discover-des">
-                            Quy mô lớp học tinh gọn chỉ từ 6-8 học viên/lớp giúp cho việc trao đổi bài học cũng như tương tác tốt hơn
-                          </p>
+                          <p class="discover-des">Quy mô lớp học tinh gọn chỉ từ 6-8 học viên/lớp giúp cho việc trao đổi bài học cũng như tương tác tốt hơn</p>
                         </div>
                       </div>
                     </div>
@@ -532,9 +528,7 @@
                             data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/Vector.svg"
                           />
                           <h3 class="discover-name">MÔI TRƯỜNG<br /></h3>
-                          <p class="discover-des">
-                            Giáo trình độc quyền URI, được nghiên cứu bởi các chuyên gia hàng đầu, phù hợp với tâm sinh lý trẻ
-                          </p>
+                          <p class="discover-des">Giáo trình độc quyền URI, được nghiên cứu bởi các chuyên gia hàng đầu, phù hợp với tâm sinh lý trẻ</p>
                         </div>
                       </div>
                     </div>
@@ -823,8 +817,8 @@
                               data-lazy-src="https://ischool.vn/template/assets/images/icon-quote.svg"
                             />
                             <div class="add-text">
-                              Nguyên Trung học tới nay cũng đã 2 năm tại URI rồi, con vẫn rất hào hứng và thích đi học URI như những ngày đầu, mẹ thấy
-                              con học tự giác và tiến bộ nhiều. Thích đi học tới nỗi đi học chậm còn bứt rứt và trách mẹ
+                              Nguyên Trung học tới nay cũng đã 2 năm tại URI rồi, con vẫn rất hào hứng và thích đi học URI như những ngày đầu, mẹ thấy con học tự giác và tiến bộ nhiều. Thích đi học
+                              tới nỗi đi học chậm còn bứt rứt và trách mẹ
                             </div>
                             <div class="add-user">
                               <div class="add-user-ava">
@@ -860,8 +854,7 @@
                               data-lazy-src="https://ischool.vn/template/assets/images/icon-quote.svg"
                             />
                             <div class="add-text">
-                              Hai con rất thích đi học ở URI, thích học toán. Các con theo học cũng đã lâu, mẹ thấy con học tiếng bộ, URI cũng có
-                              nhiều hoạt động bổ ích cho các con.
+                              Hai con rất thích đi học ở URI, thích học toán. Các con theo học cũng đã lâu, mẹ thấy con học tiếng bộ, URI cũng có nhiều hoạt động bổ ích cho các con.
                             </div>
                             <div class="add-user">
                               <div class="add-user-ava">
@@ -897,8 +890,8 @@
                               data-lazy-src="https://ischool.vn/template/assets/images/icon-quote.svg"
                             />
                             <div class="add-text">
-                              Mẹ rất thích cho con đi học ở URI, bởi tại đây các con không chỉ được nuôi dưỡng tình yêu toán học, mà URI còn góp phần
-                              tạo nên những chàng trai, cô gái của mẹ vô cùng ấm áp và ngọt ngào
+                              Mẹ rất thích cho con đi học ở URI, bởi tại đây các con không chỉ được nuôi dưỡng tình yêu toán học, mà URI còn góp phần tạo nên những chàng trai, cô gái của mẹ vô cùng ấm
+                              áp và ngọt ngào
                             </div>
                             <div class="add-user">
                               <div class="add-user-ava">
@@ -967,7 +960,7 @@
                   </div>
                   <div class="add-img">
                     <img
-                      style="object-position: bottom;"
+                      style="object-position: bottom"
                       width="2312"
                       height="891"
                       src="/images/new-image/24.jpg"
@@ -991,7 +984,7 @@
             </div>
           </div>
         </section>
-        <section class="ss-add">
+        <section v-if="list.length" class="ss-add">
           <div class="add">
             <div class="add-list">
               <div class="add-left" data-aos="fade-right-cus">
@@ -1005,11 +998,11 @@
                   <div class="dsmall news-side">
                     <div class="dsmall-item news-side-item">
                       <div class="news-pri">
-                        <a :href="list[0].link" class="news-pri-img">
+                        <a :href="'/' + list[0].slug" class="news-pri-img">
                           <img
                             width="940"
                             height="788"
-                            :src="list[0].img"
+                            :src="list[0].url_image"
                             class="img wp-post-image"
                             alt=""
                             data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/329006041_1262391194712769_6038906998014375858_n.jpg 940w, https://ischool.vn/wp-content/uploads/2023/03/329006041_1262391194712769_6038906998014375858_n-300x251.jpg 300w, https://ischool.vn/wp-content/uploads/2023/03/329006041_1262391194712769_6038906998014375858_n-768x644.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/329006041_1262391194712769_6038906998014375858_n-668x560.jpg 668w, https://ischool.vn/wp-content/uploads/2023/03/329006041_1262391194712769_6038906998014375858_n-50x42.jpg 50w, https://ischool.vn/wp-content/uploads/2023/03/329006041_1262391194712769_6038906998014375858_n-215x180.jpg 215w"
@@ -1018,7 +1011,7 @@
                           />
                         </a>
                         <div class="news-content">
-                          <a href="https://ischool.vn/ischool-tra-vinh-tuyen-sinh-khoa-tien-tieu-hoc-2023/" class="news-name">
+                          <a :href="'/' + list[0].slug" class="news-name">
                             {{ list[0].title }}
                           </a>
                         </div>
@@ -1032,11 +1025,11 @@
                       <div class="dsmall news-list">
                         <div class="dsmall-item news-item">
                           <div class="news-wrap">
-                            <a :href="list[1].link" class="news-img">
+                            <a :href="'/' + list[1].slug" class="news-img">
                               <img
                                 width="270"
                                 height="180"
-                                :src="list[1].img"
+                                :src="list[1].url_image"
                                 class="img wp-post-image"
                                 alt=""
                                 data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/330399585_506002741522625_3332630089131595017_n-270x180.jpg 270w, https://ischool.vn/wp-content/uploads/2023/03/330399585_506002741522625_3332630089131595017_n-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2023/03/330399585_506002741522625_3332630089131595017_n-1024x683.jpg 1024w, https://ischool.vn/wp-content/uploads/2023/03/330399585_506002741522625_3332630089131595017_n-768x512.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/330399585_506002741522625_3332630089131595017_n-1536x1024.jpg 1536w, https://ischool.vn/wp-content/uploads/2023/03/330399585_506002741522625_3332630089131595017_n-840x560.jpg 840w, https://ischool.vn/wp-content/uploads/2023/03/330399585_506002741522625_3332630089131595017_n-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2023/03/330399585_506002741522625_3332630089131595017_n.jpg 1920w"
@@ -1045,22 +1038,22 @@
                               />
                             </a>
                             <div class="news-content">
-                              <a href="#" class="news-name"> {{ list[1].title }} </a>
+                              <a :href="'/' + list[1].slug" class="news-name"> {{ list[1].title }} </a>
                             </div>
                           </div>
                           <div class="news-content">
                             <div class="news-excerpt">
-                              {{ list[1].des }}
+                              {{ list[1].descriptions }}
                             </div>
                           </div>
                         </div>
                         <div class="dsmall-item news-item">
                           <div class="news-wrap">
-                            <a :href="list[2].link" class="news-img">
+                            <a :href="list[2].slug" class="news-img">
                               <img
                                 width="253"
                                 height="180"
-                                :src="list[2].img"
+                                :src="list[2].url_image"
                                 class="img wp-post-image"
                                 alt=""
                                 data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/iSchool-ninh-thuan-ky-nang-gap-quan-ao-253x180.jpg 253w, https://ischool.vn/wp-content/uploads/2023/03/iSchool-ninh-thuan-ky-nang-gap-quan-ao-300x214.jpg 300w, https://ischool.vn/wp-content/uploads/2023/03/iSchool-ninh-thuan-ky-nang-gap-quan-ao-1024x729.jpg 1024w, https://ischool.vn/wp-content/uploads/2023/03/iSchool-ninh-thuan-ky-nang-gap-quan-ao-768x547.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/iSchool-ninh-thuan-ky-nang-gap-quan-ao-1536x1094.jpg 1536w, https://ischool.vn/wp-content/uploads/2023/03/iSchool-ninh-thuan-ky-nang-gap-quan-ao-786x560.jpg 786w, https://ischool.vn/wp-content/uploads/2023/03/iSchool-ninh-thuan-ky-nang-gap-quan-ao-50x36.jpg 50w, https://ischool.vn/wp-content/uploads/2023/03/iSchool-ninh-thuan-ky-nang-gap-quan-ao.jpg 1919w"
@@ -1069,12 +1062,12 @@
                               />
                             </a>
                             <div class="news-content">
-                              <a :href="list[2].link" class="news-name">{{ list[2].title }} </a>
+                              <a :href="'/' + list[2].slug" class="news-name">{{ list[2].title }} </a>
                             </div>
                           </div>
                           <div class="news-content">
                             <div class="news-excerpt">
-                              {{ list[2].des }}
+                              {{ list[2].descriptions }}
                             </div>
                           </div>
                         </div>
@@ -1113,12 +1106,7 @@
                 </div>
               </div>
               <div class="add-right">
-                <div
-                  data-bg="https://ischool.vn/wp-content/uploads/2022/10/HI_08811-scaled.jpg"
-                  id="register"
-                  class="dki ss-pd rocket-lazyload"
-                  style=""
-                >
+                <div data-bg="https://ischool.vn/wp-content/uploads/2022/10/HI_08811-scaled.jpg" id="register" class="dki ss-pd rocket-lazyload" style="">
                   <div class="container">
                     <div class="dki-width">
                       <div class="wpcf7 no-js" id="wpcf7-f335-p19-o1" lang="vi" dir="ltr">
@@ -1137,28 +1125,17 @@
                             <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
                           </div>
                           <span class="wpcf7-form-control-wrap your-source"
-                            ><input
-                              size="40"
-                              class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden"
-                              aria-invalid="false"
-                              value="Trang chủ"
-                              type="hidden"
-                              name="your-source"
+                            ><input size="40" class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden" aria-invalid="false" value="Trang chủ" type="hidden" name="your-source"
                           /></span>
                           <div class="head dki-head t-center mb-56">
                             <h2 class="t-title white mb-24" data-aos="flip-right">Đăng ký tư vấn</h2>
-                            <p class="text c-white" data-aos="fade-up-cus">
-                              Để nhận được hỗ trợ chi tiết nhất, Quý Phụ huynh vui lòng để lại thông tin bên dưới
-                            </p>
+                            <p class="text c-white" data-aos="fade-up-cus">Để nhận được hỗ trợ chi tiết nhất, Quý Phụ huynh vui lòng để lại thông tin bên dưới</p>
                           </div>
                           <div class="dki-form" data-aos="fade-up-cus">
                             <div class="f-gr mb-24">
                               <div class="f-list">
                                 <div class="f-item f-item-2">
-                                  <span
-                                    id="wpcf7-641e76642d2c7-wrapper"
-                                    class="wpcf7-form-control-wrap yourfullname-wrap"
-                                    style="display: none !important; visibility: hidden !important"
+                                  <span id="wpcf7-641e76642d2c7-wrapper" class="wpcf7-form-control-wrap yourfullname-wrap" style="display: none !important; visibility: hidden !important"
                                     ><label for="wpcf7-641e76642d2c7-field" class="hp-message">Please leave this field empty.</label
                                     ><input
                                       id="wpcf7-641e76642d2c7-field"
@@ -1183,15 +1160,7 @@
                                   /></span>
                                   <span id="last-name-id" class="wpcf7-form-control-wrap last-name-wrap"
                                     ><label for="last-name" class="hp-message">Please leave this field empty.</label
-                                    ><input
-                                      id="last-name"
-                                      class="wpcf7-form-control wpcf7-text last-name"
-                                      type="text"
-                                      name="last-name"
-                                      value=""
-                                      size="40"
-                                      tabindex="-1"
-                                      autocomplete="new-password"
+                                    ><input id="last-name" class="wpcf7-form-control wpcf7-text last-name" type="text" name="last-name" value="" size="40" tabindex="-1" autocomplete="new-password"
                                   /></span>
                                 </div>
                                 <div class="f-item f-item-2">
@@ -1224,12 +1193,7 @@
 
                                 <div class="f-item f-item-2 f-item-select">
                                   <span class="wpcf7-form-control-wrap your-system"
-                                    ><select
-                                      class="wpcf7-form-control wpcf7-system wpcf7-validates-as-required"
-                                      aria-required="true"
-                                      aria-invalid="false"
-                                      name="your-system"
-                                    >
+                                    ><select class="wpcf7-form-control wpcf7-system wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="your-system">
                                       <option disabled selected="selected">Quan tâm đến cơ sở nào</option>
                                       <!-- <option value="2009" data-system_id="2009">Hệ thống trường Hội nhập Quốc tế iSchool
                                       </option>
@@ -1251,12 +1215,7 @@
                                   >
                                 </div>
                                 <div class="f-item f-item-2 f-item-select">
-                                  <select
-                                    class="wpcf7-form-control wpcf7-categories_system wpcf7-validates-as-required"
-                                    aria-required="true"
-                                    aria-invalid="false"
-                                    name="your-categories-system"
-                                  >
+                                  <select class="wpcf7-form-control wpcf7-categories_system wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="your-categories-system">
                                     <option disabled selected="selected">Chương trình học quan tâm</option>
                                     <!-- <option value="Mầm non" data-system_ids="[2009,235,2796,2808,2841,2897,2902,2905]">Mầm
                                       non</option>
@@ -1286,10 +1245,7 @@
                               </div>
                             </div>
                             <span class="wpcf7-form-control-wrap recaptcha" data-name="recaptcha"
-                              ><span
-                                data-sitekey="6LfBfngkAAAAAOtn9TaUClF4gN11Pvu9nWC0MnDV"
-                                class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"
-                              ></span>
+                              ><span data-sitekey="6LfBfngkAAAAAOtn9TaUClF4gN11Pvu9nWC0MnDV" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"></span>
                             </span>
                             <div class="f-gr grp-btn-mona">
                               <button type="submit" class="btn m-mid">
@@ -1314,11 +1270,24 @@
 </template>
 
 <script>
+import SwiperModule from "../static/template/js/module/SwiperModule";
 export default {
   layout: "Main",
+  // async asyncData({ $axios, $config }) {
+  //   let listSlide = []
+  //   await $axios
+  //       .get($config.baseURL + "/slide/list")
+  //       .then((response) => {
+  //         listSlide = response.data.list;
+  //       })
+  //       .catch((error) => console.error(error));
+  //       return {
+  //         listSlide
+  //       }
+  // },
   data() {
     return {
-      list: [
+      listV1: [
         {
           title: "CHIẾN BINH URI KẾT THÚC CHẶNG ĐUA CHUNG KẾT QUỐC TẾ TIMO 2023 VỚI KẾT QUẢ ẤN TƯỢNG",
           des: "Với tinh thần quyết tâm cao và sau những cố gắng rèn luyện, các chiến binh URI đã kết thúc hành trình chinh phục cuộc thi CHUNG KẾT QUỐC TẾ TIMO 2023 với kết quả ấn tượng",
@@ -1338,7 +1307,47 @@ export default {
           img: "https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/341161805_766349888424437_9213074952146074807_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=QZ4JQVbkAY0AX9jSQpf&_nc_ht=scontent.fhan5-11.fna&oh=00_AfD74czxnavcDDi1K3MQbw2rw2tDSx_6aPh8ZoEWYPc2Pg&oe=6440234D",
         },
       ],
+      list: [],
+      listSlide: [],
     };
+  },
+  methods: {
+    getPost() {
+      this.$axios
+        .post(this.$config.baseURL + "/post/list", {
+          page: 1,
+          limit: 3,
+          filter: {
+            slug_category: "tin-tuc",
+          },
+        })
+        .then((response) => {
+          this.list = response.data.list;
+        })
+        .catch((error) => console.error(error));
+    },
+    async getSlide() {
+      await this.$axios
+        .get(this.$config.baseURL + "/slide/list")
+        .then((response) => {
+          this.listSlide = response.data.list;
+        })
+        .catch((error) => console.error(error));
+    },
+    getTitle(title) {
+      let split = title.split(" ");
+      split = split.filter(x => x);
+      let end = split.splice( split.length - 1, split.length - 1 );
+      return {
+        first: split.join(" "),
+        end: end[0]
+      }
+    }
+  },
+  async mounted() {
+    await this.getSlide();
+    SwiperModule(true)
+    this.getPost();
   },
 };
 </script>

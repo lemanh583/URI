@@ -6,36 +6,13 @@
           <div class="header-top-wrapper">
             <div class="header-ct">
               <a class="header-ct-link icon-social" href="#">
-                <img
-                  width="25"
-                  height="24"
-                  src="/images/icon-facebook.svg"
-                  alt=""
-                  class="icon"
-                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
-                />
+                <img width="25" height="24" src="/images/icon-facebook.svg" alt="" class="icon" />
               </a>
 
-              <a class="header-ct-link icon-social" href="#"
-                ><img
-                  width="25"
-                  height="24"
-                  src="/images/icon-instagram.svg"
-                  alt=""
-                  class="icon"
-                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
-                />
-              </a>
+              <a class="header-ct-link icon-social" href="#"><img width="25" height="24" src="/images/icon-instagram.svg" alt="" class="icon" /> </a>
 
               <a class="header-ct-link icon-social" href="#" style="margin-right: 30px">
-                <img
-                  width="25"
-                  height="24"
-                  src="/images/icon-tiktok.svg"
-                  alt=""
-                  class="icon"
-                  data-lazy-src="https://ischool.vn/wp-content/uploads/2022/08/header-ct-phone.svg"
-                />
+                <img width="25" height="24" src="/images/icon-tiktok.svg" alt="" class="icon" />
               </a>
 
               <!-- <a class="header-ct-link" href="tel:84789166588"><img width="25" height="24"
@@ -128,8 +105,7 @@
                     src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"
                     alt="VN"
                     data-lazy-src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"
-                  /><noscript><img width="24" height="24" src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg" alt="VN" /></noscript
-                  >VN</span
+                  /><noscript><img width="24" height="24" src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg" alt="VN" /></noscript>VN</span
                 >
                 <ul>
                   <!-- <li><a href="#"><img width="512" height="512"
@@ -197,7 +173,6 @@
                   </ul>
                 </li>
 
-
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
                   <a class="menu-link" href="#">Sự kiện, Hình ảnh <i class="fas fa-angle-down"> </i></a>
                   <ul class="menu-list">
@@ -205,11 +180,22 @@
                       <a class="menu-link" href="/su-kien/">Sự kiện</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                      <a class="menu-link" href="/hinh-anh/">Hình ảnh</a>
+                      <a class="menu-link" href="#">Hình ảnh <i class="fas fa-angle-right custom-menu-i"> </i></a>
+                      <ul class="menu-list">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-mona_system">
+                          <a class="menu-link" href="/hinh-anh-hoat-dong">Hình ảnh hoạt động</a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-mona_system">
+                          <a class="menu-link" href="/co-so-vat-chat">Cơ sở vật chất</a>
+                        </li>
+                      </ul>
                     </li>
+
+                    <!-- <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <a class="menu-link" href="/hinh-anh/">Hình ảnh</a>
+                    </li> -->
                   </ul>
                 </li>
-
 
                 <!-- <li class="right menu-item menu-item-type-post_type menu-item-object-page">
                   <a class="menu-link" href="/hinh-anh/">SỰ KIỆN, HÌNH ẢNH</a>
@@ -291,6 +277,12 @@
 </template>
 
 <style scoped>
+
+.custom-menu-i {
+  display: block;
+  margin-top: 0px !important;
+  transform: none !important;
+}
 .icon-social {
   margin-right: -30px;
 }
@@ -305,6 +297,12 @@
 }
 .sticky .header-main {
   background-color: #ffbc2d;
+}
+
+@media screen and (max-width: 1200px) {
+  .sticky .header-main {
+    background-color: #ffffff;
+  }
 }
 
 .discover {

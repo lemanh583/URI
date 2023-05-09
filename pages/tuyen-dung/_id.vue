@@ -126,7 +126,7 @@
                           <div class="contact-content-content">
                             <p class="title">Hotline</p>
                             <div class="contact-content-array">
-                              <a href="tel:0789166588" class="des contact-link">
+                              <a href="tel:84886230888" class="des contact-link">
                                 +84 88 623 08 88
                               </a>
                             </div>

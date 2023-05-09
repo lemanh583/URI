@@ -5,7 +5,7 @@
         <div class="container">
           <div class="header-top-wrapper">
             <div class="header-ct">
-              <a class="header-ct-link icon-social" href="#">
+              <a class="header-ct-link icon-social" href="https://www.facebook.com/trungtamtoanuri" target="_blank">
                 <img width="25" height="24" src="/images/icon-facebook.svg" alt="" class="icon" />
               </a>
 
@@ -33,7 +33,7 @@
             <div class="header-top-right">
               <ul id="menu-theme-header-menu" class="header-top-action header-top-right-item">
                 <li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932">
-                  <a class="header-ct-link" href="tel:84789166588" style="display: flex">
+                  <a class="header-ct-link" href="tel:84886230888" style="display: flex">
                     <img
                       width="25"
                       height="24"
@@ -76,7 +76,7 @@
                   src="https://ischool.vn/template/assets/images/header-search-icon.svg"
                   alt=""
                   data-lazy-src="https://ischool.vn/template/assets/images/header-search-icon.svg"
-                /><noscript><img width="25" height="24" src="https://ischool.vn/template/assets/images/header-search-icon.svg" alt="" /></noscript>
+                />
               </div>
 
               <!--<div class="lang header-lang header-top-right-item">
@@ -105,7 +105,7 @@
                     src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"
                     alt="VN"
                     data-lazy-src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg"
-                  /><noscript><img width="24" height="24" src="https://ischool.vn/wp-content/uploads/flags/lang-flag-vn.svg" alt="VN" /></noscript>VN</span
+                  />VN</span
                 >
                 <ul>
                   <!-- <li><a href="#"><img width="512" height="512"
@@ -265,9 +265,9 @@
         <p class="search-title">Tìm kiếm..</p>
         <form method="get" id="searchform" action="#">
           <div class="search-wrap">
-            <input type="text" class="search-input" name="s" placeholder="Nhập từ khoá" value="" />
-            <button type="submit" class="btn">
-              <p class="text">Tìm kiếm</p>
+            <input type="text" class="search-input" name="s" placeholder="Nhập từ khoá" v-model="search" />
+            <button @click="handleSearch" class="btn">
+              <p class="text" >Tìm kiếm</p>
             </button>
           </div>
         </form>
@@ -275,6 +275,23 @@
     </div>
   </header>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      search: ''
+    }
+  },
+  methods: {
+      handleSearch(e) {
+        e.preventDefault()
+        if(!this.search.trim()) return
+        window.location.href = "/search?s=" + this.search;
+      }
+    }
+}
+</script>
 
 <style scoped>
 

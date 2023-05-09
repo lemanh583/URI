@@ -2,7 +2,9 @@
     "base": [
         {
             "id": 1,
-            "name": "Cơ sở Vinh"
+            "name": "Cơ sở Vinh",
+            "address": "Số 3, ngõ A2, đường Héc-man, Vinh, Vietnam",
+            "phone": "+84 88 623 08 88"
         }
     ],
     "course": [

@@ -4,7 +4,6 @@ export default function SideModule() {
     const sideFixed = document.querySelector('.side-fixed')
     const sideOverlay = document.querySelector('.side-overlay')
     const body = document.getElementsByTagName("body")[0];
-
     if (sideOpen) {
         sideOpen.addEventListener('click', () => {
             sideFixed.classList.add('open')

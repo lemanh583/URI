@@ -154,6 +154,13 @@
     "_name": "_74415cae"
   },
   {
+    "name": "search",
+    "path": "/search",
+    "component": "D:\\\\URI\\\\pages\\\\search.vue",
+    "chunkName": "pages/search",
+    "_name": "_303f0fa4"
+  },
+  {
     "name": "su-kien",
     "path": "/su-kien",
     "component": "D:\\\\URI\\\\pages\\\\su-kien.vue",

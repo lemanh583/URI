@@ -59,24 +59,18 @@
           <section class="ss-news">
             <div class="news-main ss-pd">
               <div class="container">
-                <h2 class="t-title mb-32" data-aos="fade-down-cus"> {{ category.find(i => i.slug == $route.path.replace(/\//g,'')).name }}</h2>
+                <h2 class="t-title mb-32" data-aos="fade-down-cus">{{ category.find((i) => i.slug == $route.path.replace(/\//g, "")).name }}</h2>
                 <!-- <div v-if="loading" class="loading-container">
                   <a-spin :indicator="loading" class="loading" />
                 </div> -->
-                
+
                 <div class="dsmall side">
                   <div class="dsmall-item side-nine">
                     <div v-if="list.length" class="dsmall pro-list">
                       <div v-for="item in list" :key="item._id" class="dsmall-item pro-item pro-item-3" data-aos="fade" data-aos-delay="400">
                         <div class="pro-wrap">
                           <a :href="'/' + item.slug" class="pro-img">
-                            <img
-                              width="207"
-                              height="180"
-                              :src="item.url_image"
-                              class="img wp-post-image"
-                              alt="URI Hình ảnh"
-                            />
+                            <img width="207" height="180" :src="item.url_image" class="img wp-post-image" :alt="item.title" />
                           </a>
                           <div class="pro-content">
                             <h3 class="pro-name">
@@ -103,14 +97,7 @@
                           <div id="m_category_list-3" class="widget blog-sidebar widget_m_category_list">
                             <div class="sidebar-block">
                               <div class="sidebar-head">
-                                <img
-                                  width="15"
-                                  height="15"
-                                  src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                                  alt=""
-                                  class="icon"
-                                  data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                                />
+                                <img width="15" height="15" src="/template/assets/images/icon-dm.svg" alt="" class="icon" data-lazy-src="/template/assets/images/icon-dm.svg" />
                                 <p class="sidebar-title">Danh mục</p>
                               </div>
                               <div class="sidebar-body">
@@ -132,28 +119,14 @@
                       </div>
                       <div class="side-open">
                         <div class="side-open-wrap">
-                          <img
-                            width="15"
-                            height="15"
-                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2015%2015'%3E%3C/svg%3E"
-                            class="icon"
-                            alt=""
-                            data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                          />
+                          <img width="15" height="15" src="/template/assets/images/icon-dm.svg" class="icon" alt="" data-lazy-src="/template/assets/images/icon-dm.svg" />
                         </div>
                       </div>
                       <div class="side-overlay"></div>
 
                       <div class="sidebar-block">
                         <div class="sidebar-head">
-                          <img
-                            width="15"
-                            height="15"
-                            src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                            alt=""
-                            class="icon"
-                            data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                          />
+                          <img width="15" height="15" src="/template/assets/images/icon-dm.svg" alt="" class="icon" data-lazy-src="/template/assets/images/icon-dm.svg" />
                           <p class="sidebar-title">Bài viết nổi bật</p>
                         </div>
                         <div class="sidebar-body">
@@ -167,9 +140,8 @@
                                     :src="item.url_image"
                                     class="attachment-full size-full wp-post-image"
                                     alt=""
-                                    data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg 800w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-300x188.jpeg 300w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-768x480.jpeg 768w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-50x31.jpeg 50w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-280x175.jpeg 280w"
                                     data-lazy-sizes="(max-width: 800px) 100vw, 800px"
-                                    data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg"
+                                    :data-lazy-src="item.url_image"
                                   />
                                 </a>
                                 <div class="news-content">
@@ -221,14 +193,7 @@
                           <div id="m_category_list-2" class="widget news-sidebar widget_m_category_list">
                             <div class="sidebar-block">
                               <div class="sidebar-head">
-                                <img
-                                  width="15"
-                                  height="15"
-                                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2015%2015'%3E%3C/svg%3E"
-                                  alt=""
-                                  class="icon"
-                                  data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                                />
+                                <img width="15" height="15" src="/template/assets/images/icon-dm.svg" alt="" class="icon" data-lazy-src="/template/assets/images/icon-dm.svg" />
                                 <p class="sidebar-title">Danh mục</p>
                               </div>
                               <div class="sidebar-body">
@@ -250,28 +215,14 @@
                       </div>
                       <div class="side-open">
                         <div class="side-open-wrap">
-                          <img
-                            width="15"
-                            height="15"
-                            src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                            class="icon"
-                            alt=""
-                            data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                          />
+                          <img width="15" height="15" src="/template/assets/images/icon-dm.svg" class="icon" alt="" data-lazy-src="/template/assets/images/icon-dm.svg" />
                         </div>
                       </div>
                       <div class="side-overlay"></div>
 
                       <div class="sidebar-block">
                         <div class="sidebar-head">
-                          <img
-                            width="15"
-                            height="15"
-                            src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                            alt=""
-                            class="icon"
-                            data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                          />
+                          <img width="15" height="15" src="/template/assets/images/icon-dm.svg" alt="" class="icon" data-lazy-src="/template/assets/images/icon-dm.svg" />
                           <p class="sidebar-title">Bài viết nổi bật</p>
                         </div>
                         <div class="sidebar-body">
@@ -284,10 +235,9 @@
                                     height="500"
                                     :src="i.url_image"
                                     class="attachment-full size-full wp-post-image"
-                                    alt="cập nhật lịch nghỉ Tết Nguyên đán 2023 của học sinh"
-                                    data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg 800w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-300x188.jpeg 300w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-768x480.jpeg 768w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-50x31.jpeg 50w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-280x175.jpeg 280w"
+                                    :alt="i.title"
                                     data-lazy-sizes="(max-width: 800px) 100vw, 800px"
-                                    data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg"
+                                    :data-lazy-src="i.url_image"
                                   />
                                 </a>
                                 <div class="news-content">
@@ -345,12 +295,19 @@
             </div>
           </div>
         </section> -->
+
         </div>
       </main>
     </div>
   </div>
 </template>
 <script>
+import BtnToTopModule from "../static/template/js/module/BtnToTopModule";
+import HeaderModule from "../static/template/js/module/HeaderModule";
+import SearchModule from "../static/template/js/module/SearchModule";
+import SideModule from "../static/template/js/module/SideModule";
+import PopupModule from "../static/template/js/module/PopupModule";
+
 export default {
   layout: "Main",
   data() {
@@ -363,13 +320,13 @@ export default {
       viewPost: [],
       list: [],
       page: 1,
-      limit: 1,
+      limit: 12,
       total: 0,
     };
   },
   methods: {
-    getViewPost() {
-      this.$axios
+    async getViewPost() {
+      await this.$axios
         .post(this.$config.baseURL + "/post/list", {
           page: 1,
           limit: 5,
@@ -383,12 +340,12 @@ export default {
         })
         .catch((error) => console.error(error));
     },
-    getPost() {
+    async getPost() {
       let regex = /[0-9]/g;
       let slug = this.$route.params.slug.replace(/\//g, "");
       if (!regex.test(slug)) return;
       this.loading = true;
-      this.$axios
+      await this.$axios
         .get(this.$config.baseURL + "/post/get/" + slug)
         .then((response) => {
           this.post = response.data.data;
@@ -409,12 +366,19 @@ export default {
         .catch((error) => console.error(error))
         .finally(() => (this.loadingCategory = false));
     },
-    getListFromCategory() {
+    async getListFromCategory() {
       let regex = /[0-9]/g;
       let slug = this.$route.params.slug.replace(/\//g, "");
       if (regex.test(slug)) return;
+      if (this.$route.query.page) {
+        this.page = Number(this.$route.query.page) || 1;
+      }
+      let width = window.innerWidth;
+      if (width <= 768) {
+        this.limit = 8;
+      }
       this.loadingPostCategory = true;
-      this.$axios
+      await this.$axios
         .post(this.$config.baseURL + "/post/list", {
           page: this.page,
           limit: this.limit,
@@ -441,18 +405,37 @@ export default {
     },
   },
   async mounted() {
-    this.getPost();
-    this.getListFromCategory();
-    this.getCategory();
-    this.getViewPost();
+    await Promise.all([
+      this.getPost(),
+      this.getListFromCategory(),
+      this.getCategory(),
+      this.getViewPost()
+    ])
+    SearchModule()
+    HeaderModule()
+    BtnToTopModule()
+    SideModule()
+    PopupModule()
+  
   },
 };
 </script>
 
-<!-- <style>
-img {
-  width: 70%;
+<style >
+.content-db figure.image {
+  width: 60%;
   margin: auto;
 }
 
-</style> -->
+.content-db p img {
+  width: 60%;
+  margin: auto;
+}
+
+.content-db figcaption {
+  text-align: center;
+}
+
+
+
+</style>

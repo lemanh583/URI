@@ -15,7 +15,7 @@
               </div>
 
               <div v-if="list.length" id="pagination-container" class="page-numbers m-top" style="margin-top: 70px !important">
-                <a-pagination v-model="page" :pageSize="limit" :total="total" @change="changePagination" show-less-items />
+                <!-- <a-pagination v-model="page" :pageSize="limit" :total="total" @change="changePagination" show-less-items /> -->
               </div>
             </div>
           </div>
@@ -59,9 +59,9 @@ export default {
           list: [],
         },
       ],
-      total: 31,
+      total: 0,
       page: 1,
-      limit: 30,
+      limit: 130,
       list: [],
     };
   },

@@ -1,19 +1,22 @@
 <template>
   <div>
-    <main class="main">
+
+    <div v-if="loading" class="loading-container">
+      <a-spin :indicator="loading" class="loading" />
+    </div>
+
+    <main v-else class="main">
       <section class="ss-syschool">
         <div class="syschool ss-pd">
           <div class="container">
             <div class="head mb-32 t-center">
-              <h2 class="t-title mb-32" data-aos="flip-right">Tuyển dụng nổi bật</h2>
+              <h2 class="t-title mb-32" data-aos="flip-right">Thông tin tuyển dụng</h2>
             </div>
 
-            <div class="dsmall syschool-list ss-pd-b">
+            <!-- <div class="dsmall syschool-list ss-pd-b">
               <div v-for="i in 3" :key="i" class="dsmall-item syschool-item syschool-item-3">
                 <div class="syschool-wrap">
-                  <!-- <a href="#" class="syschool-img">
-                
-                  </a> -->
+                  
                   <div class="syschool-content">
                     <h3 class="syschool-name">
                       <a href="#"> Giáo viên toán</a>
@@ -55,10 +58,12 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <div>
-              <div class="header-table-title">THÔNG TIN TUYỂN DỤNG THÁNG 3/2023 <span style="color: red;">TỔNG CỘNG 2 VỊ TRÍ</span> </div>
+              <div class="header-table-title">
+                <span style="color: red">TỔNG CỘNG {{ total }} VỊ TRÍ</span>
+              </div>
               <div>
                 <table>
                   <tr>
@@ -67,18 +72,22 @@
                     <th>Nơi làm việc</th>
                     <th>Ngày hết hạn</th>
                   </tr>
-                  <tr class="odd">
+                  <tr v-for="(item, index) in list" :key="index" :class="[index % 2 == 0 ? 'odd' : 'even']">
                     <td>
-                      <div>1</div>
+                      <div>{{ (page - 1) * limit + index + 1 }}</div>
                     </td>
-                    <td> <a href="/tuyen-dung/1" class="name">Giáo viên dạy toán</a></td>
                     <td>
-                      <div>Trung tâm URI</div>
+                      <a :href="'/' + item.slug" class="name">{{ item.hiring.name }}</a>
                     </td>
-                    <td><div>31/3/2023</div></td>
+                    <td>
+                      <div>{{ item.hiring.address }}</div>
+                    </td>
+                    <td>
+                      <div>{{ item.hiring.date ? new Date(item.hiring.date).toDateString() : '' }}</div>
+                    </td>
                   </tr>
 
-                  <tr class="even">
+                  <!-- <tr class="even">
                     <td>
                       <div>2</div>
                     </td>
@@ -87,20 +96,19 @@
                       <div>Trung tâm URI</div>
                     </td>
                     <td><div>31/3/2023</div></td>
-                  </tr>
+                  </tr> -->
                 </table>
                 <div class="footer-table">
-                    <div>
-                        Đang xem 1 đến 2 trong tổng số 2
-                    </div>
-                    <div class="list-button">
-                       <button class="btn" style="margin-right: 20px;">
+                  <div>Đang xem {{ ((page - 1) * limit) + (total?1:0) }} đến {{ list.length }} trong tổng số {{ total }}</div>
+                  <div class="list-button">
+                    <!-- <button class="btn" style="margin-right: 20px;">
                             Trước 
                        </button>
                        <button class="btn">
                             Sau
-                       </button>
-                    </div>
+                       </button> -->
+                    <a-pagination v-model="page" :pageSize="limit" :total="total" @change="changePagination" show-less-items />
+                  </div>
                 </div>
               </div>
             </div>
@@ -114,6 +122,49 @@
 <script>
 export default {
   layout: "Main",
+  data() {
+    return {
+      loading: true,
+      page: 1,
+      limit: 10,
+      list: [],
+      total: 0,
+    };
+  },
+  methods: {
+    async getPost() {
+      this.loading = true;
+      if (this.$route.query.page) {
+        this.page = Number(this.$route.query.page) || 1;
+      }
+      await this.$axios
+        .post(this.$config.baseURL + "/post/list", {
+          page: this.page,
+          limit: this.limit,
+          sort: {
+            created_time: -1
+          },
+          filter: {
+            slug_category: "tuyen-dung",
+          },
+        })
+        .then((response) => {
+          this.list = response.data.list;
+          this.total = response.data.total;
+        })
+        .catch((error) => console.error(error))
+        .finally(() => (this.loading = false));
+    },
+    changePagination() {
+      this.$router.push({ path: "/tuyen-dung", query: { page: this.page } });
+      setTimeout(() => {
+        this.getPost();
+      }, 100);
+    },
+  },
+  mounted() {
+    this.getPost();
+  },
 };
 </script>
 
@@ -123,8 +174,8 @@ table {
 }
 
 table tr {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 table th {
@@ -144,78 +195,76 @@ table td div {
 table td {
   display: flex;
   align-items: center;
- 
 }
 
 .odd div {
-    background-color: #f3f4f6;
+  background-color: #f3f4f6;
 }
 
 .odd td {
-    background-color: #f3f4f6;
+  background-color: #f3f4f6;
 }
 
-.even td { 
-    background-color: #d1d5db;
+.even td {
+  background-color: #d1d5db;
 }
 
-.even div { 
-    background-color: #d1d5db;
+.even div {
+  background-color: #d1d5db;
 }
 .name {
-    font-weight: 700;
-    color: #000;
+  font-weight: 700;
+  color: #000;
 }
 
 .footer-table {
-    display: flex;
-    justify-content: space-between;
-    padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
 }
 
 .footer-table .list-button {
-    display: flex;
+  display: flex;
 }
 
-.footer-table .list-button button{
-    width: 75px;
-    display: flex;
-    justify-content: center;
+.footer-table .list-button button {
+  width: 75px;
+  display: flex;
+  justify-content: center;
 }
 
 .syschool-wrap {
-    /* background-color: #664411; */
-    border: 1px solid #664411;
+  /* background-color: #664411; */
+  border: 1px solid #664411;
 }
 
-.syschool-name a{
-    /* color: #fff; */
+.syschool-name a {
+  /* color: #fff; */
 }
 .text {
-    /* color: #fff; */
+  /* color: #fff; */
 }
 .header-table-title {
-    padding: 16px;
-    background-color: #d1d5db;
+  padding: 16px;
+  background-color: #d1d5db;
 }
 
 @media screen and (max-width: 550px) {
-    table tr {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .footer-table {
-        padding: 12px 0px;
-        gap: 10px;
-    }
+  table tr {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .footer-table {
+    padding: 12px 0px;
+    gap: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .syschool-item-3 {
-     width: calc(100% / 1);
-    }
-    .syschool-content {
-        margin: auto;
-    }
+  .syschool-item-3 {
+    width: calc(100% / 1);
+  }
+  .syschool-content {
+    margin: auto;
+  }
 }
-
 </style>

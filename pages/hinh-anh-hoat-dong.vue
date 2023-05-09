@@ -140,7 +140,7 @@ export default {
         .catch((error) => console.error(error));
     },
     changePagination() {
-      this.$router.push({ path: "/hinh-anh", query: { page: this.page } });
+      this.$router.push({ path: "/hinh-anh-hoat-dong", query: { page: this.page } });
       setTimeout(() => {
         this.getImage();
       }, 100);

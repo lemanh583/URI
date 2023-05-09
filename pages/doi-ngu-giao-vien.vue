@@ -14,10 +14,9 @@
                         height="1280"
                         src="/images/new-image/10.jpg"
                         class="attachment-full size-full"
-                        alt=""
-                        data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/HI_09718-scaled.jpg 1920w, https://ischool.vn/wp-content/uploads/2022/10/HI_09718-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/10/HI_09718-1024x683.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/10/HI_09718-768x512.jpg 768w, https://ischool.vn/wp-content/uploads/2022/10/HI_09718-1536x1024.jpg 1536w, https://ischool.vn/wp-content/uploads/2022/10/HI_09718-2048x1365.jpg 2048w, https://ischool.vn/wp-content/uploads/2022/10/HI_09718-840x560.jpg 840w, https://ischool.vn/wp-content/uploads/2022/10/HI_09718-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/10/HI_09718-270x180.jpg 270w"
+                        alt="Đội ngũ giáo viên"
                         data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
-                        data-lazy-src="https://ischool.vn/wp-content/uploads/2022/10/HI_09718-scaled.jpg"
+                        data-lazy-src="/images/new-image/10.jpg"
                       />
                     </div>
                     <div class="banner-posi">
@@ -84,10 +83,9 @@
                               height="180"
                               :src="teacher.img"
                               class="img wp-post-image"
-                              alt=""
-                              data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-274x180.jpg 274w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-300x197.jpg 300w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600.jpg 522w"
+                              :alt="teacher.name + 'đánh giá'"
                               data-lazy-sizes="(max-width: 274px) 100vw, 274px"
-                              data-lazy-src="https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-274x180.jpg"
+                              :data-lazy-src="teacher.img"
                           /></a>
                           <div class="pro-content t-center">
                             <h3 class="pro-name second">
@@ -129,10 +127,9 @@
                         height="766"
                         src="/images/gv4.jpg"
                         class="attachment-full size-full"
-                        alt=""
-                        data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Tran-Duc-Quan-GV-Toan-e1668417103974.jpg 1238w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Tran-Duc-Quan-GV-Toan-e1668417103974-300x186.jpg 300w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Tran-Duc-Quan-GV-Toan-e1668417103974-1024x634.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Tran-Duc-Quan-GV-Toan-e1668417103974-768x475.jpg 768w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Tran-Duc-Quan-GV-Toan-e1668417103974-905x560.jpg 905w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Tran-Duc-Quan-GV-Toan-e1668417103974-50x31.jpg 50w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Tran-Duc-Quan-GV-Toan-e1668417103974-280x173.jpg 280w"
+                        alt="Cô Bùi Thu Thuỷ - Nơi thoả sức áp dụng dạy học tích cực đổi mới"
                         data-lazy-sizes="(max-width: 1238px) 100vw, 1238px"
-                        data-lazy-src="https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Tran-Duc-Quan-GV-Toan-e1668417103974.jpg"
+                        data-lazy-src="/images/gv4.jpg"
                       />
                     </div>
                     <div class="banner-posi">
@@ -148,12 +145,12 @@
                             </p>
                           </div>
 
-                          <div class="banner-btn">
+                          <!-- <div class="banner-btn">
                             <a href="#" class="btn">
                               <p class="text">Xem thêm</p>
                               <i class="ti-angle-right icon-right"></i>
                             </a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </div>
@@ -167,10 +164,9 @@
                         height="1280"
                         src="/images/gv5.jpg"
                         class="attachment-full size-full"
-                        alt=""
-                        data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Vo-Thi-Huong-GV-Tieng-Anh.jpg 1920w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Vo-Thi-Huong-GV-Tieng-Anh-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Vo-Thi-Huong-GV-Tieng-Anh-1024x683.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Vo-Thi-Huong-GV-Tieng-Anh-768x512.jpg 768w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Vo-Thi-Huong-GV-Tieng-Anh-1536x1024.jpg 1536w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Vo-Thi-Huong-GV-Tieng-Anh-840x560.jpg 840w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Vo-Thi-Huong-GV-Tieng-Anh-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Vo-Thi-Huong-GV-Tieng-Anh-270x180.jpg 270w"
+                        alt="Cô Đặng Quỳnh Trang - URI là ngôi nhà thứ 2"
                         data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
-                        data-lazy-src="https://ischool.vn/wp-content/uploads/2022/10/iSchool-Ha-Tinh-Vo-Thi-Huong-GV-Tieng-Anh.jpg"
+                        data-lazy-src="/images/gv5.jpg"
                       />
                     </div>
                     <div class="banner-posi">
@@ -186,12 +182,12 @@
                             </p>
                           </div>
 
-                          <div class="banner-btn">
+                          <!-- <div class="banner-btn">
                             <a href="#" class="btn">
                               <p class="text">Xem thêm</p>
                               <i class="ti-angle-right icon-right"></i>
                             </a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </div>
@@ -205,10 +201,9 @@
                         height="1280"
                         src="/images/gv8.jpg"
                         class="attachment-full size-full"
-                        alt=""
-                        data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/10/iSchool-Quy-Nhon-Nguyen-Thi-Phan.jpg 1920w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Quy-Nhon-Nguyen-Thi-Phan-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Quy-Nhon-Nguyen-Thi-Phan-1024x683.jpg 1024w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Quy-Nhon-Nguyen-Thi-Phan-768x512.jpg 768w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Quy-Nhon-Nguyen-Thi-Phan-1536x1024.jpg 1536w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Quy-Nhon-Nguyen-Thi-Phan-840x560.jpg 840w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Quy-Nhon-Nguyen-Thi-Phan-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/10/iSchool-Quy-Nhon-Nguyen-Thi-Phan-270x180.jpg 270w"
+                        alt="Cô Hoàng Thanh Tâm - Giáo viên phải là người truyền lửa"
                         data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
-                        data-lazy-src="https://ischool.vn/wp-content/uploads/2022/10/iSchool-Quy-Nhon-Nguyen-Thi-Phan.jpg"
+                        data-lazy-src="/images/gv8.jpg"
                       />
                     </div>
                     <div class="banner-posi">
@@ -225,12 +220,12 @@
                             </p>
                           </div>
 
-                          <div class="banner-btn">
+                          <!-- <div class="banner-btn">
                             <a href="#" class="btn">
                               <p class="text">Xem thêm</p>
                               <i class="ti-angle-right icon-right"></i>
                             </a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </div>
@@ -252,7 +247,7 @@
         </section>
 
         <section class="pro">
-          <div data-bg="https://ischool.vn/template/assets/images/br-blur.png" class="pro ss-pd pro-br rocket-lazyload" style="">
+          <div data-bg="/template/assets/images/br-blur.png" class="pro ss-pd pro-br rocket-lazyload" style="">
             <div class="container">
               <h2 class="t-title mb-32" data-aos="fade-down-cus">GÓC CẢM NHẬN</h2>
               <div class="pro-slider" data-aos="fade-up-cus">
@@ -266,10 +261,9 @@
                             height="180"
                             src="/images/gv1.jpg"
                             class="img wp-post-image"
-                            alt=""
-                            data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/GV-MAI-LINH-2-225x180.jpg 225w, https://ischool.vn/wp-content/uploads/2022/11/GV-MAI-LINH-2-300x240.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/GV-MAI-LINH-2-50x40.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/GV-MAI-LINH-2.jpg 650w"
+                            alt="Cô Hồ Thị Như Quỳnh đã tìm đến và may mắn trở thành 1 thành viên của URI"
                             data-lazy-sizes="(max-width: 225px) 100vw, 225px"
-                            data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/GV-MAI-LINH-2-225x180.jpg"
+                            data-lazy-src="/images/gv1.jpg"
                           />
                         </a>
                         <div class="pro-content">
@@ -292,10 +286,9 @@
                             height="180"
                             src="/images/gv2.jpg"
                             class="img wp-post-image"
-                            alt=""
-                            data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/co-tien-LX-251x180.jpg 251w, https://ischool.vn/wp-content/uploads/2022/11/co-tien-LX-300x216.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/co-tien-LX-50x36.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/co-tien-LX.jpg 650w"
+                            alt="Cô Lê Thị Lý - giáo viên bộ môn Toán, cống hiến nhiều phương pháp giảng dạy mới hiệu quả"
                             data-lazy-sizes="(max-width: 251px) 100vw, 251px"
-                            data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/co-tien-LX-251x180.jpg"
+                            data-lazy-src="/images/gv2.jpg"
                           />
                         </a>
                         <div class="pro-content">
@@ -318,10 +311,9 @@
                             height="180"
                             src="/images/gv3.jpg"
                             class="img wp-post-image"
-                            alt=""
-                            data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/ZXZC-270x180.jpg 270w, https://ischool.vn/wp-content/uploads/2022/11/ZXZC-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/ZXZC-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/ZXZC.jpg 452w"
+                            alt=" Cô Nguyễn Kim Cúc - Tôi cảm thấy may mắn khi được dạy trong môi trường năng động với những đồng nghiệp chan hoà"
                             data-lazy-sizes="(max-width: 270px) 100vw, 270px"
-                            data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/ZXZC-270x180.jpg"
+                            data-lazy-src="/images/gv3.jpg"
                           />
                         </a>
                         <div class="pro-content">
@@ -345,10 +337,9 @@
                             height="180"
                             src="/images/gv4.jpg"
                             class="img wp-post-image"
-                            alt=""
-                            data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/xvdb-270x180.jpg 270w, https://ischool.vn/wp-content/uploads/2022/11/xvdb-300x200.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/xvdb-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/xvdb.jpg 650w"
+                            alt=" Cô Bùi Thu Thuỷ – Giáo viên trẻ đầy nhiệt huyết"
                             data-lazy-sizes="(max-width: 270px) 100vw, 270px"
-                            data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/xvdb-270x180.jpg"
+                            data-lazy-src="/images/gv4.jpg"
                           />
                         </a>
                         <div class="pro-content">
@@ -370,10 +361,9 @@
                             height="180"
                             src="/images/gv5.jpg"
                             class="img wp-post-image"
-                            alt="cô Lê Thị Minh Châu"
-                            data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/11/bvjfbv-256x180.jpg 256w, https://ischool.vn/wp-content/uploads/2022/11/bvjfbv-300x211.jpg 300w, https://ischool.vn/wp-content/uploads/2022/11/bvjfbv-50x35.jpg 50w, https://ischool.vn/wp-content/uploads/2022/11/bvjfbv.jpg 616w"
+                            alt="Cô Đặng Quỳnh Trang – Giáo viên kinh nghiệm lâu năm"
                             data-lazy-sizes="(max-width: 256px) 100vw, 256px"
-                            data-lazy-src="https://ischool.vn/wp-content/uploads/2022/11/bvjfbv-256x180.jpg"
+                            data-lazy-src="/images/gv5.jpg"
                           />
                         </a>
                         <div class="pro-content">
@@ -407,7 +397,7 @@
                     <div class="gv-slider-btn swiper-next">
                         <i class="ti-angle-right"></i>
                     </div> -->
-                <div class="swiper-pagination"></div>
+                <!-- <div class="swiper-pagination"></div> -->
               </div>
             </div>
           </div>

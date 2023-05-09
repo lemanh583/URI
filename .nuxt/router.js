@@ -26,6 +26,7 @@ const _226aa6f8 = () => interopDefault(import('..\\pages\\lien-he.vue' /* webpac
 const _229aa379 = () => interopDefault(import('..\\pages\\lop-hanh-trang-vao-lop-1.vue' /* webpackChunkName: "pages/lop-hanh-trang-vao-lop-1" */))
 const _093f74ae = () => interopDefault(import('..\\pages\\luyen-thi-quoc-te.vue' /* webpackChunkName: "pages/luyen-thi-quoc-te" */))
 const _74415cae = () => interopDefault(import('..\\pages\\phuong-phap-giao-duc-itl-plus.vue' /* webpackChunkName: "pages/phuong-phap-giao-duc-itl-plus" */))
+const _303f0fa4 = () => interopDefault(import('..\\pages\\search.vue' /* webpackChunkName: "pages/search" */))
 const _62d735c6 = () => interopDefault(import('..\\pages\\su-kien.vue' /* webpackChunkName: "pages/su-kien" */))
 const _61b8ff82 = () => interopDefault(import('..\\pages\\tin-tuc.vue' /* webpackChunkName: "pages/tin-tuc" */))
 const _412090a0 = () => interopDefault(import('..\\pages\\tuyen-dung\\index.vue' /* webpackChunkName: "pages/tuyen-dung/index" */))
@@ -133,6 +134,10 @@ export const routerOptions = {
     path: "/phuong-phap-giao-duc-itl-plus",
     component: _74415cae,
     name: "phuong-phap-giao-duc-itl-plus"
+  }, {
+    path: "/search",
+    component: _303f0fa4,
+    name: "search"
   }, {
     path: "/su-kien",
     component: _62d735c6,

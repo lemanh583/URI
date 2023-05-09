@@ -103,16 +103,7 @@
                       <div v-for="i in viewPost" :key="i._id" class="swiper-slide">
                         <div class="pro-wrap gv-wrap">
                           <a :href="'/' + i.slug" class="pro-img">
-                            <img
-                              width="274"
-                              height="180"
-                              :src="i.url_image"
-                              class="img wp-post-image"
-                              alt=""
-                              data-lazy-srcset="https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-274x180.jpg 274w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-300x197.jpg 300w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-50x33.jpg 50w, https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600.jpg 522w"
-                              data-lazy-sizes="(max-width: 274px) 100vw, 274px"
-                              data-lazy-src="https://ischool.vn/wp-content/uploads/2022/09/308672414_1534805303621326_8340140526628602098_n-e1668417158600-274x180.jpg"
-                            />
+                            <img width="274" height="180" :src="i.url_image" class="img wp-post-image" :alt="i.title" data-lazy-sizes="(max-width: 274px) 100vw, 274px" :data-lazy-src="i.url_image" />
                           </a>
                           <div class="pro-content t-center">
                             <h3 class="pro-name second">
@@ -153,16 +144,7 @@
                     <div v-for="i in list" :key="i._id" class="dsmall-item pro-item pro-item-3" data-aos="fade" data-aos-delay="400">
                       <div class="pro-wrap">
                         <a :href="'/' + i.slug" class="pro-img">
-                          <img
-                            width="207"
-                            height="180"
-                            :src="i.url_image"
-                            class="img wp-post-image"
-                            alt=""
-                            data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-207x180.jpg 207w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-300x261.jpg 300w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-1024x891.jpg 1024w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-768x668.jpg 768w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-1536x1337.jpg 1536w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-643x560.jpg 643w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-50x44.jpg 50w, https://ischool.vn/wp-content/uploads/2023/03/IMG_3748.jpg 1920w"
-                            data-lazy-sizes="(max-width: 207px) 100vw, 207px"
-                            data-lazy-src="https://ischool.vn/wp-content/uploads/2023/03/IMG_3748-207x180.jpg"
-                          />
+                          <img width="207" height="180" :src="i.url_image" class="img wp-post-image" :alt="i.title" data-lazy-sizes="(max-width: 207px) 100vw, 207px" :data-lazy-src="i.url_image" />
                         </a>
                         <div class="pro-content">
                           <h3 class="pro-name">
@@ -191,7 +173,7 @@
 
 <script>
 import SwiperModule from "../static/template/js/module/SwiperModule";
-import UAParser from "ua-parser-js";
+
 export default {
   layout: "Main",
   // async asyncData({ params, query, redirect, $axios, $config, req }) {
@@ -298,7 +280,7 @@ export default {
         })
         .then((response) => {
           this.viewPost = response.data.list;
-          console.log('1');
+          console.log("1");
         })
         .catch((error) => console.error(error));
     },
@@ -313,7 +295,7 @@ export default {
         })
         .then((response) => {
           this.newPost = response.data?.list[0];
-          console.log('2');
+          console.log("2");
         })
         .catch((error) => console.error(error));
     },
@@ -358,22 +340,9 @@ export default {
       }, 100);
     },
   },
-  async created() {
-    console.log('___a____');
-    
-    // await this.getOnePost()
-    // await this.getViewPost()
-    console.log('___b____');
-  },
-  // computed: {
-  //   loadCall() {
-  //     return 
-  //   }
-  // },  
   async mounted() {
-    console.log("___c____");
     await Promise.all([this.getViewPost(), this.getOnePost()]);
-    SwiperModule(true)
+    SwiperModule(true);
     this.getPost();
   },
 };

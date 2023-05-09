@@ -168,7 +168,7 @@
           <div class="mobile-content">
             <p class="mobile-title">THÔNG TIN LIÊN HỆ</p>
 
-            <div class="mobile-fl mb-16s"><span class="fw-6">Phone:</span><a href="tel:84789166588" class="mobile-text mobile-link">+84 88 623 08 88 </a></div>
+            <div class="mobile-fl mb-16s"><span class="fw-6">Phone:</span><a href="tel:84886230888" class="mobile-text mobile-link">+84 88 623 08 88 </a></div>
             <div class="mobile-fl mb-16s"><span class="fw-6">Email:</span><a href="mailto:urivietnam.edu@gmail.com" class="mobile-text mobile-link">urivietnam.edu@gmail.com </a></div>
           </div>
         </div>

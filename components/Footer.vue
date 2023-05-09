@@ -131,7 +131,7 @@
             <h3 class="footer-title">Liên hệ</h3>
 
             <div class="footer-text mb-8s">
-              <span class="fw-6"></span><a href="tel:84789166588" class="footer-text footer-link">+84 88 623 08 88 </a>
+              <span class="fw-6"></span><a href="tel:84886230888" class="footer-text footer-link">+84 88 623 08 88 </a>
             </div>
             <div class="footer-text mb-8s">
               <span class="fw-6"></span><a href="mailto:info@ischool.edu.vn" class="footer-text footer-link">urivietnam.edu@gmail.com</a>

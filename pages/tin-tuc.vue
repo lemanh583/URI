@@ -9,13 +9,7 @@
                 <div class="swiper-slide">
                   <div class="banner-wrap right">
                     <div class="banner-img">
-                      <img
-                        width="750"
-                        height="563"
-                        :src="newPost.url_image"
-                        class="img wp-post-image"
-                        alt=""
-                      />
+                      <img width="750" height="563" :src="newPost.url_image" class="img wp-post-image" :alt="newPost.title" />
                     </div>
                     <div class="banner-posi">
                       <div class="container">
@@ -25,47 +19,6 @@
                               {{ newPost.title }}
                             </a>
                           </div>
-                          <!-- <div class="banner-time">
-                            <div class="banner-time-list">
-                              <div class="banner-time-item">
-                                <img
-                                  width="25"
-                                  height="24"
-                                  src="https://ischool.vn/template/assets/images/icon-callenda.svg"
-                                  alt=""
-                                  class="icon"
-                                  data-lazy-src="https://ischool.vn/template/assets/images/icon-callenda.svg"
-                                /><noscript
-                                  ><img width="25" height="24" src="https://ischool.vn/template/assets/images/icon-callenda.svg" alt="" class="icon"
-                                /></noscript>
-                                <p class="text">17/12/2022</p>
-                              </div>
-
-                              <div class="banner-time-item">
-                                <img
-                                  width="25"
-                                  height="24"
-                                  src="https://ischool.vn/template/assets/images/icon-time.svg"
-                                  alt=""
-                                  class="icon"
-                                  data-lazy-src="https://ischool.vn/template/assets/images/icon-time.svg"
-                                />
-                                <p class="text">18:30</p>
-                              </div>
-
-                              <div class="banner-time-item">
-                                <img
-                                  width="25"
-                                  height="24"
-                                  src="https://ischool.vn/template/assets/images/icon-location.svg"
-                                  alt=""
-                                  class="icon"
-                                  data-lazy-src="https://ischool.vn/template/assets/images/icon-location.svg"
-                                />
-                                <p class="text">Fanpage Tập Đoàn Nguyễn Hoàng</p>
-                              </div>
-                            </div>
-                          </div> -->
                           <div class="banner-des">
                             {{ newPost.descriptions }}
                           </div>
@@ -101,13 +54,7 @@
                     <div v-for="item in list" :key="item._id" class="dsmall-item pro-item pro-item-3" data-aos="fade" data-aos-delay="400">
                       <div class="pro-wrap">
                         <a :href="'/' + item.slug" class="pro-img">
-                          <img
-                            width="207"
-                            height="180"
-                            :src="item.url_image"
-                            class="img wp-post-image"
-                            alt="Khen thưởng giáo viên tổ Tiếng Anh"
-                          />
+                          <img width="207" height="180" :src="item.url_image" class="img wp-post-image" :alt="item.title" />
                         </a>
                         <div class="pro-content">
                           <h3 class="pro-name">
@@ -134,14 +81,7 @@
                         <div id="m_category_list-3" class="widget blog-sidebar widget_m_category_list">
                           <div class="sidebar-block">
                             <div class="sidebar-head">
-                              <img
-                                width="15"
-                                height="15"
-                                src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                                alt=""
-                                class="icon"
-                                data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                              />
+                              <img width="15" height="15" src="/template/assets/images/icon-dm.svg" alt="" class="icon" data-lazy-src="/template/assets/images/icon-dm.svg" />
                               <p class="sidebar-title">Danh mục</p>
                             </div>
                             <div class="sidebar-body">
@@ -163,28 +103,14 @@
                     </div>
                     <div class="side-open">
                       <div class="side-open-wrap">
-                        <img
-                          width="15"
-                          height="15"
-                          src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2015%2015'%3E%3C/svg%3E"
-                          class="icon"
-                          alt=""
-                          data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                        />
+                        <img width="15" height="15" src="/template/assets/images/icon-dm.svg" class="icon" alt="" data-lazy-src="/template/assets/images/icon-dm.svg" />
                       </div>
                     </div>
                     <div class="side-overlay"></div>
 
                     <div class="sidebar-block">
                       <div class="sidebar-head">
-                        <img
-                          width="15"
-                          height="15"
-                          src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                          alt=""
-                          class="icon"
-                          data-lazy-src="https://ischool.vn/template/assets/images/icon-dm.svg"
-                        />
+                        <img width="15" height="15" src="/template/assets/images/icon-dm.svg" alt="" class="icon" data-lazy-src="/template/assets/images/icon-dm.svg" />
                         <p class="sidebar-title">Bài viết nổi bật</p>
                       </div>
                       <div class="sidebar-body">
@@ -197,10 +123,9 @@
                                   height="500"
                                   :src="item.url_image"
                                   class="attachment-full size-full wp-post-image"
-                                  alt=""
-                                  data-lazy-srcset="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg 800w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-300x188.jpeg 300w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-768x480.jpeg 768w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-50x31.jpeg 50w, https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb-280x175.jpeg 280w"
+                                  :alt="item.title"
                                   data-lazy-sizes="(max-width: 800px) 100vw, 800px"
-                                  data-lazy-src="https://ischool.vn/wp-content/uploads/2023/01/lich-nghi-tet-nguyen-dan-2023-cua-hoc-sinh-thumb.jpeg"
+                                  :data-lazy-src="item.url_image"
                                 />
                               </a>
                               <div class="news-content">
@@ -226,6 +151,8 @@
 
 <script>
 import SwiperModule from "../static/template/js/module/SwiperModule";
+import SideModule from "../static/template/js/module/SideModule";
+
 export default {
   layout: "Main",
   data() {
@@ -244,12 +171,12 @@ export default {
       countNewPost: true,
       category: [],
       loadingCategory: true,
-      viewPost: []
+      viewPost: [],
     };
   },
   methods: {
-    getViewPost() {
-      this.$axios
+    async getViewPost() {
+      await this.$axios
         .post(this.$config.baseURL + "/post/list", {
           page: 1,
           limit: 5,
@@ -259,7 +186,7 @@ export default {
           },
         })
         .then((response) => {
-          this.viewPost = response.data.list
+          this.viewPost = response.data.list;
         })
         .catch((error) => console.error(error));
     },
@@ -277,16 +204,16 @@ export default {
         })
         .catch((error) => console.error(error));
     },
-    getPost() {
+    async getPost() {
       this.loading = true;
       if (this.$route.query.page) {
         this.page = Number(this.$route.query.page) || 1;
       }
-      let width = window.innerWidth
-      if(width <= 768) {
-        this.limit = 8
+      let width = window.innerWidth;
+      if (width <= 768) {
+        this.limit = 8;
       }
-      this.$axios
+      await this.$axios
         .post(this.$config.baseURL + "/post/list", {
           page: this.page,
           limit: this.limit,
@@ -301,9 +228,9 @@ export default {
         .catch((error) => console.error(error))
         .finally(() => (this.loading = false));
     },
-    getCategory() {
+    async getCategory() {
       this.loadingCategory = true;
-      this.$axios
+      await this.$axios
         .get(this.$config.baseURL + "/category/list")
         .then((response) => {
           this.category = response.data.list;
@@ -319,11 +246,9 @@ export default {
     },
   },
   async mounted() {
-    await this.getOnePost();
-    this.getPost();
-    this.getCategory();
-    this.getViewPost();
-    SwiperModule(true)
+    await Promise.all([this.getOnePost(), this.getPost(), this.getCategory(), this.getViewPost()]);
+    SwiperModule(true);
+    SideModule();
   },
 };
 </script>
